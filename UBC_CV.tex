@@ -1,0 +1,1621 @@
+\documentclass[11pt,notitlepage,english]{report}
+
+%%%%%%%%%%%%%%%%%
+%% PACKAGES %%
+%%%%%%%%%%%%%%%%%
+
+\usepackage{color} % allow color
+\usepackage[margin=.8in]{geometry} % set margins,showframe
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{graphicx} % images\RequirePackage{graphicx,xcolor}
+\global\providecommand{\doiprefix}{doi: }
+\usepackage{fancyhdr} % header footer
+\usepackage{tabularx} % nice tables
+\usepackage{bibentry} % allow citation in text
+\makeatletter\let\saved@bibitem\@bibitem\makeatother
+\usepackage{hyperref}
+\makeatletter\let\@bibitem\saved@bibitem\makeatother
+\hypersetup{
+  colorlinks=true,
+  urlcolor=blue,
+}
+\usepackage{xstring} %for name formatting
+\usepackage{longtable} %for tables that go across pages
+\usepackage{adjustbox} %to adjust width of longtable
+\usepackage{multirow}
+\usepackage{changepage}   % for the adjustwidth environment
+\usepackage{enumitem} % I'm not sure I need this anymore
+\usepackage{array,etoolbox} % a different table option
+\newcounter{magicrownumbers}
+\newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}}
+
+\preto\tabular{\setcounter{magicrownumbers}{0}}
+% \newcounter{magicrownumbers}
+% \def\rownumber{}
+
+% \usepackage{natbib}
+\usepackage{float} % keep tables from floating away
+% \usepackage{biblatex}%
+\usepackage{datetime2}
+\makeatletter
+\newcommand{\monthyeardate}{%
+  \DTMenglishmonthname{\@dtm@month}, \@dtm@year
+}
+\makeatother
+
+\newcommand{\PreserveBackslash}[1]{\let\temp=\\#1\let\\=\temp}
+\newcolumntype{C}[1]{>{\PreserveBackslash\centering}p{#1}}
+\newcolumntype{R}[1]{>{\PreserveBackslash\raggedleft}p{#1}}
+\newcolumntype{L}[1]{>{\PreserveBackslash\raggedright}p{#1}}
+
+
+%%%%%%%%%%%%%%%%%
+%% HEADER AND FOOTER %%
+%%%%%%%%%%%%%%%%%
+
+\renewcommand{\headrulewidth}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\footnotesize{CV: AM WEBER}}
+\rhead{\footnotesize{\monthyeardate}}
+\rfoot{\thepage}
+\lfoot{\textbf{\footnotesize{UBC FOM | Professoriate}}}
+
+%%%%%%%%%%%%%%%%%
+%% CITE IN TEXT %%
+%%%%%%%%%%%%%%%%%
+
+\nobibliography*
+% \bibliographystyle{science}
+% \bibliographystyle{vancouver-elife}
+\bibliographystyle{mycv}
+% \bibliographystyle{abbrv}
+
+
+%%%%%%%%%%%%%%%%%
+%% DOCUMENT %%
+%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\begin{center}
+  \underline{\textbf{THE UNIVERSITY OF BRITISH COLUMBIA}}
+  \vspace{10pt}
+
+  \textbf{Curriculum Vitae for Faculty Members}
+\end{center}
+
+% This could probably be better done with a table:
+\noindent % Prevent indentation
+\begin{minipage}[t]{0.33\textwidth}
+  \raggedright
+  \textbf{Date:} \monthyeardate
+\end{minipage}%
+\begin{minipage}[t]{0.33\textwidth}
+  \begin{center}
+    \textbf{Initials:} AMW \hspace{10pt} 
+  \end{center}
+\end{minipage}%
+\begin{minipage}[t]{0.33\textwidth}
+  \raggedleft
+  % \phantom{ sometext }
+  \includegraphics[width=100pt]{/home/weberam2/Dropbox/signature.png}
+\end{minipage}
+
+\vspace{15pt}
+%%%%%%%%%%%%%%%%%
+%% Title Page %%
+%%%%%%%%%%%%%%%%%
+
+\begin{tabular}{L{.5cm} L{8cm} L{6.9cm}}
+  \textbf{1.} & \textbf{SURNAME:} Weber                       & \textbf{FIRSTNAME:} Alexander      \\
+              &                                               & \textbf{MIDDLE NAME(S):} Mark      \\
+              \\
+  \textbf{2.} & \textbf{DEPARTMENT/SCHOOL:}                   & Pediatrics, Division of Neurology \\
+  \\
+  \textbf{3.} & \textbf{FACULTY:}                             & Medicine                           \\
+  \\
+  \textbf{4.} & \textbf{PRESENT RANK:}                        & Assistant Professor (Partner)      \\
+              & \textbf{SINCE:}                               & 18/06/2020                         \\
+              \\
+  \textbf{5.} & \textbf{POST-SECONDARY EDUCATION}
+\end{tabular}
+
+%------------------------------------------------
+
+\begin{table}[h]
+  \label{5. Post Sec Education}
+  \begin{tabularx}{1\textwidth}{|p{2cm}|p{2cm}|p{8cm}|p{2.3cm}|X|}
+    \hline
+    \textit{Institution}  & \textit{Degree}                   & \textit{Subject Area}                                                                                                                                                                                                                                           & \textit{Supervisors}                        & \textit{Dates} \\
+    \hline
+    University of Toronto & Honours Bachelor of Science$^{1}$ & \raggedright Chemistry with double minor in mathematics and philosophy                                                                                                                                                                                          & Dr. C Goh                                   & 2003-2007      \\
+    \hline
+    University of Toronto & \raggedright Master of Science    & \raggedright Physiology and Neuroscience$^{2}$ \newline Thesis: \textit{Single Channel Conductance of the CaV2.2 Calcium Channel}                                                                                                                               & \raggedright Dr. EF Stanley                 & 2007-2009      \\
+    \hline
+    McMaster University   & \raggedright Doctor of Philosophy & \raggedright
+    Biomedical Engineering \newline Thesis: \textit{Magnetic Resonance Imaging
+  Analysis of Neural Circuit Abnormalities in: Medication Naïve Children with
+  Obsessive-Compulsive Disorder, and Normal Healthy Adults During Acute Alcohol
+  Intoxication} & \raggedright Dr. MD Noseworthy Dr. N Soreni & 2009-2013
+  \\
+    \hline
+  \end{tabularx}
+\end{table}
+\vspace{-8pt}
+
+$^{1}$ \textit{Graduated with high distinction}
+
+$^{2}$ \textit{Department of Physiology with a Collaborative Program in Neuroscience}
+
+\vspace{5pt}
+
+%------------------------------------------------
+
+\textbf{Special Professional Qualifications}
+
+\begin{table}[h]
+  \begin{tabularx}{1\textwidth}{|p{15.6cm}|X|}
+    \hline
+    \textit{Qualification}                                                                                                           & \textit{Dates} \\
+    \hline
+    Applied Suicide Intervention Skills Training (ASIST), Living Works, Whitehorse, YT                                               & 2014           \\
+    \hline
+    GE Pulse Programming and MRI Science Course                                                                                      & 2016           \\
+    \hline
+    Foundations of Pedagogy 1, Centre for the Integration of Research, Teaching and Learning, UBC, Vancouver, BC                     & 2018           \\
+    \hline
+    \raggedright Philips Clinical Science Workshop (Sequence Development, Reconstruction, and Pulse Programming), UBC, Vancouver, BC & 2019           \\
+    \hline
+    Biostatistics Workshop Series, Research Education, BCCHRI, Vancouver, BC                                                         & 2019           \\
+    \hline
+  \end{tabularx}
+\end{table}
+
+%------------------------------------------------
+
+\begin{tabular}{L{.5cm} L{8cm} L{6.9cm}}
+  \textbf{6.}  & \textbf{EMPLOYMENT RECORD}      \\
+  \textbf{(a)} & \textbf{Prior to coming to UBC} \\
+\end{tabular}
+
+
+\begin{table}[H]
+  \label{6. Employment Record}
+  \begin{tabularx}{1\textwidth}{|p{8cm}|p{5cm}|X|}
+    \hline
+    \textit{University, Company or Organization}                                     & \textit{Rank or Title}                     & \textit{Dates}       \\
+    \hline
+    University of Toronto, Toronto, ON                                               & NSERC Student Fellowship                   & May-Aug 2006         \\
+    \hline
+    Blooming Acres, Barrie, ON                                                       & Autistic Residence Front Line Staff        & Summer 2007          \\
+    \hline
+    CUPE Local 3906, McMaster University, Hamilton, ON                               & Union Bargaining Team – Post Doctoral Unit & Jun 2011 – Feb 2012  \\
+    \hline
+    CUPE Local 3906, McMaster University, Hamilton, ON                               & Executive Member and Grievance Officer     & Oct 2012 – Aug 2013  \\
+    \hline
+    CUPE Local 3906, McMaster University, Hamilton, ON                               & Staff Supervisor                           & Dec 2012 – Aug 2013  \\
+    \hline
+    Residential Youth Treatment Services, Health and Safety Services, Whitehorse, YT & Residential Care Worker                    & Nov 2013 – Sept 2015 \\
+    \hline
+    What’s Up Yukon, Whitehorse, YT                                                  & Freelance Writer                           & Jan 2015 – 2019      \\
+    \hline
+  \end{tabularx}
+\end{table}
+
+%------------------------------------------------
+
+\begin{tabular}{L{.5cm} L{8cm} L{6.9cm}}
+  \textbf{(b)} & \textbf{At UBC} \\
+\end{tabular}
+
+\begin{table}[H]
+  \begin{tabularx}{1\textwidth}{|p{8cm}|p{5cm}|X|}
+    \hline
+    \textit{Department}                             & \textit{Rank or Title}                     & \textit{Dates}       \\
+    \hline
+    UBC Dept. of Pediatrics / Division of Neurology & Postdoctoral Research Fellow               & Oct 2015 – Jun 2019  \\
+    \hline
+    BC Children’s Research Institute                & Staff Scientist / Independent Investigator & July 2019 – Present  \\
+    \hline
+    UBC Dept. of Pediatrics / Division of Neurology & Assistant Professor (Partner)              & June 2020 – Present  \\
+    \hline
+    UBC Dept. of Neuroscience                       & Associate Member                           & July 2020 – Present  \\
+    \hline
+    UBC School of Biomedical Engineering            & Associate Member                           & July 2020 – Present  \\
+    \hline
+    UBC Women+ and Children’s Health Program        & Member and Graduate Student Supervisor     & Feb 2022 – Present   \\
+    \hline
+    UBC Djavad Mowafaghian Centre for Brain Health  & Full Member                                & March 2022 – Present \\
+    \hline
+  \end{tabularx}
+\end{table}
+
+I was appointed an Independent Investigator at BCCHR in July 2019, and in June 2020 was appointed as Assistant Professor (Partner) in the Dept of Pediatrics, UBC. I spent the first year (2019-2020) setting up my lab, finishing up previous work and publishing papers, as well as started networking and collaborating on potential new projects. I submitted several grants as PI (Brain Canada, CIHR Catalyst Grant, NSERC Discovery Grant) and joined several grants as co-applicant. I also started a monthly MRI Journal Club, taught a course in Clinical Research Methods, and hired a co-op student at the beginning of the summer of 2020.
+\\
+
+In 2015-2019, I completed a postdoctoral fellowship in Dr Alexander Rauscher’s lab (UBC), where I was able to add a wide variety of MRI techniques to my skill-set, and applied them in various subject groups. My postdoctoral research was mainly focused on combining diffusion tensor imaging (DTI), myelin water imaging (MWI), and susceptibility based imaging techniques (such as quantitative susceptibility mapping (QSM) and R$_{2}^{*}$ mapping) in novel ways to better understand white matter damage and development. Work from that time resulted in a publication in \textit{Frontiers in Neurology},  which used DTI and QSM, along with previously published MWI results from the same study, to persuasively demonstrate that varsity ice-hockey concussion damage seen at two-weeks post-injury was likely a result of myelin sheaths ‘loosening’, or ‘unraveling’, as opposed to complete disintegration, as previously thought. This publication gained significant attention in the media, for which I was interviewed for three television interviews (two for Global News and one on CityTV’s Breakfast Television).
+\\
+
+Imaging the developing brain is an exciting and challenging field that I am passionate about. With greater technological advances in perinatal and neonatal care, more preterm infants are being born and surviving into adulthood. Up to half of preterm infants develop neurological, cognitive, and motor deficits later in life. At the same time, infants born at term are also susceptible to acquired brain injuries. Better understanding of this critical period in brain growth could shed light on both normal fetal brain development and neural plasticity and compensation from injuries. Furthermore, sensitive and specific imaging markers for brain tissue and repair are crucial for measuring potential treatment effects objectively and early.
+
+\vspace{5pt}
+\begin{tabular}{L{.5cm} L{8cm} L{6.9cm}}
+  \textbf{(c)} & \textbf{Date of granting of tenure at UBC} \\
+  \\
+  \textit{N/A}                                              \\
+\end{tabular}
+
+%------------------------------------------------
+
+\vspace{5pt}
+\begin{tabular}{L{.5cm} L{8cm} L{6.9cm}}
+  \textbf{7.} & \textbf{LEAVES OF ABSENCE AND DELAYS} \\
+  \\
+\end{tabular}
+
+\textbf{March 2020 to March 2022: }The global COVID-19 pandemic delayed my
+progress in establishing my independent research program: it forced me to work
+from home, affected my mental health, reduced face-to-face interactions with
+other researchers on a daily basis, reduced time spent at the MRI Centre, made
+recruitment of volunteers more difficult, and more.
+
+%------------------------------------------------
+
+\vspace{5pt}
+\begin{tabular}{L{.5cm} L{12cm} L{6.9cm}}
+  \textbf{8.}  & \textbf{TEACHING}                                      \\
+  \\
+  \textbf{(a)} & \textbf{Areas of special interest and accomplishments} \\
+  \\
+\end{tabular}
+\label{8. Teaching}
+
+Through teaching, I hope to share with my students a deep understanding of not only why we believe what we believe today, but also show them how we got there, and hopefully motivate them to push into new levels of understanding. In order to properly educate, one must be both informed of and ready to apply the most up-to-date evidence-based pedagogical practices. Thus, I strive to continuously improve upon what I have learned, and to keep up with the field. True learning, however, appears to occur when students are actively engaged with the content (Hake, 1997; Wieman, 2014). This means that, as a lecturer, I aim to fill my class time with activities that have been proven to engage and motivate, encourage collaboration, and reach higher levels of learning - such as analyzing, synthesizing, and evaluating - across factual, conceptual, procedural, and metacognitive knowledge.
+\\
+
+My biggest accomplishment in Teaching has been developing, from scratch, a graduate program for the Women+ and Children’s Health Sciences: WACH505 - Fundamentals of Magnetic Resonance Imaging. See below for more details.
+
+%------------------------------------------------
+
+\begin{tabular}{L{.5cm} L{8cm} L{6.9cm}}
+  \\
+  \textbf{(b)} & \textbf{Courses Taught} \\
+  \\
+\end{tabular}
+
+\begin{table}[H]
+  \centering
+% \begin{center}
+  \begin{tabular}{|l|l|l|l|l|l|l|l|l|}
+    \hline
+    \multicolumn{1}{|l|}{\multirow{2}{*}{\textit{Year}}} & \multicolumn{1}{l|}{\multirow{2}{*}{\textit{Course \#}}}                                                        & \multicolumn{1}{l|}{\multirow{2}{*}{\textit{Hours}}} & \multicolumn{1}{l|}{\multirow{2}{*}{\textit{Class Size}}} & \multicolumn{1}{l|}{\multirow{2}{*}{\textit{Contact Hrs}}} & \multicolumn{4}{c|}{\textit{Taught}}                                                                                                               \\ \cline{6-9}
+    \multicolumn{1}{|l|}{}                               & \multicolumn{1}{l|}{}                                                                                           & \multicolumn{1}{l|}{}                                & \multicolumn{1}{l|}{}                                     & \multicolumn{1}{l|}{}                                      & \multicolumn{1}{l|}{\textit{Lec}}    & \multicolumn{1}{l|}{\textit{Tut}} & \multicolumn{1}{l|}{\textit{Lab}} & \multicolumn{1}{l|}{\textit{$^{1}$Other}} \\ \hline
+    2009W                                                & CHEM 1A03/1E03                                                                                                  & 130                                                  & 50                                                        &                                                            &                                      & 65                                & 65                                &                                     \\ \hline
+    2011W                                                & CHEM 1A03/1E03                                                                                                  & 130                                                  & 50                                                        &                                                            &                                      & 130                               &                                   &                                     \\ \hline
+    2012W                                                & CHEM 1A03/1E03                                                                                                  & 130                                                  & 50                                                        &                                                            &                                      & 130                               &                                   &                                     \\ \hline
+    2013W                                                & BIOCHEM 3D03                                                                                                    & 130                                                  & 140                                                       &                                                            &                                      &                                   &                                   & 130                                 \\ \hline
+    2020                                                 & \begin{tabular}[c]{@{}l@{}}Pediatric Neurology\\Research Curriculum\end{tabular}                                & 100                                                  & 15                                                        &                                                            & 10                                   &                                   &                                   & 90                                  \\ \hline
+    2020                                                 & BMEG 557                                                                                                        & 20                                                   & 15                                                        &                                                            & 1                                    &                                   &                                   & 19                                  \\ \hline
+    2021                                                 & BMEG 557                                                                                                        & 20                                                   & 15                                                        &                                                            & 1                                    &                                   &                                   & 19                                  \\ \hline
+    2022                                                 & \begin{tabular}[c]{@{}l@{}}Pediatric Neurology\\Research Curriculum\end{tabular}                                & 20                                                   &                                                           &                                                            & 2                                    &                                   &                                   & 18                                  \\ \hline
+    2022                                                 & BMEG 557                                                                                                        & 20                                                   & 15                                                        &                                                            & 1                                    &                                   &                                   & 19                                  \\ \hline
+    2022                                                 & \begin{tabular}[c]{@{}l@{}}Precision Health\\ Analysis Bootcamp \\ fMRI Analysis Parts I \\ and II\end{tabular} & 80                                                   & 30                                                        &                                                            & 4                                    &                                   &                                   & 76                                  \\ \hline
+    2023                                                 & \begin{tabular}[c]{@{}l@{}}Pediatric Neurology\\Research Curriculum\end{tabular}                                & 20                                                   &                                                           &                                                            & 2                                    &                                   &                                   & 18                                  \\ \hline
+    2023                                                 & BMEG 557                                                                                                        & 20                                                   & 15                                                        &                                                            & 1                                    &                                   &                                   & 19                                  \\ \hline
+    2023                                                 & WACH502                                                                                                         & 20                                                   & 23                                                        &                                                            & 1.5                                  &                                   &                                   & 18.5                                \\ \hline
+    2024                                                 & WACH505                                                                                                         & 520                                                  & 15                                                        & 20                                                         & 50                                   &                                   &                                   & 470                                 \\ \hline
+    2024                                                 & BMEG 557                                                                                                        & 20                                                   & 15                                                        &                                                            & 1                                    &                                   &                                   & 19                                  \\ \hline
+  \end{tabular}
+\end{table}
+\vspace{-10pt}
+$^{1}$ Other includes preparation time for lectures, meetings, etc.
+
+\vspace{10pt}
+\textbf{\underline{Brief Descriptions of the Principal Courses I Taught: }}
+
+\vspace{5pt}
+
+\textbf{CHEM 1A03/1AA3 \& 1E03–Introductory Chemistry I / II \& General Chemistry for Engineers:} In this large-class undergraduate course, we discussed chemical concepts, theories, and examples of fundamental chemistry, applied these concepts to current examples within the themes of health, energy, the environment, and materials, and helped to develop skills needed to solve chemical problems. I also helped run the first of a now annual ‘special lab group’ made up of gifted first year students. This group was tasked with choosing a chemistry problem in industry and attempting to solve it.
+
+\vspace{5pt}
+
+\textbf{BIOCHEM 3D03 – Metabolism and Regulation:} An introduction to key principles in intermediary metabolism, covering principles of bioenergetics, major pathways for carbohydrates, proteins and lipids in energy production, nitrogen metabolism, biosynthesis of small molecules, as well as the integration and regulation of metabolic activities.
+
+\vspace{5pt}
+
+\textbf{Pediatric Neurology Research Curriculum: Introduction to Clinical Research Methods:} In this small seminar style course targeted towards medical residents and fellows in the department of pediatrics, we cover the basics of clinical research methods, ranging from how to formulate a research question, write a study plan, choose study subjects, increase precision and accuracy in measurements, estimating sample size, all the way to designing cohort, cross-sectional, and case-control studies. More advanced topics include how to enhance causal inference in observational studies, how to design a randomized blinded trial, alternative trial designs, and how to design studies of medical tests.
+
+\vspace{5pt}
+
+\textbf{BMEG 557 - Statistical Methods in Evaluating Medical Technologies:} The objective of this course is to teach biomedical engineering students the important principles of applied biostatistics. This is an introductory course for those students who will use the knowledge they acquire to continue learning more advanced techniques in future biostatistical course work. The course is designed to help students: (a) understand and employ the concepts and fundamental principles of one of the core disciplines of healthcare industry, (b) to interact effectively with medical professionals in hospitals, medical clinics, and medical or clinical laboratory research centers in various collaborative endeavors, and (c) to intelligently read and analyze journal articles and technical reports that use biostatistical methods and use them in the advancement of their careers in different medical or healthcare industries.
+
+\vspace{5pt}
+
+\textbf{Precision Health Analysis Bootcamp: Fmri Analysis Parts I \& II:} The focus of this course/bootcamp is to first explain the basic concepts behind functional MRI, and then focus on the data preprocessing and core tools/file formats. A tutorial portion with live coding helps students understand how to create a python virtual environment, install a singularity image, and how to call singularity inside a PBS script. The second session focused on freesurfer and DTI preprocessing: both as a lecture explaining the basic concepts, and as a tutorial on how to run modules and programs on Sockeye at UBC.
+
+\vspace{5pt}
+
+\textbf{WACH 502: Seminars in Women+ and Children's Health:} Biological and social determinants of health, health equity and inclusion. My lecture focuses on Magnetic Resonance Imaging in Child Health and Disease.
+
+\vspace{5pt}
+
+\textbf{WACH 505: Fundamentals of Magnetic Resonance Imaging:} This course introduces students to the basic concepts underlying magnetic resonance imaging (MRI). The course starts with a historical overview of medical imaging in general, leading to the development of MRI. It then introduces basic physical concepts used in MRI and some of the basic principles. Expanding on these concepts, we cover image weighting and contrast, special encoding and image formation, parameters and pulse sequences, instrumentation, and equipment. Students learn what magnetic resonance phenomenon is, how magnetic resonance signals are generated, how an image can be made using MRI, and how soft tissue contrast can change with imaging parameters. We also introduce MR imaging sequences of spin echo, gradient echo, fast spin echo, echo planar imaging, inversion recovery, etc. Finally, we cover more advanced MRI techniques such as functional, diffusion, quantitative, phase-based, spectroscopy MRI, and more. As there are no prerequisites for this course, all concepts are taught and explained in an intuitive format with minimal mathematics.
+
+%------------------------------------------------
+
+\begin{tabular}{L{.5cm} L{8cm} L{6.9cm}}
+  \\
+  \textbf{(c)} & \textbf{Other Teaching of Undergraduates, Graduates and Postgraduates} \\
+  \\
+\end{tabular}
+
+In addition to the teaching described above, I am an associate member in the Department of Neuroscience and The School of Biomedical Engineering at UBC. Through my supervision of students doing research with me, I teach the physics of MR imaging, its application in biomedical research, statistical concepts, software programming and troubleshooting, the philosophy and practice of science, as well as writing skills. This informal teaching occurs in one-on-one discussions, group discussions, weekly lab meetings, and various assignments.
+
+%------------------------------------------------
+
+\begin{tabular}{L{.5cm} L{8cm} L{6.9cm}}
+  \\
+  \textbf{(d)} & \textbf{Students Supervised} \\
+  \\
+\end{tabular}
+
+\begin{table}[H]
+  \label{8d. Students Supervised}
+  \centering
+  \begin{tabular}{|l|l|l|l|}
+    \rowcolor[HTML]{EFEFEF}
+    \hline
+    Level                  & Total & Current & Completed \\
+    \hline
+    Undergraduate Students & 6     & 2       & 4         \\
+    \hline
+    Graduate Students      & 5     & 1       & 4         \\
+    \hline
+    Postgraduate MD        & 1     & 0       & 1         \\
+    \hline
+  \end{tabular}
+\end{table}
+
+\noindent \textbf{Summer, Co-op, and Undergraduate Students Supervised}
+\\
+
+\noindent Total: \underline{6} (2 current, 4 completed) \\
+Summer Student Total: \underline{3} (2 current, 1 completed) \\
+Co-op Student Total: \underline{2} (0 current, 2 completed) \\
+Undergraduate Student Total: \underline{1} (0 current, 1 completed) \\
+
+\begin{table}[H]
+  \begin{adjustwidth}{-1cm}{-1cm}
+    \small
+    \centering
+    \begin{tabular}{|l|L{3cm}|l|l|L{2.5cm}|L{5cm}|}
+      \hline
+      \multicolumn{1}{|l|}{\multirow{2}{*}{\textit{\textbf{Student Name}}}} & \multicolumn{1}{l|}{\multirow{2}{*}{\textit{\textbf{Program Type}}}} & \multicolumn{2}{c|}{\textit{\textbf{Year}}}  & \multicolumn{1}{l|}{\multirow{2}{*}{\textit{\textbf{Supervisory Role}}}} & \multirow{2}{*}{\textit{\textbf{Achievements}}}                                                                                                       \\ \cline{3-4}
+      \multicolumn{1}{|l|}{}                                       & \multicolumn{1}{l|}{}                                       & \multicolumn{1}{l|}{\textit{\textbf{Start}}} & \multicolumn{1}{l|}{\textit{\textbf{Finish}}}                            & \multicolumn{1}{l|}{}                  &                                                                                                     \\ \hline
+      \multicolumn{6}{|l|}{\textit{\textbf{Summer Students}}}                                                                                                                                                                                                                                                                                                                    \\ \hline
+      Anna Pukropski                                               & German Academic Exchange Service (DAAD)                     & Aug 2016                            & Nov 2016                                                        & Co-Supervisor                                  & - Shared first author publication in Frontiers Neurology \newline - Currently finishing her Masters \\ \hline
+      Serafina Ermolenko & Volunteer & May 2024 & September 2024 & Primary Supervisor & \\ \hline
+      Floria Lu & Volunteer & May 2024 & September 2024 & Primary Supervisor & \\ \hline
+      \multicolumn{6}{|l|}{\textit{\textbf{Co-op Students}}}                                                                                                                                                                                                                                                                                                                    \\ \hline
+      Olivia Campbell & UBC Co-op Student Combined Major in Computer Science, Life Science, and Physics & May 2020 & May 2021 & Primary Supervisor & BB\&D Research Day: Lightning Talk 2020 \\ \hline
+      Johann Drayne & UBC Co-op Student, Honours Physics & Jan 2021 & Aug 2021 & Primary Supervisor & ISMRM 2022 Oral presentation; \newline One first-author paper (under review) \\ \hline
+      \multicolumn{6}{|l|}{\textit{\textbf{Undergraduate Students}}}                                                                                                                                                                                                                                                                                                                    \\ \hline
+      Thomas Carmichael & UBC Honours Integrated Sciences & Sept 2023 & April 2024 & Primary Supervisor & \\ \hline
+    \end{tabular}
+  \end{adjustwidth}
+\end{table}
+
+\noindent \textbf{Graduate Students Supervised}
+\\
+
+\noindent Total: \underline{5} (1 current, 4 completed) \\
+M. Sc.  Total \underline{5};    (1 current, 4 completed) \\
+Ph. D.  Total \underline{0};    (0 current, 0 completed)
+
+\setlength\LTleft{-1cm}
+\setlength\LTright{-1cm}
+\begin{small}
+  \begin{longtable}{|L{1.5cm}|L{2cm}|L{2cm}|l|L{2cm}|L{2cm}|L{3cm}|}
+    \hline
+    \multicolumn{1}{|l|}{\multirow{2}{*}{\textit{\textbf{Student Name}}}} & \multicolumn{1}{l|}{\multirow{2}{*}{\textit{\textbf{Program Type}}}} & \multicolumn{2}{c|}{\textit{\textbf{Year}}}  & \multicolumn{1}{l|}{\multirow{2}{*}{\textit{\textbf{Supervisory Role}}}} & \multicolumn{1}{l|}{\multirow{2}{*}{\textit{\textbf{Department}}}} & \multirow{2}{*}{\textit{\textbf{Achievements}}}                                                                                                       \\ \cline{3-4}
+    \multicolumn{1}{|l|}{}                                       & \multicolumn{1}{l|}{}                                       & \multicolumn{1}{l|}{\textit{\textbf{Start}}} & \multicolumn{1}{l|}{\textit{\textbf{Finish}}}                            & \multicolumn{1}{l|}{}    & \multicolumn{1}{l|}{}              &                                                                                                     \\ \hline
+    \multicolumn{7}{|l|}{\textit{\textbf{Masters}}}                                                                                                                                                                                                                                                                                                                    \\ \hline
+    Anna Zhu & MASc & May 2021 & Aug 2023 & Primary Supervisor & School of Biomedical Engineering & BB\&D Research Day: Graduate Student Poster Award 2021. \newline ISMRM 2022 Poster \newline One first-author paper (submitted) \\ \hline
+    Allison Mella & MSc & September 2021 & Aug 2023 & Primary Supervisor & Department of Neuroscience & Syd Vernon Graduate Student Award 2021W (\$3,500); Faculty of Medicine Graduate Award 2021W (\$4,500); Trainee Boost Award (\$5,000); ISMRM 2023 Oral Presentation \newline One first author paper (under review); one second author paper (under review)\\ \hline
+    Olivia Campbell & MASc (May - Oct); MEng & May 2021 & April 2022 & Primary Supervisor & School of Biomedical Engineering & Several posters. Two first-author publications (Frontiers in Physiology; and Human Brain Mapping); one co-author publication (Topics in Spinal Cord Injury Rehabilitation) \newline Switched to MEng Oct 2021 \\ \hline 
+    Evelyn Armour & MEng & Nov 2021 & Aug 2022 & Co-supervisor & School of Biomedical Engineering & Internship. Several posters. \newline “Best Poster Award” at DOHaD 2022 \\ \hline
+    Lydia Sochan & MASc & September 2022 & June 2024 & Primary Supervisor & School of Biomedical Engineering & Effie I. Lefeaux Scholarship in Intellectual Disability 2023W  (\$2,100) \newline Syd Vernon Graduate Student Award 2023W (\$2,000) \newline 2023 ISMRM Educational Stipend (\$825) \newline BB\&D Trainee Travel Grant Award \\ \hline
+    \multicolumn{7}{|l|}{\textit{\textbf{PhD}}}                                                                                                                                                                                                                                                                                                                    \\ \hline
+                 & & & & & & \\ \hline 
+  \end{longtable}
+\end{small}
+\setlength\LTleft{0cm}
+\setlength\LTright{0cm}
+
+\noindent \textbf{Postgraduate Students Supervised}
+\\
+
+\noindent Total: \underline{1} (0 current, 1 completed) \\
+MD Postdoctoral Fellows Total: \underline{1} (0 current, 1 completed) \\
+Clinical Fellows Total: 0 (0 current, 0 completed) \\
+Residents Total: 0 (0 current, 0 completed)
+
+\begin{table}[H]
+  \begin{adjustwidth}{-1cm}{-1cm}
+    \small
+    \centering
+    \begin{tabular}{|l|l|l|l|L{2cm}|L{2cm}|L{4cm}|}
+      \hline
+      \multicolumn{1}{|l|}{\multirow{2}{*}{\textit{\textbf{Student Name}}}} & \multicolumn{1}{l|}{\multirow{2}{*}{\textit{\textbf{Program Type}}}} & \multicolumn{2}{c|}{\textit{\textbf{Year}}}  & \multicolumn{1}{l|}{\multirow{2}{*}{\textit{\textbf{Supervisor}}}} & \multicolumn{1}{l|}{\multirow{2}{*}{\textit{\textbf{Co-Supervisor}}}} & \multirow{2}{*}{\textit{\textbf{Achievements}}}                                                                                                       \\ \cline{3-4}
+      \multicolumn{1}{|l|}{}                                       & \multicolumn{1}{l|}{}                                       & \multicolumn{1}{l|}{\textit{\textbf{Start}}} & \multicolumn{1}{l|}{\textit{\textbf{Finish}}}                            & \multicolumn{1}{l|}{}    & \multicolumn{1}{l|}{}              &                                                                                                     \\ \hline
+      Yuting Zhang & Radiology & Feb 2018 & Feb 2019 & Weber & Rauscher & Topic: Advanced quantitative brain imaging investigation of preterm and term injured neonates, along with healthy term controls. \newline First author, Am J Neuroradiology; \newline second author, NMR Biomedicine \newline second author, Am J Neuroradiology \\ \hline
+
+
+      \multicolumn{7}{|l|}{\textit{\textbf{Clinical Fellows}}}                                                                                                                                                                                                                                                                                                                    \\ \hline
+                   & & & & & & \\ \hline 
+                   \multicolumn{7}{|l|}{\textit{\textbf{Residents}}}                                                                                                                                                                                                                                                                                                                    \\ \hline
+                   & & & & & & \\ \hline 
+    \end{tabular}
+  \end{adjustwidth}
+\end{table}
+
+\noindent \textbf{Graduate Student Supervisory Committees }
+\\
+
+\noindent Total: \underline{2} (1 current, 1 completed)\\
+M. Sc. Total: \underline{2} (1 current, 1 completed)\\
+Ph. D. Total: \underline{0} (0 current, 0 completed)
+
+
+\begin{table}[H]
+  \begin{adjustwidth}{-1cm}{-1cm}
+    \small
+    \centering
+    \begin{tabular}{|L{1.5cm}|L{2cm}|L{2cm}|l|L{2cm}|L{2cm}|L{3cm}|}
+      \hline
+      \multicolumn{1}{|l|}{\multirow{2}{*}{\textit{\textbf{Student Name}}}} & \multicolumn{1}{l|}{\multirow{2}{*}{\textit{\textbf{Program Type}}}} & \multicolumn{2}{c|}{\textit{\textbf{Year}}}  & \multicolumn{1}{l|}{\multirow{2}{*}{\textit{\textbf{Supervisory Role}}}} & \multicolumn{1}{l|}{\multirow{2}{*}{\textit{\textbf{Department}}}} & \multirow{2}{*}{\textit{\textbf{Achievements}}}                                                                                                       \\ \cline{3-4}
+      \multicolumn{1}{|l|}{}                                       & \multicolumn{1}{l|}{}                                       & \multicolumn{1}{l|}{\textit{\textbf{Start}}} & \multicolumn{1}{l|}{\textit{\textbf{Finish}}}                            & \multicolumn{1}{l|}{}    & \multicolumn{1}{l|}{}              &                                                                                                     \\ \hline
+      \multicolumn{7}{|l|}{\textit{\textbf{Masters}}}                                                                                                                                                                                                                                                                                                                    \\ \hline
+      Vanessa Diamond & Thesis & Jan 2022 & April 2024 & Jonathan Rayment & Experimental Medicine & \\ \hline
+      Layan Bashi & Thesis & Sep 2022 & & Sharon Dell & WACH & \\ \hline
+      \multicolumn{7}{|l|}{\textit{\textbf{PhD}}}                                                                                                                                                                                                                                                                                                                    \\ \hline
+      Siara Kainth & Thesis & Sep 2023 & & Jill Zwicker & Rehabilitation Sciences Program & \\ \hline
+    \end{tabular}
+  \end{adjustwidth}
+\end{table}
+%------------------------------------------------
+
+\begin{tabular}{L{.5cm} L{8cm} L{6.9cm}}
+  \\
+  \textbf{(e)} & \textbf{Continuing Education Activities} \\
+  \\
+\end{tabular}
+
+
+\begin{tabular}{L{.5cm} L{.5cm} L{15cm}}
+  \\
+   & \textbf{1)} & \textbf{Activities as presenter/facilitator at Continuing Medical Education or Continuing Professional Development courses (UBC and non-UBC)}\\
+   \\
+   & \textbf{2)} & \textbf{CME / CPD activities as an attendee}\\
+   \\
+\end{tabular}
+
+\begin{longtable}{L{0.5cm} L{15.6cm}}
+
+  \textbf{\rownumber.} & \textbf{Foundations of Pedagogy} \hfill Fall 2018 \\
+                       & Centre for Teaching, Learning and Technology, UBC  \\
+                       & Learned concepts in evidence-based teaching to effectively teach a lesson in a STEM undergraduate classroom, with emphasis on alignment of learning objectives, activities, and assessment.  \\
+  \textbf{\rownumber.} & \textbf{Teaching and Learning Fellows Development Series} \hfill Spring 2019 \\
+                       & Faculty of Science and Centre for Teaching, Learning and Technology, UBC \\
+                       & Integrated a learning community model to establish networking connections for postdoctoral fellows pursuing pedagogical issues, as well as foster multidisciplinary curricula, and incorporate community into higher education. \\
+  \textbf{\rownumber.} & \textbf{Biostatistics Workshop Series} \hfill Fall 2019 \\
+                       & Research Education, BCCHRI, Vancouver, BC \\
+                       & Taught by Boris Kuzeljevic, this workshop covered topics such as data manipulation, non-parametric statistics, correlation coefficients, inferential statistics, linear regression, logistic regression, and ROC curves. \\
+  \textbf{\rownumber.} & \textbf{Faculty of Medicine Supervision Workshop} \hfill Jan 13th, 2021 \\
+                       & Graduate and Postdoctoral Studies, Faculty of Medicine, UBC, Vancouver, BC \\
+                       & Lead by Theresa Rogers and Brianne Howard, this workshop covered topics such as how to be a good supervisor that supports healthy supervisory relationships. Covered challenging case-studies and discussed solutions. \\
+  \textbf{\rownumber.} & \textbf{Supporting Excellent Graduate Supervisory Relationships} \hfill March 12th, 2021 \\
+                       & Graduate and Postdoctoral Studies, UBC, Vancouver, BC \\
+                       & Lead by Theresa Rogers and Brianne Howard, this workshop covered topics such as how to be a good supervisor that supports healthy supervisory relationships. Covered challenging case-studies and discussed solutions. \\
+  \textbf{\rownumber.} & \textbf{SBME Propels: Effective PI-Trainee Relationships} \hfill Oct 15th, 2021 \\
+                       & School of Biomedical Engineering, UBC, Vancouver, BC \\
+                       & Lead by Brianne Howard and Theresa Rogers (UBC’s Faculty of Graduate and Postdoctoral Studies). Topic: Building a strong student-supervisor relationship. \\
+  \textbf{\rownumber.} & \textbf{SBME Propels: Authentic Leadership} \hfill Oct 29th, 2021 \\
+                       & School of Biomedical Engineering, UBC, Vancouver, BC \\
+                       & Lead by Dr. Anne-Marie Sorrenti, Leadership Consultant \& Executive Coach and Lecturer at the University of Toronto’s Faculty of Engineering. Topic: Developing your personal authentic leadership style by discovering your values. This session will prepare you to view subsequent SBME Propels leadership sessions through your own personalized lens, informing how you can apply the concepts conveyed through the sessions to your own leadership style. \\
+  \textbf{\rownumber.} & \textbf{SBME Propels: Situational Leadership} \hfill Nov 26th, 2021 \\
+                       & School of Biomedical Engineering, UBC, Vancouver, BC \\
+                       & Lead by Pamela Potts, StarFish Medical’s Director of People and Culture. Topic: Personalizing your management style for each member of your team \\
+  \textbf{\rownumber.} & \textbf{Mentoring for Leadership Tea} \hfill Nov 29th, 2021 \\
+                       & BCCHR, Vancouver, BC \\
+                       & Lead by Jehannine Austin, the topic of this mentorship session was: Leading a research team, and the role of developing and defining a mission, vision, culture and values. \\
+  \textbf{\rownumber.} & \textbf{SBME Propels: Wellbeing in Intellectually Demanding Careers} \hfill Jan 11th, 2022 \\
+                       & School of Biomedical Engineering, UBC, Vancouver, BC \\
+                       & Lead by Carolina Tropini \\
+  \textbf{\rownumber.} & \textbf{SBME Propels: Impostor Syndrome and Perfectionism} \hfill Feb 4th, 2022 \\
+                       & School of Biomedical Engineering, UBC, Vancouver, BC \\
+                       & Lead by Isabeau \\
+  \textbf{\rownumber.} & \textbf{SBME Propels: Nurturing the Next Generation} \hfill March 4th, 2022 \\
+                       & School of Biomedical Engineering, UBC, Vancouver, BC \\
+                       & Lead by Leonard Foster \\
+  \textbf{\rownumber.} & \textbf{Mentoring for Leadership Tea} \hfill April 1st, 2022 \\
+                       & BCCHR, Vancouver, BC \\
+                       & Lead by Laura Sly: Graduate Student Supervision – Let’s Rock The Boat \\
+  \textbf{\rownumber.} & \textbf{Grants Architecture Workshop} \hfill May 4th, 2022 \\
+                       & BCCHR, Vancouver, BC \\
+                       & In this session, participants will review key aspects of the structure and presentation of a research proposal. Research grants are a visual product, so using concepts of visual and design thinking can help us to develop a better, more easily read and reviewed proposal. Some simple, easy things can make a big difference for the reader. Facilitated by: Dr. Dawn McArthur, Director, Research \& Technology Development, RTDO. \\
+  \textbf{\rownumber.} & \textbf{CIHR Reviewer in Training (RiT) Program} \hfill Fall 2022 \\
+                       & The RiT program offers Early Career Researchers (ECRs) a learning opportunity to gain a better understanding of the elements of high-quality review and the peer review process through direct participation in the Project Grant competition with the support of a Mentor. RiT participants are assigned three applications to conduct reviews, attend the peer review meeting, present their reviews, and participate in the committee meeting. Following completion of the RiT program, participants will be promoted within CIHR’s Reviewer Pathway and are expected to participate in peer review when requested and available to do so. \\
+  \textbf{\rownumber.} & \textbf{Tips and Tricks on Applying to (Interdisciplinary) Grants and Establishing Collaborations as An Early Career Researcher} \hfill Feb 6th, 2023 \\
+                       & UBC Translational Medicine Research Rounds, UBC, Vancvouer, BC \\
+                       & Lead by Juzer Kakai, this talk spoke about the funding landscape and resources available to Early Career Researchers to apply for grant funding. The discussion will touch on how to cultivate collaborations and participate in interdisciplinary grant applications; meaningfully addressing questions pertaining to EDI and sex/gender considerations in your proposals; and resources available to you to help you succeed in preparing funding applications. \\
+  \textbf{\rownumber.} & \textbf{Grant Cycles: Getting Started, Keeping it Going, and Avoiding the Endless Loops} \hfill Dec 4th, 2023 \\
+                       & BCCHR, Vancouver, BC \\
+                       & Lead by Dawn McArthur \\
+  \textbf{\rownumber.} & \textbf{Supervision Workshop: Managing Effective Relationships with Your Graduate Students} \hfill Jan 22nd, 2024 \\
+                       & WACH, Vancouver, BC \\
+                       & In this interactive session, we will share resources to help refine supervision practices for seasoned faculty members. This will include a framework to guide deeper and more meaningful supervisor and graduate student relationships and space for you to reflect on your supervisory practices to date. The session is designed for faculty members with some existing experience supervising graduate students but is open to all interested faculty and postdoctoral fellows. \\
+  \textbf{\rownumber.} & Early Career Mentorship Workshop: Who's Doing What Now? \hfill April 22nd, 2024 \\
+                       & BCCHR, Vancouver BC \\
+                       & Project Management and Communication for Successful Projects facilitated by the Research Project Management Unit (RPMU) \\
+\end{longtable}
+
+%------------------------------------------------
+
+\begin{tabular}{L{.5cm} L{12cm} }
+  \\
+  \textbf{(f)} & \textbf{Visiting Lecturer (indicate university/organization and dates)} \\
+  \\
+\end{tabular}
+
+
+\begin{longtable}{L{0.5cm} L{15.6cm}}
+  {\rownumber.} & Diffusion Imaging Reveals White Matter Damage in Ice Hockey Players for up to Two Months Post-Concussion. CFRI TGIF Seminar Series, BCCHRI. October, 2016. \\
+  {\rownumber.} & Measuring Sports Head Injuries: A Longitudinal Examination of Hockey Concussions with Conventional and Advanced MRI. BC Neuropsychiatry Grand Rounds, UBC. December 7$^{th}$, 2016. \\
+  {\rownumber.} & Magnetic Susceptibility Imaging in the Developing Brain: Probing Health, Injury, and Disease. Department of Pediatrics Grand Rounds, UBC. July 5$^{th}$, 2019. \\
+  {\rownumber.} & Magnetic Susceptibility Imaging in the Developing Brain: Probing Health, Injury, and Disease. Department of Neuroscience Grand Rounds, UBC. Oct 2$^{nd}$, 2019. \\
+  {\rownumber.} & Brain Health in Preterm Infants: Cerebral Metabolic Rate of Oxygen Brain Mapping. Neonatal Intensive Care Unit Research Rounds, May 7$^{th}$, 2021. \\
+  {\rownumber.} & Functional, Metabolic, and Structural MRI Findings in Rett Syndrome. Anesthesiology Research Rounds. Nov 10$^{th}$, 2021. \\
+  {\rownumber.} & Brain Health in Preterm Infants: Cerebral Metabolic Rate of Oxygen Brain Mapping. Neonatal Intensive Care Unit Knowledge Translation Rounds. Dec 1$^{st}$, 2021. \\
+  {\rownumber.} & The WeberLab: Leveraging Quantitative Multi-Model MRI to Study Neonatal Brain Development. BCCH Neuroscience Rounds. Nov 29$^{th}$, 2023 \\
+\end{longtable}
+
+%------------------------------------------------
+
+\begin{tabular}{L{.5cm} L{12cm} }
+  \\
+  \textbf{(g)} & \textbf{Educational Leadership} \\
+  \\
+\end{tabular}
+
+\begin{table}[H]
+  \begin{tabular}{L{0.5cm} L{15.6cm}}
+    \rownumber. & \textbf{Magnetic Resonance Imaging Journal Club (MRJC)} \hfill Jan 2020 - Present \\
+                & Started a monthly journal club, in which I lead and facilitate monthly discussions on interesting scholarly articles in all things MR related. The MRJC aims to stimulate discussion of emerging MRI technologies, clinical and scientific applications, basic concepts, and its history. \\
+    \rownumber. & \textbf{Precision Health Data Analysis Bootcamp} \hfill Summer 2022 \\
+                & Helped acquire funding, develop, and facilitate the Precision Health Data Analysis Bootcamp with Dr. Phillip Richmond and Lynne Williams. \\
+  \end{tabular}
+\end{table}
+
+%------------------------------------------------
+
+\begin{tabular}{L{.5cm} L{12cm} }
+  \\
+  \textbf{(g)} & \textbf{Curriculum Development \& Innovation} \\
+  \\
+\end{tabular}
+
+
+\begin{longtable}{L{0.5cm} L{15.6cm}}
+  \rownumber. & \textbf{BMEG 557} \hfill Fall 2020 \\
+              & Helped develop this course with Dr. Sharareh Bayat (the primary lecturer). I helped with writing and developing the syllabus, the assignments, quizzes, and taught one lecture in December. \\
+  \rownumber. & \textbf{Precision Health Analysis Bootcamp: fMRI Analysis Parts I and II} \hfill Summer 2022 \\
+              & Along with Phillip Richmond and Lynne Williams, helped develop this section (fMRI Analysis Parts I and II) for the Precision Health Analysis Bootcamp that was run over the summer of 2022. Originally Lynne Williams was supposed to present. However, after she sustained a bike-related concussion, I was asked to replace her. Lynne provided me with her fMRI slides from previous years, which I used as a framework to develop my course. However, I found there was not too much that was useful from those slides, and I prepared the 4 hours of slides and tutorials almost from scratch. \\
+  \rownumber. & \textbf{WACH 505 (Fundamentals of Magnetic Resonance Imaging)} \hfill Winter 2023 \\
+              & Developed an MRI course for the new Women+ and Children’s Health Graduate Program (2023) from scratch. This course introduces students to the basic concepts underlying magnetic resonance imaging (MRI). The course starts with a historical overview of medical imaging in general, leading to the development of MRI. It then introduces basic physical concepts used in MRI and some of the basic principles. Expanding on these concepts, we then cover image weighting and contrast, special encoding and image formation, parameters and pulse sequences, instrumentation, and equipment.  Students learn what magnetic resonance phenomenon is, how magnetic resonance signals are generated, how an image can be made using MRI, and how soft tissue contrast can change with imaging parameters. Also introduced are MR imaging sequences of spin echo, gradient echo, fast spin echo, echo planar imaging, inversion recovery, etc. Finally, we cover more advanced MRI techniques such as functional, diffusion, quantitative, phase-based, spectroscopy MRI, and more.
+\end{longtable}
+
+
+\begin{tabular}{L{.5cm} L{12cm} }
+  \\
+  \textbf{(i)} & \textbf{Other Teacching \& Learning Activites} \\
+  \\
+\end{tabular}
+
+\begin{longtable}{L{0.5cm} L{15.6cm}}
+  \rownumber. & \textbf{Toronto District School Board Teaching Assistant} \hfill Spring 2008 \\
+              & Center for Addiction and Mental Health and Toronto District School Board, Toronto, ON \\
+              & Volunteered one-on-one with high-school students with first episode schizophrenia and assisted each one according to their individual needs and challenges. Was able to assess which way each student dealt best with frustration, initiating work, creating a plan of action and seeing problems from different angles. \\
+  \rownumber. & \textbf{Physiology Science Demonstrator at Science Rendezvous} \hfill May 2009 \\
+              & Department of Physiology, University of Toronto, Toronto, ON \\
+              & Demonstrated physiological concepts to children, students, and the community. Learned to communicate scientific concepts to a general audience. \\
+  \rownumber. & \textbf{Let’s Talk Science} \hfill Sept 2010 – May 2011 \\
+              & Let’s Talk Science National, Hamilton, ON \\
+              & Created and presented talks geared towards high school students in order to engage them and create an interest in the sciences. \\
+  \rownumber. & \textbf{Universe of the Brain} \hfill Dec 2018 \\
+              & Planetarium Star Theatre, HR MacMillan Space Centre, Vancouver, BC \\
+              & Along with several other colleagues from the UBC MRI Research Centre, prepared and presented an interactive multi-media show on the ‘universe of the brain’. Presented various original images and videos from multi-model MRI brain scans, and discussed how MRIs can be used to examine structural, functional, and metabolic properties of the CNS. \\
+\end{longtable}
+
+\begin{tabular}{L{.5cm} L{12cm} L{6.9cm}}
+  \textbf{9.}  & \textbf{SCHOLARLY AND PROFESSIONAL ACTIVITIES}                                      \\
+  \\
+  \textbf{(a)} & \textbf{Areas of special interest and accomplishments} \\
+  \\
+\end{tabular}
+\label{9. Scholarly and Professional Activities}
+
+\noindent \textbf{Research Keywords}
+
+\noindent MRI, pediatrics, brain development, functional MRI, long-range temporal correlations, brain criticality, complexity, cerebrovascular brain health, myelin, white matter, mild traumatic brain injury, spinal cord injury, susceptibility weighted imaging, R$_{2}^{*}$, quantitative susceptibility mapping, diffusion weighted imaging, orientation dependence, magnetic resonance spectroscopy, medical imaging, neuroimaging, neuroscience.
+
+\vspace{5pt}
+
+\noindent \textbf{Summary}
+
+
+As a pediatric imaging researcher, my main goals are to better understand MRI contrast mechanisms in order to develop novel imaging and post-processing techniques that aim to improve sensitivity and specificity of biophysical properties of the brain. My goal is to then use these techniques to better understand differences or changes in white matter in the injured or unhealthy pediatric brain, which can then be used to improve our basic knowledge of the brain, early diagnoses, and to track disease progress with new treatments. I will work to create infrastructure to provide access and education to clinical researchers who want to engage in using imaging to understand complex neurological and developmental disorders, and to create knowledge translation pathways, such as simple-to-use pipelines in order to better integrate advanced post-processing into the clinical imaging arsenal at BCCH.
+\\
+
+Over the next 5 years, my intent is to develop excellence in imaging research so that UBC/BCCHRI becomes a leader in pediatric imaging. I believe we have a centre and the resources to achieve this goal. My aim is to serve as a Scientific Lead by: 1) developing my own independent career research interests; and 2) taking on the development and management of affiliated onsite research projects.
+
+\vspace{5pt}
+
+\noindent \textbf{Research Development}
+
+\noindent \textbf{New MRI Data Analysis Methods}
+
+
+\begin{longtable}{L{0.5cm} L{15.6cm}}
+  \rownumber. & Quantitative Susceptibility Mapping: with this technique, we are able to map the magnetic properties of tissue. \\
+  \rownumber. & Tissue orientation dependent analysis of R$_{2}^{*}$ signal in neonates: by resolving the signal by angle, we can investigate white matter development in infants. \\
+  \rownumber. & RespiractTM: by using a gas control system, we can alter end-tidal gas concentrations in the lungs and blood of subjects, in order to investigate brain blood vessel health and oxygen extraction fraction. \\
+  \rownumber. & Myelin water fraction filtering: in collaboration with Dr. Grabner, we are investigating whether certain advanced filtering methods can lead to better noise reduction in myelin water fraction analysis. \\
+  \rownumber. & Hurst exponent and fractal dimension analysis of resting state fMRI time series: with this technique, we may be able to compute the complexity of fMRI time series in the grey matter. This may be helpful as a clinical diagnostic measure of traumatic brain injuries, epilepsies, and in mental health disorders such as obsessive-compulsive disorder. \\
+\end{longtable}
+
+\setcounter{magicrownumbers}{0}
+
+\noindent \textbf{Biomedical Applications}
+\begin{longtable}{L{0.5cm} L{15.6cm}}
+  \rownumber. & Creating an MRI protocol for neonatal brain MRI at BC Children's Hospital. \\
+  \rownumber. & By combining DTI, MWI and QSM imaging, myelin health in concussed ice hockey players can be explored in ways that would not be possible if you were to use any one of those imaging methods on their own. \\
+  \rownumber. & The RespiractTM is being used in spinal cord injured subjects in order to investigate potential brain damage post injury. \\
+\end{longtable}
+
+
+\setcounter{magicrownumbers}{0}
+
+\noindent \textbf{Current Projects Related to Pediatric Imaging}
+\begin{longtable}{L{0.5cm} L{15.6cm}}
+  \rownumber. & Imaging of focal cortical dysplasias (FCD): FCD is very difficult to detect in brain scans. We are working to develop MRI scans for their detection, with the goal of improving post-surgery outcomes. \\ 
+  \rownumber. & Advanced imaging in neonates: susceptibility-based MRI has been underutilized and explore in term and preterm neonatal brains. Several different quantitative and qualitative maps can be processed from this scan, which may be useful for investigating cortical maturation, diffuse white matter injury, brain tissue oxygenation, hemorrhage, and magnetic susceptibility (iron, calcification, myelin). \\
+  \rownumber. & Imaging of Rett Syndrome: We are working to develop MRI scans for a study looking at Rett Syndrome and its subtypes. We hope to be able to develop a quantitative MRI protocol that will help classify and study different subtypes and severities of Rett Syndrome in children. \\
+  \rownumber. & Iron imaging in sleep and concussion: using QSM, measure iron levels in children with concussions, and correlate with sleeplessness and recovery. \\
+  \rownumber. & Develop innovative artificial intelligence tools to analyze cohorts with very large number of variables, integrating neuroimaging, clinical and socio-demographic data.  \\
+\end{longtable}
+
+\begin{tabular}{L{.5cm} L{15.6cm}}
+  \\
+  \textbf{(b)} & \textbf{Research or equivalent grants (indicate under COMP whether grants were obtained competitively (C) or non-competitively (NC)) \newline BOLD = current funding} \
+  \\
+\end{tabular}
+
+\setlength\LTleft{-1cm}
+\setlength\LTright{-1cm}
+\begin{longtable}{|L{2.7cm}|L{4cm}|L{1cm}|L{2cm}|L{1.7cm}|L{2cm}|L{3cm}|}
+  \hline
+  \textit{\textbf{Granting Agency}} & \textit{\textbf{Title}} & \textit{\textbf{Grant Type}} & \textit{\textbf{Amount Per Year}} & \textit{\textbf{Duration}} & \textit{\textbf{PI}} & \textit{\textbf{Co-PI(s)}} \\
+  \hline
+  BCCHRI – Clinical \& Translational Research Seed Grant & Cerebral Perfusion And Oxygenation in Hypoxic Ischemic Neonates & C & \$5,000 & 02/2016-02/2017 & \textbf{Alexander Weber} & Cristina Mignone \\
+  \hline
+  $^{1}$BCCHRI - Brain, Behaviour and Development Catalyst Grant & Magnetic Resonance Imaging of Focal Cortical Dysplasia & C & \$10,000 & 02/2017-02/2019 & Alexander Rauscher & Dewi Schrader, \textbf{Alexander Weber } \\
+  \hline
+  \textbf{$^{2}$CIHR} & \textbf{A prospective and longitudinal investigation of concussive and subconcussive mild traumatic brain injury mechanisms in ice hockey players} & \textbf{C} & \textbf{\$220,000 /yr for 5 years (\$1.1 M total) \newline \newline My portion: \$0} & \textbf{03/2020 - 2025} & \textbf{Lyndia Wu} & \textbf{Alexander Rauscher, Peter Cripton, William Panenka, Jack Taunton, Paul van Donkelaa, Alexander Weber} \\
+  \hline
+  BCCHRI - Brain, Behaviour and Development Catalyst Grant & Brain Health in Preterm Infants: Cerebral Metabolic \& Rate of Oxygen (CMRO2) Brain Mapping & C & \$20,000 for one year & 03/2021 - 03/2023 & \textbf{Alexander Weber} & Ruth Grunau \\
+  \hline
+  O.R.S.A. Research Grant & Functional, Metabolic, and Structural MRI Findings in Rett Syndrome & C & \$28,000 & 02/2021 - 02/2023 & \textbf{Alexander Weber} & Anita Datta, Gabriella Horvath, Alexander Rauscher \\
+  \hline
+  $^{3}$BCCHRI - BB\&D Establishment Fund Competition & Translational Collaborative Informatics Platform for Precision Health & C & \$95,000 \newline My portion: \$0 & 06/2022 & Gabriella Horvath & \textbf{Alexander Weber}, Alexander Rauscher, Anita Datta, Jessica Dennis, + 13 more \\
+  \hline
+  BCCHRI - BB\&D Event Support Fund & Precision Health Data Analysis Bootcamp & C & \$1,000 & 07/2022 & \textbf{Alexander Weber} & Lynne Williams and Phillip Richmond \\
+  \hline
+  \textbf{British Columbia Children's Hospital Foundation} & \textbf{fMRI Temporal Dynamics: Their Origins and Development in Newborns} & \textbf{NC} & \textbf{\$25,000} & \textbf{04/2023 - 03/2024} & \textbf{Alexander Weber} & \\
+  \hline
+  $^{4}$\textbf{DMCBH Kickstart Grant with Dept of Pediatrics} & \textbf{New Magnetic Resonance Approaches To Understanding Developmental Visual Disorders} & \textbf{C} & \textbf{\$40,000} \newline \textbf{My portion: \$6,000} & \textbf{06/2023} & \textbf{Deborah Giaschi} & \textbf{Alexander Weber, Tamara Vanderwal, Hee Yeon Im, Miriam Spering} \\
+  \hline
+  \textbf{British Columbia Children's Hospital Foundation} & \textbf{fMRI Temporal Dynamics: Their Origins and Development in Newborns} & \textbf{NC} & \textbf{\$25,000} & \textbf{03/2024 - 02/2025} & \textbf{Alexander Weber} & \\
+  \hline
+  BCCHRI - BB\&D Open Access Publication Fund & Cerebrovascular Reactivity Following Spinal Cord Injury & C & \$2,000 & 2024 & \textbf{Alexander Weber} & \\
+  \hline
+  \textbf{NSERC Discovery Grant} & \textbf{Mapping the Structural and Functional Development of the Brain in the First Year of Life: A State-of-the-Art Quantitative MRI Approach} & \textbf{C} & \textbf{\$33,000 / yr for 5 years \newline + \$12,500 ECR supp.} & \textbf{06/2024 - 06/2029} & \textbf{Alexander Weber} & \\
+  \hline
+\end{longtable}
+\setlength\LTleft{0cm}
+\setlength\LTright{0cm}
+\noindent $^{1}$ I supported in grant preparation, recruitment, and data analysis \newline
+$^{2}$ I supported in grant preparation, study design, and am currently involved in data analysis \newline
+$^{3}$ I supported in grant preparation, and MRI data advice \newline
+$^{4}$ I supported in grant preparation, and methods design.
+\vspace{10pt}
+
+\textbf{Grants Submitted and Currently Under Review}
+
+\begin{longtable}{|L{2cm}|L{3.6cm}|L{1cm}|L{2cm}|L{1.7cm}|L{2cm}|L{2cm}|}
+  \hline
+  \textit{\textbf{Granting Agency}} & \textit{\textbf{Title}} & \textit{\textbf{Grant Type}} & \textit{\textbf{Amount Per Year}} & \textit{\textbf{Duration}} & \textit{\textbf{PI}} & \textit{\textbf{Co-PI(s)}} \\
+  \hline
+  NFRF & An interdisciplinary approach to translating evidence into practice for survivors of brain injury caused by intimate partner violence & C & Minimum \$2,000,000 per year (including indirect costs) \newline Maximum \$4,000,000 / yr (including indirect costs) & LOI January 10, 2024 & Paul van Donkelaar & Vicky Bungav, Peter Cripton, Sandy Shultz, Cheryl Wellington, \textbf{Alexander Weber}, + 10 more \\
+  \hline
+\end{longtable}
+
+\begin{tabular}{L{.5cm} L{15.6cm}}
+  \\
+  \textbf{(c)} & \textbf{Research or equivalent contracts, including funding for clinical trials (indicate under COMP whether grants were obtained competitively (C) or non-competitively (NC). BOLD = current funding.} \\
+  \\
+  \textbf{(d)} & \textbf{Invited Presentations} \\
+  \\
+\end{tabular}
+
+\rowcolors{1}{darkgray!70!white}{gray!40!white}
+\begin{longtable}{| L{0.5cm} | C{9.2cm} | L{4cm} | L{2cm} |}
+  \hline
+  & \textbf{Presentation Title}                                                                                                  & \textbf{Institution/Organization} & \textbf{Date} \\
+  \hline
+  & \textbf{Local}                                                                                                               &                                                                               &                                                           \\
+  \hiderowcolors
+  \rownumber. & Diffusion Imaging Reveals White Matter Damage in Ice Hockey Players for up to Two Months Post-Concussion & UBC Postdoctoral Research Day                                                 & September, 2016                                         \\ 
+  \hline
+  \rownumber. & Diffusion Entropy Reveals White Matter Damage from Mild Concussions in Ice Hockey Players. & MRI Research Centre Annual Retreat & May 25$^{th}$, 2016 \\
+  \hline
+  \rownumber. & Diffusion Imaging Reveals White Matter Damage in Ice Hockey Players for up to Two Months Post-Concussion. & CFRI TGIF Seminar Series & October, 2016 \\
+  \hline
+  \rownumber. & Unravelling the Pathological Insights From Quantitative Susceptibility Mapping and Diffusion Tensor Imaging in Ice Hockey Players Pre and Post-concussion. & BC CAN Meeting & December 6$^{th}$, 2018 \\
+  \hline
+  \rownumber. & Myelin Water Imaging and R$_{2}^{*}$ Mapping in Neonates & Brain, Behaviour \& Development: Neuroscience Day & December 14$^{th}$, 2018 \\
+  \hline
+  \rownumber. & Adventures in Susceptibility Imaging & Brain, Behaviour \& Development: Research in Progress & March 7$^{th}$, 2018 \\
+  \hline
+  \rownumber. & Myelin Water Imaging and R$_{2}^{*}$ Mapping in Neonates & UBC MS Connect Presentation & March 12$^{th}$, 2019 \\
+  \hline
+  \rownumber. & Magnetic Susceptibility Imaging in the Developing Brain: Probing Health, Injury, and Disease & Brain, Behaviour \& Development: Research Day & Oct 3$^{rd}$, 2019 \\
+  \hline
+  \rownumber. & Cerebrovascular Health in Spinal Cord Injuries & Brain, Behaviour \& Development: Research in Progress & February 5$^{th}$, 2020 \\
+  \hline
+  \rownumber. & Pick My Brain: An Imaging Brain Scientist’s Perspective & BCCHR Summer Student Research Program & July 17$^{th}$, 2020 \\
+  \hline
+  \rownumber. & Imaging Focal Cortical Dysplasia & Neuroradiology Networking Discussion Panel & September 15$^{th}$, 2020 \\
+  \hline
+  \rownumber. & Measuring Brain Criticality Through the Hurst Exponent of the BOLD Signal In Preterm Infants: A Longitudinal fMRI Study & 14$^{th}$ Annual UBC MRI Research Centre \& Researchers’ Retreat & May 30$^{th}$, 2022 \\
+  \hline
+  \rownumber. & The WeberLab: Leveraging Quantitative Multi-Model MRI to Study Neonatal Brain Development & Dr. Steven Miller’s Lab & Oct, 2023 \\
+  \hline
+  \rownumber. & How Current Incentives for Scientists Lead to Poor Science for Everyone & NeuroImagersWest: Mental Health in Science Meeting & May 18$^{th}$, 2024 \\
+  \hline
+  \rownumber. & Investigating the Development and Disruption of Brain Dynamics and the Critical Brain Hypothesis & BB\&D Research Day & Nov 25$^{th}$, 2024 \\
+  \hline
+  \rownumber. & \href{https://github.com/weberam2/ReproducibleManuscriptTalk}{Reproducible Manuscripts} & UBC MRI Research Centre and MRI Physics Group & Nov 27th, 2024 \\
+  \hline
+\end{longtable}
+
+\begin{tabular}{L{.5cm} L{12cm} L{6.9cm}}
+  \\
+  \textbf{(e)} & \textbf{Invited Participation} \\
+  \\
+\end{tabular}
+
+1. Poster judge for Brain, Behaviour \& Development: Research Day – Oct 3rd, 2019
+
+2. Lightning Talks judge for Brain, Behaviour \& Development: Research Day – Nov 23rd, 2023
+
+3. Poster judge for WACH Research Day - April 16, 2024
+
+\begin{tabular}{L{.5cm} L{12cm} L{6.9cm}}
+  \\
+  \textbf{(f)} & \textbf{Conference Participation (Organizer, Chair, Moderator, etc.)} \\
+  \\
+  \textbf{(g)} & \textbf{Other Presentations} \\
+  \\
+\end{tabular}
+
+
+\rowcolors{1}{darkgray!70!white}{gray!40!white}
+\begin{longtable}{| L{0.5cm} | C{9.2cm} | L{4cm} | L{2cm} |}
+  \hline
+  & \textbf{Presentation Title}                                                                                                  & \textbf{Institution/Organization} & \textbf{Date} \\
+  \hline
+  & \textbf{Local}                                                                                                               &                                                                               &                                                           \\
+  \hiderowcolors
+  \rownumber. & Partial Least Squares Correspondence Analyis: A Framework to Simultaneously Analyze Behavioral and Genetic Data & SMGG Journal Club & Dec 4th, 2019 \\
+  \hline
+  \rownumber. & A "Gentle" Intro to Deep Learning in Medical Imaging & MR Journal Club & Jan 28th, 2020 \\
+  \hline
+  \rownumber. & Deep Learning Workshop Using Python and JupyterNotebook & MR Journal Club & Feb 25th, 2020 \\
+  \hline
+  \rownumber. & My Sisyphean Quest to Learn How to Highline & Dept of Physics - Hobbies and Special Interests & June 9th, 2020 \\
+  \hline
+  \rownumber. & Dead salmon and voodoo correlations: should we be sceptical about functional MRI? & MR Journal Club & July 28th, 2020 \\
+  \hline
+  \rownumber. & Motion Correction in MRI of the Brain & MR Journal Club & Mar 2nd, 2021 \\
+  \hline
+  \rownumber. & Philosophical Issues in Neuroimaging & MR Journal Club & Oct 26th, 2021 \\
+  \hline
+  \rownumber. & Brain Imaging Data Structure Tutorial & MR Journal Club & April 26th, 2022 \\
+  \hline
+  \rownumber. & Diffusion MRI fiber tractography of the brain & MR Journal Club & Feb 28th, 2023 \\
+  \hline
+  \rownumber. & Brain Extraction Methods Comparisons & MR Journal Club & Sept 26th, 2023 \\
+  \hline
+  \rownumber. & \href{https://github.com/weberam2/ReproducibleManuscriptTalk}{Reproducible Manuscripts} & MR Journal Club & June 26th, 2024 \\
+  \hline
+\end{longtable}
+
+
+\begin{tabular}{L{.5cm} L{12cm} L{6.9cm}}
+  \\
+  \textbf{(h)} & \textbf{Scholarship of Education Activites} \\
+  \\
+  \textbf{(i)} & \textbf{Professional Contributions} \\
+  \\
+\end{tabular}
+
+
+
+\begin{tabular}{L{.5cm} L{12cm} L{6.9cm}}
+  \textbf{10.}  & \textbf{SERVICE TO THE UNIVERSITY}                                      \\
+  \\
+  \textbf{(a)} & \textbf{Areas of special interest and accomplishments} \\
+  \\
+\end{tabular}
+\label{10. Service to University}
+
+I am interested in helping BC Children's Hospital and the MRI Research Centre at UBC
+become a leader in pediatric MR Imaging. This work includes networking with clinicians and other researchers interested 
+in advancing UBC's capabilities in terms of state-of-the-art advanced imaging. 
+Educating, communicating, writing grants, purchasing new equipment, running brainstorm sessions, seminars and mini-conferences; 
+these and more are needed in order to bring us up to a world-class level. 
+As well, I strive to reach out to national and international researchers in order to collaborate on multi-site projects. 
+I have spent the last nine years collaborating and working with people from both Children's Hospital and UBC MRI Research Centre,
+as well as attending and presenting at meetings, conferences, update sessions, and more. 
+%I have helped write a large grant with Dr. Rauscher and other clinicians at Children's Hospital named the BC Children Imaging Program, 
+%which seeks to develop new scientific methods for MRI data acquisition and analysis, and to share these methods collaboratively with scientists at BC-CHRI and beyond.
+I have developed, from scratch, a graduate course teaching the fundamentals of MRI (Women+ and Children's Health Program).
+I created this course because I have seen how many students begin and conduct their research in magnetic resonance imaging without ever knowing how an MRI actually works.
+Thus, I saw a need to develop a course that would be open to all students from any department and with no prerequisites.
+This course has also provides a much needed opportunity for other faculty to teach: in its inaugural year (W2024), I had five Faculyt members give guest lectures (Alexander Rauscher, Shannon Kolind, Andrew Yung, Rachel Eddy, Thiviya Selvanathan).
+
+\vspace{5pt}
+\begin{tabular}{L{.5cm} L{12cm} L{6.9cm}}
+  \textbf{(b)} & \textbf{Memberships on committees, including offices held and dates} \\
+  \\
+\end{tabular}
+
+
+\begin{longtable}{| L{0.5cm} | L{4.2cm} | L{1.5cm} | L{7.2cm} | L{2cm} |}
+  \hline
+  & \textbf{Committee}    & \textbf{Role} & \textbf{Description} & \textbf{Date} \\
+  \hline
+  \rownumber. & UBC MRI Research Centre and MRI Physics Group & member & Meet once a week to discuss and present problems in MRI and physics & 2015 – present \\
+  \hline
+  \rownumber. & Brain, Behaviour \& Development at BC-CHRI & member & Meet once a month for various conferences and seminars to share and discuss brain development in pediatrics & 2015 – present \\
+  \hline
+  \rownumber. & V-Brain & member & Help setup a neuroimaging database across BC & 2019 - present\\
+  \hline
+  \rownumber. & BCCHR IT Road-map & member & Help develop better IT solutions for researchers at BCCHRI & 2020 - present\\
+  \hline
+  \rownumber. & EDI Dept Pediatrics & member & Help battle discrimination and racism in the Dept of Pediatrics & 2020 - present\\
+  \hline
+  \rownumber. & College of Reviewers (CIHR) & associate member & The College of Reviewers is a member-focused resource designed to professionalize peer review, enhance review quality, and provide a more stable base of experienced reviewers for all funding competitions. & 2023 - present\\
+  \hline
+  \rownumber. & PhD Rotation Committee for the School of Biomedical Engineering & member & Help rank applicants to the PhD rotation program in the School of Biomedical Engineering & 2023-present\\
+  \hline
+\end{longtable}
+
+\begin{tabular}{L{.5cm} L{12cm} L{6.9cm}}
+  \textbf{(c)} & \textbf{Faculty Mentoring} \\
+  \\
+  \textbf{(d)} & \textbf{Other services, including dates} \\
+  \\
+\end{tabular}
+
+
+\setcounter{magicrownumbers}{0}
+
+\begin{longtable}{ L{0.5cm}  L{15.2cm}  }
+  \rownumber. & Helped Drs Ruth Grunau and Steven Miller set up an imaging protocol at BCCH to mirror one that Dr. Miller was running at Sick Children's Hospital in Toronto. This included reducing the BCCH magnetic transfer imaging (MTR) sequence from 20 minutes to 5 minutes, making the T1 mapping faster, improving spectroscopy and setting up a SWI scan. August 2016. \\
+  \rownumber. & Helped Dr. Vesna Sossi (PI) and her team Dr. Rebecca Williams (Post doc at the University of Calgary) and Connor Bevington (PhD candidate) set up and run the Respiract Unit at the new MRI facility at the Centre for Brain Health. This was a multi-day project involving training Dr. Williams and Connor on how to use the Respiract Unit, how to analyze the data, and attempting to set-up the unit on the PET/MRI. August 2019. \\
+  \rownumber. & Together with GE Scientist Dr. Jing Zhang, helped improve the way the BCCHRI MRI Centre performed its proton MRS sequence. Whereas before they were acquiring their pulse sequence without an unsuppressed water reference, Dr. Zhang and I were able to reveal why this significant piece of information was not being acquired. This will markedly improve future MRS scans. 2019 \\
+  \rownumber. & Wrote an easy-to-use post-processing script for the BCCHRI MRI Centre to use in order to analyze their MRS sequences; something they were unable to do before and were instead sending data to Dr. Steven Miller’s group in Toronto to analyze. \\
+  \rownumber. & Helped setup a Github for BCCHR with Lynne Williams. 2020. \url{ https://github.com/BCCH-MRI-Research-Facility} \\
+  \rownumber. & Helping Danny Kim setup Nifti-to-DICOM viewing on the PACS system at BCCHRI. 2020. \\
+  \rownumber. & Helping Bruce Bjornson and the MRI Centre at BCCHR develop low TR / long timeseries functional MR Imaging. 2020. \\
+  \rownumber. & DCMH Neuroscience Endowment Awards Committee. 2020. \\
+  \rownumber. & DCMH Neuroscience Endowment Awards Committee. 2021. \\
+  \rownumber. & Developing a J-Editing Sequence to detect GABA for Debbie Giaschi’s lab. 2022. \\
+  \rownumber. & Setting up a Virtual Environment with Lynne Williams for MRI Researchers to aid with MRI processing on UBC’s Sockeye High Performance Computing Cluster. 2022 \\
+  \rownumber. & WACH PROGRAM Focus. April 2022 \\
+  \rownumber. & Adjudicate the 2022 Faculty of Medicine Graduate Student Awards \\
+  \rownumber. & Adjudicate the 2023 Faculty of Medicine Graduate Student Awards \\
+
+\end{longtable}
+
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \textbf{11.}  & \textbf{SERVICE TO THE HEALTH PROFESSIONS / HEALTH AUTHORITIES}                                      \\
+  \\
+  \textbf{(a)} & \textbf{Areas of special interest and accomplishments} \\
+  \\
+  \textbf{(b)} & \textbf{Memberships on committees, including offices held and dates} \\
+  \\
+\end{tabular}
+\label{11. Service to Health Professions}
+
+\setcounter{magicrownumbers}{0}
+\begin{longtable}{ L{0.5cm}  L{15.2cm}  }
+  \rownumber. & Member, Search Committee for the position of Director, Research Informatics, BCCHR. September-November 2022 \\
+  \rownumber. & Member, Search Committee CRC Tier 2 Digital Health, BCCHR. Feb 2023 \\
+  \rownumber. & Member, Review Committee: 2024 Trainee Outstanding Achievement Awards, BCCHR. May 2024 \\
+
+\end{longtable}
+
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \\
+  \textbf{(c)} & \textbf{Other service, including dates} \\
+  \\
+\end{tabular}
+
+
+\setcounter{magicrownumbers}{0}
+\begin{longtable}{ L{0.5cm}  L{15.2cm}  }
+  \rownumber. & BCCHR - BB\&D Theme Review Nov 4 and 5th 2020. In late 2020,
+  BCCHR brought in external reviewers for all four Themes to review the Themes
+  on various areas. I was part of the group “BB\&D Theme Investigators Group
+  \#1”, a 45 minute session so reviewers could hear directly from Theme
+  Investigators. \href{ https://hub.bcchr.ca/display/portal/theme+reviews }{Link} \\
+  \rownumber. & Canadian Research Chair Tier 2 in Digital Health. Jan 2021. I was part of the Clinical Investigators interview panel for all three candidates for 45 minutes each, as well as six hours of talks we were also expected to attend (two one-hour talks for all candidates). \\
+  \rownumber. & ID Clinician-Scientist Candidate Interview for BC Children’s and UBC. Nov 2021 \\
+  \rownumber. & BCCHR Clinical \& Translational Research Seed Grants Review Committee. 2022 \\
+\end{longtable}
+
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \textbf{12.}  & \textbf{SERVICE TO THE COMMUNITY}                                      \\
+  \\
+  \textbf{(a)} & \textbf{Areas of special interest and accomplishments} \\
+  \\
+\end{tabular}
+\label{12. Service to Community}
+
+My service to the community has generally been in mental health. 
+I started volunteering in undergrad in a neuroscience nursing ward, 
+which helped spark a passion of mine for both neuroscience and mental health in general, 
+but also for working directly with clients who are dealing with these issues on a daily basis.
+I believe that volunteering gives us an opportunity to give back to the community,
+but also to see a side of the world that we may be privileged enough not to have had to see.
+Thus, there is so much to learn from volunteering in different fields and getting to know people who struggle with various issues.
+Although it can be seen below that I have not had much service to the academic community,
+I believe that service to the oppressed or disadvantaged community is as important.
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \\
+  \textbf{(b)} & \textbf{Memberships on scholarly societies, including offices held and dates} \\
+  \\
+\end{tabular}
+
+\setcounter{magicrownumbers}{0}
+\begin{longtable}{ L{0.5cm}  L{15.2cm}  }
+  \rownumber. & Chemistry Students’ Union Vice President, Sept 2006 - Aug 2007, Chemistry Students’ Union, University of Toronto, Toronto, ON. Planned, organized, advertised and implemented social and academic activities for chemistry students. \\
+  \rownumber. & Graduate Association Executive Member, Sept 2007 – Aug 2009, Graduate Association of Students in Physiology, University of Toronto, Toronto, ON. Contributed and participated in all meetings/events. Seminar coordinator for the 2008/2009 term; website coordinator for the 2007/2008 term. \\
+  \rownumber. & BME Graduate Association Co-President, Sept 2010 – Aug 2011, School of Biomedical Engineering, McMaster University, Hamilton, ON. Organized various social and academic events for graduate students in the Biomedical Engineering program. \\
+\end{longtable}
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \\
+  \textbf{(c)} & \textbf{Memberships on other societies, including offices held and dates} \\
+  \\
+\end{tabular}
+
+\setcounter{magicrownumbers}{0}
+\begin{longtable}{ L{0.5cm}  L{15.2cm}  }
+  \rownumber. & \textit{ Vice President }, Feb 2014 – August 2015, Yukon Youth Outdoor Leadership Association, Whitehorse, YT. Created partnerships with organizations that focus on disadvantaged youth. Provided funding for these youth to engage in athletic and outdoor activities, such as mountain biking and ropes courses in the summer, and skiing and snowboarding in the winter. Wrote, applied and secured funding for the summer and winter programs. \\
+\end{longtable}
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \\
+  \textbf{(d)} & \textbf{Memberships on scholarly committees, including offices held and dates} \\
+  \\
+  \textbf{(e)} & \textbf{Memberships on other committees, including offices held and dates} \\
+  \\
+\end{tabular}
+
+\setcounter{magicrownumbers}{0}
+\begin{longtable}{ L{0.5cm}  L{15.2cm}  }
+  \rownumber. & \textit{ Human Rights and Peace Committee }, Jun 2011 – Dec 2011, Hamilton District Labour Council, Hamilton, ON. Inform, promote and educate the HDLC on all matters pertaining to human and civil rights, peace issues and women’s issues. \\
+  \rownumber. & \textit{ Health and Safety Representative }, Jan 2014 – September 2015, Residential Youth Treatment Services, Health and Social Services, Whitehorse, YT. Acted as a link between workers and employers in supporting occupational health and safety. \\
+\end{longtable}
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \\
+  \textbf{(f)} & \textbf{Editorships (list journal and dates)} \\
+  \\
+  \textbf{(g)} & \textbf{Reviewer (journal, agency, etc. including dates)} \\
+  \\
+\end{tabular}
+
+\setcounter{magicrownumbers}{0}
+\begin{longtable}{ L{0.5cm}  L{15.2cm}  }
+  \rownumber. & European Radiology, International Journal – March 15th 2019 \\
+  \rownumber. & NeuroImage, International Journal – August 27th 2019 \\
+  \rownumber. & Pediatric Research, International Journal – March 27th, 2020 \\
+  \rownumber. & European Radiology, International Journal – June 25th, 2020 \\
+  \rownumber. & PLOS One, International Journal – September 9th, 2020 \\
+  \rownumber. & Neuroimage: Clinical, International Journal - January 9th, 2021 \\
+  \rownumber. & Journal of Clinical and Translational Research - April 15th, 2021 \\
+  \rownumber. & Neuroimage: Clinical, International Journal - September 1st, 2021 \\
+  \rownumber. & Neuroimage: Clinical, International Journal - February, 2022 \\
+  \rownumber. & NMR in Biomedicine, International Journal - September, 2022 \\
+  \textbf{\rownumber.} & \textbf{CIHR Reviewer in Training} - 3 submissions reviewed - Fall 2022 \\
+  \rownumber. & Magnetic Resonance Imaging - January, 2023 \\
+  \rownumber. & Neurotrauma Reports - February, 2023 \\
+  \rownumber. & Human Brain Mapping - June, 2023 \\
+  \rownumber. & CIHR Reviewer - 1 submission reviewed - November, 2024 \\
+  \textbf{\rownumber.} & \textbf{CIHR Fellowship} - November, 2024 \\
+\end{longtable}
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \\
+  \textbf{(h)} & \textbf{External examiner (indicate universities and dates)} \\
+  \\
+\end{tabular}
+
+\setcounter{magicrownumbers}{0}
+\begin{longtable}{ L{0.5cm}  L{15.2cm}  }
+  \rownumber. & Peter Stenfen - MSc, Dept Neuroscience - UBC - Nov 13th 2020 \\
+  \rownumber. & Meighan Maria Roes - PhD, Dept of Psychology - UBC - Dec 15th 2021 \\
+  \rownumber. & Jessica Archibald - PhD, Dept of Experimental Medicine - UBC - Jan 2023 \\
+  \rownumber. & Jacob Stubbs - PhD, Dept of Psychiatry - UBC - Jan 2023 \\
+  \rownumber. & Michelle Medina - MSc, Dept of Physics and Astronomy - UBC - July 2023 \\
+  \rownumber. & Breanna Nelson - PhD Comprehensive Exam, Dept of Experimental Medicine - UBC - April 2024 \\
+  \rownumber. & Sam Connolly - MSc, Dept of Physics and Astronomy - UBC - July 2024 \\
+  \rownumber. & Cristina Schaurich - PhD Comprehensive Exam, Dept of Experimental Medicine - UBC - January 2025 \\
+\end{longtable}
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \\
+  \textbf{(i)} & \textbf{Consultant (list organization and dates)} \\
+  \\
+  \textbf{(j)} & \textbf{Other service to the community} \\
+  \\
+\end{tabular}
+
+\setcounter{magicrownumbers}{0}
+\begin{longtable}{ L{0.5cm}  L{15.2cm}  }
+  \rownumber. & \textit{Patient Care} – Neuroscience Nursing Ward, Sept 2006 - Aug 2007, Toronto Western Hospital, Toronto, ON. Alleviated patients’ anxiety by making conversation, playing games and/or getting them things they needed: water, magazines, food, etc. \\
+  \rownumber. & \textit{Patient Care} - Emergency Department, Sept 2007 - Aug 2008, Toronto Western Hospital, Toronto, ON. Greeted patients entering the ER, explained the triage process, and provided various things like wheelchairs, ice, water, blankets, etc. Was able to successfully support patients who were confused or in pain, and to relax patients who were tense, angry or frustrated. \\
+  \rownumber. & \textit{Team Leader for Toronto Street Needs Assessment Program}, Apr 2009, City of Toronto, Toronto, ON. Lead a team of three around a designated area in Toronto, interviewing every single individual we came across. Learned to be a team leader and to talk to complete strangers. \\
+  \rownumber. & \textit{Telephone Support Line}, Sept 2008 – Aug 2009, Center for Addiction and Mental Health, Toronto, ON. Learned to implement active listening in order to support callers with mental health or addiction issues and help them to achieve independence and control over their life decisions. \\
+  \rownumber. & \textit{Big Brother}, Nov 2009 – Nov 2010, Big Brothers and Big Sisters of Hamilton and Burlington, Hamilton, ON. Spent time once a week participating in low cost activities with my matched ‘Little Brother’. Learned to take on the role of a mentor and role model. \\
+  \rownumber. & \textit{Books to Bars}, Aug 2011 – Aug 2013, Books to Bars, Hamilton, ON. Created a partnership with a local used bookstore to lend me any extra books they had every month, which I then donated to the books to prisons program, Books to Bars. \\
+  \rownumber. & \textit{Salvation Army Suicide Crisis Line}, Feb 2013 – Aug 2013, Salvation Army Suicide Prevention Services, Hamilton, ON. Talked to and helped a diverse range of clients throughout the community facing various issues including critical suicidal emergencies, addictions, loneliness, and mental health. \\
+  \rownumber. & \textit{Yukon Distress \& Support Line}, Sept 2014 – September 2015, The Second Opinion Society, Whitehorse, YT.  Provided assistance, support and resource information over the phone for people in distress Yukon-wide. Employed active listening and applied suicide intervention skills to help clients with various issues, including trauma, critical suicidal emergencies, addictions, mental health, loneliness, and family issues. \\
+\end{longtable}
+
+\textbf{Communications and Media Interactions}
+
+\setcounter{magicrownumbers}{0}
+\begin{longtable}{ L{0.5cm}  L{15.2cm}  }
+  \rownumber. & Suicide Crisis Line Interview for \textit{CTV News} 2014. \href{https://www.ctvnews.ca/mobile/health/health-headlines/breaking-down-mental-health-barriers-in-the-yukon-1.2209107/comments-7.603357}{Link} \\
+  \rownumber. & Interview about QSM and DTI imaging in concussion with \textit{Global News}, Sept 4th, 2018 \\
+  \rownumber. & Live interview about QSM and DTI imaging in concussion with \textit{Global News}, Sept 4th, 2018 \\
+  \rownumber. & Interview about QSM and DTI imaging in concussion with \textit{City TV's Breakfast Television}, Sept 4th, 2018 \\
+  \rownumber. & Interview about QSM and DTI imaging in concussion with \textit{Ubyssey}, Sept 21st, 2018. \href{https://ubyssey.ca/science/concussion-study/}{Link} \\
+  \rownumber. & \textit{O.R.S.A} 30th Anniversary Rett Syndrome Podcast, June 4th, 2021. \href{https://www.rett.ca/podcast/dr-alexander-weber/}{Link} \\
+  \rownumber. & Interview about an ultramarathon I ran in the North Shore mountains (80 km, 7,300 m elevation, 29 hours) with \textit{North Shore News}, Sept 21st, 2024. \href{https://www.nsnews.com/local-news/ultrarunner-conquers-deep-cove-to-porteau-cove-in-29-hours-9547621}{Link}
+\end{longtable}
+
+\begin{tabular}{L{.5cm} L{15.2cm} }
+  \textbf{13.}  & \textbf{AWARDS AND DISTINCTIONS}                                      \\
+  \\
+  \textbf{(a).}  & \textbf{Awards for Teaching (indicate name of award, awarding organizations, and date)}                                      \\
+  \\
+\end{tabular}
+
+\begin{longtable}{| L{0.5cm} | L{4.2cm} | L{1.5cm} | L{7.2cm} | L{2cm} |}
+  \hline
+  & \textbf{Name of Award}    & \textbf{Amount} & \textbf{Awarding Institution} & \textbf{Date} \\
+  \hline
+  \rownumber. & Supervisor Recognition Award & & UBC Science Co-op & Dec 2021 \\
+  \hline
+\end{longtable}
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \\
+  \textbf{(b).}  & \textbf{Awards for Scholarship (indicate name of award, awarding organizations, date)}                                      \\
+  \\
+\end{tabular}
+
+\begin{longtable}{| L{0.5cm} | L{6.2cm} | L{1.5cm} | L{5.2cm} | L{2cm} |}
+  \hline
+  & \textbf{Name of Award}    & \textbf{Amount} & \textbf{Awarding Institution} & \textbf{Date} \\
+  \hline
+  \rownumber. & NSERC Undergraduate Student Research Award & \$6,500 & Natural Sciences and Engineering Research Council & Summer 2005\\
+  \hline
+  \rownumber. & David L. Coffen Memorial Scholarship in Organic Chemistry & \$800 & Department of Chemistry, University of Toronto & Feb 2006\\
+  \hline
+  \rownumber. & UofT Dept. of Physiology Scholarship & \$2,000 & Department of Physiology, University of Toronto & Sept 2007\\
+  \hline
+  \rownumber. & UofT Fellowship & \$1,600 & University of Toronto & Sept 2008\\
+  \hline
+  \rownumber. & UofT Neuroscience Program CAN-2009 Travel Award & \$500 & Neuroscience Program, University of Toronto & May 2009\\
+  \hline
+  \rownumber. & NSERC Postgraduate Scholarship (PGS D) & \$63,000 & Natural Sciences and Engineering Research Council & 2010-2012\\
+  \hline
+  \rownumber. & Dr. David Williams Award in Biomedical Engineering & \$1,000 & School of Biomedical Engineering, McMaster University & Nov 2012\\
+  \hline
+  \rownumber. & Child \& Family Research Institute M.I.N.D. Postdoctoral Fellowship & \$100,000 & BC-Children’s Research Institute & Jul 2016 – Jul 2018 \\
+  \hline
+\end{longtable}
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \\
+  \textbf{(c).}  & \textbf{Awards for Service (indicate name of award, awarding organizations, and date)}                                      \\
+  \\
+  \textbf{(d).}  & \textbf{Other Awards}                                      \\
+  \\
+  \textbf{14.}  & \textbf{OTHER RELEVANT INFORMATION (Maximum One Page)}                                      \\
+  \\
+\end{tabular}
+
+\pagebreak
+
+\begin{center}
+  \underline{\textbf{THE UNIVERSITY OF BRITISH COLUMBIA}}
+  \vspace{10pt}
+
+  \textbf{Publications Record}
+\end{center}
+
+\noindent % Prevent indentation
+\begin{minipage}[t]{0.33\textwidth}
+  \raggedright
+  \textbf{Date:} \monthyeardate
+\end{minipage}%
+\begin{minipage}[t]{0.33\textwidth}
+  \begin{center}
+    \textbf{Initials:} AMW \hspace{10pt} 
+  \end{center}
+\end{minipage}%
+\begin{minipage}[t]{0.33\textwidth}
+  \raggedleft
+  % \phantom{ sometext }
+  \includegraphics[width=100pt]{/home/weberam2/Dropbox/signature.png}
+\end{minipage}
+
+
+\vspace{15pt}
+
+%%%%%%%%%%%%%%%%%
+%%  %%
+%%%%%%%%%%%%%%%%%
+
+\begin{tabular}{L{8cm} L{6.9cm}}
+  \textbf{SURNAME:} Weber                       & \textbf{FIRSTNAME:} Alexander      \\
+                                                & \textbf{MIDDLE NAME(S):} Mark      \\
+                                                \\
+\end{tabular}
+
+\noindent\textbf{\underline{Authorship Statement}}
+
+\vspace{5pt}
+\noindent* Most Important papers 
+\vspace{5pt}
+
+\noindent\underline{Underline} – Trainees under my direct supervision \\
+\textit{Italic} – My doctoral Supervisor\\
+\textit{\textbf{Bold Italic}} – My postdoctoral supervisor\\
+
+\noindent\textit{Key to my contribution:} \\
+\begin{longtable}{ L{.4cm} L{.2cm}  L{15.2cm}  }
+  FA & - & First Author - typically performed the majority of the experiments in the manuscript, wrote the first draft \\
+  CA & - & Contributing Author – typically helped with experimental design, completed some experiments, edited the draft manuscript \\
+  SA & - & Senior Author – typically conceived the experimental approach, supervised the writing of the manuscript, corresponding author for the paper\\
+\end{longtable}
+
+In the field of MRI, publication is mainly in specialized journals which have
+impact factors ranging between 2 and 6. For example, Magnetic Resonance in
+Medicine, which is the leading journal in the field, has an impact factor of
+3.6. It is very rare that MRI scientists publish in the top journals Nature and
+Science. I am only aware of two recent papers (“Travelling-wave nuclear
+magnetic resonance”, Brunner et al. Nature 2009 and “Magnetic resonance
+fingerprinting”, Ma et al. Nature 2013.) The highest impact an MRI method can
+have is when it is adopted by MRI scanner manufacturers and used in thousands
+of patients.
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \\
+  \textbf{1.}  & \underline{\textbf{REFEREED PUBLICATIONS}}                                      \\
+  \\
+\end{tabular}
+
+\textbf{Summary (November 2024):} 
+
+\hspace{1cm} Number of publications = 20
+
+\hspace{1cm} Number of citations = 351
+
+\hspace{1cm} h-index = 10
+
+\begin{longtable}{| L{5cm} | L{2cm} | L{3.5cm} | L{2.5cm} | L{2.5cm} |}
+  \hline
+  \textbf{Journal Name}    & \textbf{Impact Factor} & \textbf{Category} & \textbf{Rank} & \textbf{Referred Publication List Number} \\
+  \hline
+  American Journal of Neuroradiology & 3.65 & Neuroimaging & 6/14 & 8,10 \\
+  \hline
+  Canadian Medical Association Journal Open & 6.94 & Medicine & 13/160 & 3 \\
+  \hline
+  Cerebral Cortex & 4.86 & Cognitive Neuroscience & 31/115 & 20 \\
+  \hline
+  Frontiers in Neurology & 4.00 & Clinical Neurology & 100/199 & 7 \\
+  \hline
+  Frontiers in Human Neuroscience & 2.33 & Neuropsychology and Physiological Psychology & 21/76 & 16,17 \\
+  \hline
+  Frontiers in Physiology & 4.56 & Physiology & 32/113 & 11 \\
+  \hline
+  Human Brain Mapping & 4.55 & Neurosciences & 23/134 & 12 \\
+  \hline
+  Journal of Magnetic Resonance Imaging & 4.81 & Radiology, Nuclear Medicine and Imaging & 30/333 & 13 \\
+  \hline
+  MAGMA & 2.84 & Radiology, Nuclear Medicine \& Medical Imaging & 43/129 & 6 \\
+  \hline
+  Nature Neuroscience & 21.13 & Neurosciences & 2/267 & 1,2 \\
+  \hline
+  Neuroimage & 7.4 & Cognitive Neuroscience & 7/115 & 14 \\
+  \hline
+  NMR in Biomedicine & 4.04 & Spectroscopy & 9/44 & 9 \\
+  \hline
+  Nutrients & 5.72 & Food Science & 40/389 & 18\\ 
+  \hline
+  PLOS Complex Systems & n/a & Biology & & 19 \\
+  \hline
+  Progress in Neuropsychopharmacology \& Biological Psychiatry & 5.067 & Clinical Neurology & 38/199 & 5 \\
+  \hline
+  Psychiatry Research & 11.22 & Psychiatry & 85/146 & 4 \\
+  \hline
+  Topics in Spinal Cord Injury Rehabilitation & 2.9 & Rehabilitation & 51/161 & 15 \\
+  \hline
+\end{longtable}
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \label{Journal_Publications}
+  \\
+  \textbf{(a)}  & \textbf{Journals}                                      \\
+  \\
+\end{tabular}
+
+\setcounter{magicrownumbers}{0}
+\begin{longtable}{ L{0.5cm}  L{15.2cm}  }
+  \rownumber. & \bibentry{gardeziPDLIM5NotNeuronal2009}. CA (IF 21.126; Citations 15) \\
+  \rownumber. & *\bibentry{weberNtypeCa2Channels2010}. FA (IF 21.126; Citations 129)\\
+              & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{We were the first group to measure neuronal voltage gated calcium channels using physiological levels of Ca$^{2+}$. 
+                Our study helped overturn the generally accepted conductance hierarchy of calcium channels, 
+              and allowed future researchers to use physiologically measured conductance levels for their models.} \\
+  \rownumber. & \bibentry{anglinMetaboliteMeasurementsCaudate2013}. CA (IF 6.938; Citations 9) \\
+  \rownumber. & \bibentry{weberProtonMagneticResonance2014}. FA (IF 11.22; Citations 30) \\
+  \rownumber. & *\bibentry{weberPreliminaryStudyFunctional2014}. FA (IF 5.067; Citations 30) \\
+              % & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{This study was unique and important for several reasons: (1) few studies have focused on childhood OCD; (2) the few fcMRI studies that had been performed on children were seed based, which can introduce bias – our study used independent component analysis for a data-driven approach; and (3) our subjects were medication naïve, suggesting that differences with the control group were due to the disorder, and not due to changes brought on with medication. Our results both supported the generally accepted model in adults, while also implicating other regions outside of this circuit unique to children.} \\
+  \rownumber. & \bibentry{weberPreliminaryStudyEffects2014}. (IF 2.836; Citations 38)  \\
+  \rownumber. & *\bibentry{weberPathologicalInsightsQuantitative2018}. (IF 4.003; Citations 21) \\
+              & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{This paper is unique as it uses a longitudinal research design – meaning that subjects were scanned before and after mild traumatic brain injuries. The results show that changes in myelin water imaging previously reported from the same cohort were likely due to myelin sheath unravelling, as opposed to complete myelin breakdown and removal. This finding is also supported by animal studies performed by other labs. This paper received significant media attention, including several television interviews.} \\
+  \rownumber. & *\bibentry{zhangQuantitativeAnalysisPunctate2019}. SA (IF 3.653 Citations 6) \\
+              % & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{This paper represents my first senior author publication. The article was a simple but effective demonstration of how transformative susceptibility based imaging can be to clinicians.} \\
+  \rownumber. & \bibentry{weberMyelinWaterImaging2020}. (IF 4.044 Citations 23) \\
+              & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{This study is special as we found
+                that R$_{2}^{*}$ mapping and myelin water imaging can provide valuable
+            insights into the development of white matter in neonates. We
+          discovered that R$_{2}^{*}$ values are dependent on both myelin content and
+        fibre orientation. This suggests that these imaging techniques could be
+      used to track white matter development and potentially identify
+    abnormalities in neonates. These findings could have significant
+  implications for understanding and diagnosing neurodevelopmental disorders in
+early life.} \\
+  \rownumber. & \bibentry{weberQuantitativeSusceptibilityMapping2021}. FA (IF 3.653 Citations 2)  \\
+  \rownumber. & \bibentry{campbellFractalBasedAnalysisFMRI2021}. Co-SA (IF 4.556 Citations 7) \\
+              & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{In this
+              study we found that the complexity of fMRI
+            signals varies between different mental states.
+          Specifically, we observed that the complexity of these signals is
+        higher during movie watching compared to an eyes-open resting state.
+      This suggests that the brain's response to complex stimuli, such as
+    movies, involves a more intricate network of neural activity than
+  previously thought. These findings have important implications for our
+understanding of how the brain processes information and could potentially
+influence the design of future neuroimaging studies.} \\
+  \rownumber. & \bibentry{campbellMonofractalAnalysisFunctional2022}. SA (IF 5.038 Citations 15) \\
+  \rownumber. & \bibentry{bartelsOrientationDependenceR22022}. Co-SA (IF 7.4 Citations 8) \\
+  \rownumber. & \bibentry{fothergillEffectsWearingPly2023}. Co-SA (IF 4.62 Citations 0) \\
+  \rownumber. & \bibentry{weber_cerebrovascular_reactivity_2023}. FA (IF 2.9 Citations 0) \\
+  \rownumber. & \bibentry{malikCorticalGreyMatter2024}. CA (IF 2.33 Citations 0) \\
+  \rownumber. & \bibentry{malikm.a.ChangesCorticalGrey2024}. CA (IF 2.33 Citations 0) \\
+  \rownumber. & \bibentry{mcwilliamsIronDeficiencySleep2024}. CA (IF 5.7 Citations 0) \\
+  \rownumber. & \bibentry{mellaTemporalComplexityBOLDSignal2025} SA (IF 3.7 Citations 1)\\
+              & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{This
+                study is significant as it provides insights into the impact of
+                preterm birth on cerebral development. We used the
+                Hurst exponent (H) to measure temporal complexity in resting
+                state functional magnetic resonance signals in preterm and term
+                born infants. The findings suggest that H increases with age
+                and is lower in infants born earlier. The study also found that
+                motor and sensory networks showed the greatest increase in H.
+                The study indicates that H reflects developmental processes
+                in the neonatal brain, with the BOLD signal in preterm infants
+                transforming from anticorrelated to correlated, but reduced
+                compared to term born infants.} \\
+  \rownumber. & \bibentry{drayneLongRangeTemporalCorrelation2025} SA (IF n/a Citations 1)\\
+\end{longtable}
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \label{conference_talks}
+  \\
+  \textbf{(b)}  & \textbf{Conference Proceedings}                                      \\
+  \\
+\end{tabular}
+
+\textbf{Oral Presentations}
+
+\setcounter{magicrownumbers}{0}
+\begin{longtable}{ L{0.5cm}  L{15.2cm}  }
+  \rownumber. & \bibentry{weber_stanley_2009} \\
+  \rownumber. & \bibentry{weber_intoxicated_brain_2011} \\
+  \rownumber. & \bibentry{weber_altered_connectivity_2011} \\
+  \rownumber. & \bibentry{weber_mrs_ofofwm_2012} \\
+  \rownumber. & \bibentry{weber_myelin_imaging_2019} \\
+  \rownumber. & \bibentry{campbell_fractal_analysis_2021} \\
+  \rownumber. & \bibentry{drayneFractalAnalysisBOLD2022} \\
+  \rownumber. & \bibentry{mellaAlteredBrainSignaling2023} \\
+\end{longtable}
+
+\textbf{Poster Presentations}
+
+% \setcounter{magicrownumbers}{0}
+\begin{longtable}{ L{0.5cm}  L{15.2cm}  }
+  \rownumber. & \bibentry{weber-goh-2005} \\
+  \rownumber. & \bibentry{weber-chan-owens-stanley-2008} \\
+  \rownumber. & \bibentry{weber-sheffield-noseworthy-2010} \\
+  \rownumber. & \bibentry{weber-soreni-stanley-greco-2011} \\
+  \rownumber. & \bibentry{pukropskiQuantitativeSusceptibilityMapping2017} \\
+  \rownumber. & \bibentry{weber-jarrett-dadachanji-2017a} \\
+  \rownumber. & \bibentry{weber-jarrett-hernandez-torres-2017} \\
+  \rownumber. & \bibentry{pukropski-weber-jarrett-2017} \\
+  \rownumber. & \bibentry{weber-jarrett-dadachanji-2017a} \\
+  \rownumber. & \bibentry{weber-jarrett-hernandez-torres-2017} \\
+  \rownumber. & \bibentry{meighen-weber-woodward-2018} \\
+  \rownumber. & \bibentry{shcranzer-grabner-weber-2019} \\
+  \rownumber. & \bibentry{zhang-kames-rauscher-weber-2019a} \\
+  \rownumber. & \bibentry{zhang-rauscher-weber-2019b} \\
+  \rownumber. & \bibentry{beyazaei-cho-xiao-friedlander-2019} \\
+  \rownumber. & \bibentry{bartels-doucette-birkl-2021a} \\
+  \rownumber. & \bibentry{bartels-doucette-birkl-2021b} \\
+  \rownumber. & \bibentry{campbell-vanderwal-weber-2021a} \\
+  \rownumber. & \bibentry{weber-zhang-kames-2021} \\
+  \rownumber. & \bibentry{campbell-vanderwal-weber-2021} \\
+  \rownumber. & \bibentry{drayne-miller-grunau-2021a} \\
+  \rownumber. & \bibentry{zhu-chan-grunau-2021} \\
+  \rownumber. & \bibentry{fothergill-birkl-kames-2022a} \\
+  \rownumber. & \bibentry{fothergill-birkl-kames-2022b} \\
+  \rownumber. & \bibentry{campbell-vanderwal-weber-2022} \\
+  \rownumber. & \bibentry{zhu-chan-grunau-2022} \\
+  \rownumber. & \bibentry{bartels-doucette-birkl-2022} \\
+  \rownumber. & \bibentry{ma-bartels-kames-2022} \\
+  \rownumber. & \bibentry{armour-mclean-phillips-2022} \\
+  \rownumber. & \bibentry{mella-weber-2022} \\
+  \rownumber. & \bibentry{mclean-armour-weinberg-2022} \\
+  \rownumber. & \bibentry{zhu-chan-holsti-2022} \\
+  \rownumber. & \bibentry{sochan-vanderwal-giaschi-2023} \\
+  \rownumber. & \bibentry{carmichaelInvestigationRegionalCerebral2024a} \\
+  \rownumber. & \bibentry{carmichaelInvestigationRegionalCerebral2024} \\
+  \rownumber. & \bibentry{sochanAssociationLongRange2024} \\
+\end{longtable}
+
+\setcounter{magicrownumbers}{0}
+\begin{longtable}{ L{0.5cm}  L{15.2cm}  }
+
+\end{longtable}
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \\
+  \textbf{(c)}  & \textbf{Other}                                      \\
+  \\
+\end{tabular}
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \label{non_ref_publications}
+  \\
+  \textbf{2.}  & \underline{\textbf{NON-REFEREED PUBLICATIONS}}                                      \\
+  \\
+  \textbf{(a)}  & \textbf{Journals}                                      \\
+  \\
+\end{tabular}
+
+\setcounter{magicrownumbers}{0}
+\begin{longtable}{ L{0.5cm}  L{15.2cm}  }
+  \rownumber. & \bibentry{weberCerebrovascularReactivityFollowing2022} \\
+  \rownumber. & \bibentry{mellaTemporalComplexityBOLDSignal2023} \\
+  \rownumber. & \bibentry{archibald-etal-mrshinybraina} \
+\end{longtable}
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \\
+  \textbf{(b)}  & \textbf{Conference Proceedings}                                      \\
+  \\
+  \textbf{(c)}  & \textbf{Other}                                      \\
+  \\
+\end{tabular}
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \\
+  \textbf{3.}  & \underline{\textbf{BOOKS}}                                      \\
+  \label{books}
+  \\
+  \textbf{(a)}  & \textbf{Authored}                                      \\
+  \\
+  \textbf{(b)}  & \textbf{Edited}                                      \\
+  \\
+  \textbf{(c)}  & \textbf{Chapters}                                      \\
+  \\
+\end{tabular}
+
+\setcounter{magicrownumbers}{0}
+\begin{longtable}{ L{0.5cm}  L{15.2cm}  }
+  \rownumber. & \bibentry{weberImagingRoleMyelin2018} \\
+\end{longtable}
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \\
+  \textbf{4.}  & \textbf{PATENTS}                                      \\
+  \\
+\end{tabular}
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \\
+  \textbf{5.}  & \textbf{SPECIAL COPYRIGHTS}                                      \\
+  \\
+\end{tabular}
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \\
+  \textbf{6.}  & \textbf{ARTISTIC WORKS, PERFORMANCES, DESIGNS}                                      \\
+  \\
+\end{tabular}
+
+\begin{tabular}{L{.5cm} L{15.2cm} }
+  \label{other_works}
+  \\
+  \textbf{7.}  & \textbf{OTHER WORKS}                                      \\
+  \\
+  \textbf{(a)} & \textbf{Adventure Journalism} \\
+  \\
+\end{tabular}
+
+In my spare time, I like to get outdoors and learn new things. I am passionate
+about exploring mountains in different seasons and in different forms: hiking,
+trail running, rock climbing, ice climbing, skiing, canoeing, etc. Not only are
+these sports challenging, fun and exciting, but they often involve complex
+skill and technical knowledge building, humility, preparedness, first aid and
+survival know-how, determination, the willingness to fail over and over again
+in safe environments in order to learn, leaderships skills, teamwork, trust,
+and more. As well, more and more studies are showing not only the physical and
+mental health benefits of exercise, but also of being in nature. I enjoy
+sharing my stories of success and failure, of learning and growth, and the
+benefits of challenging yourself and the beauty of the outdoors.
+
+\setcounter{magicrownumbers}{0}
+\begin{longtable}{ L{0.5cm}  L{15.2cm}  }
+  \rownumber. & Ice Climbing Ain't for the Faint of Heart, What's Up Yukon, Yukon, Jan 21, 2015 \href{https://bit.ly/2CFAzwY}{link} \\
+  \rownumber. & Adventures in Tombstone Territorial Park, What's Up Yukon, Yukon, Feb 26, 2015 \href{http://bit.ly/2FH3Ifd}{link} \\
+  \rownumber. & Romance and Rock Climbing: A Mexican Adventure, What's Up Yukon, Yukon, Mar 19, 2015 \href{bit.ly/2MwgiPf}{link} \\
+  \rownumber. & Climbing in Thailand, What's Up Yukon, Yukon, Mar 26, 2015 \href{bit.ly/2FI7IMw}{link} \\
+  \rownumber. & Hiking the West Coast Trail: Or, how I learned to love ultra-light backpacking, What's Up Yukon, Yukon, Apr 16, 2015, \href{bit.ly/2R4ITM0}{link} \\
+  \rownumber. & Exploring the \href{Bittersweet}{link} Beauty of the Juneau Ice Cave, What's Up Yukon, Yukon, bit.ly/2R3JXzH \\
+  \rownumber. & Slim’s River West Trail, What's Up Yukon, Yukon, Jun 4, 2015 \href{bit.ly/2U9e5vn}{link} \\
+  \rownumber. & Marathon Man: our resident masochist prepares for the Yukon River Trail Marathon, What's Up Yukon, Yukon, Jul 16, 2015 \href{bit.ly/2REPH8a}{link} \\
+  \rownumber. & Doing the Squirrel-Paddle: An aquatic rodent was the surprise highlight en route from Carmacks to Dawson, What's Up Yukon, Yukon, Jul 23, 2015 \href{bit.ly/2S3eYZ4}{link} \\
+  \rownumber. & Boulder On!: The Ibex Valley offers rock-solid fun for the adventurous this weekend, What's Up Yukon, Yukon, Aug 6, 2015 \href{bit.ly/2sDrsbC}{link} \\
+  \rownumber. & Mind-Blowing Beauty: Even if you’ve done it before, the Chilkoot Trail may offer “the most incredible hike of your life”, What's Up Yukon, Yukon, Aug 13, 2015 \href{bit.ly/2R628VA}{link} \\
+  \rownumber. & Beauty and Humility in the ‘Cirque of the Unclimbables’: Climbing the Lotus Flower Tower (part 1), What's Up Yukon, Yukon, Dec 10, 2015 \href{bit.ly/2Dsucib}{link} \\
+  \rownumber. & In the ‘Cirque of the Unclimbables’ – Part 2, What's Up Yukon, Yukon, Apr 21, 2016 \href{bit.ly/2DuDhaj}{link} \\
+  \rownumber. & In the ‘Cirque of the Unclimbables’ – Part 3, What's Up Yukon, Yukon, Aug 4, 2016 \href{bit.ly/2MrFVR1}{link} \\
+  \rownumber. & In the ‘Cirque of the Unclimbables’ – Part 4, What's Up Yukon, Yukon, Aug 25, 2016 \href{bit.ly/2HpG4p6}{link} \\
+  \rownumber. & Fear and Loathing: My Journey to Completing My First Ironman, Part One, What's Up Yukon, Yukon, Sep 15, 2016 \href{bit.ly/2RK6yX8}{link} \\
+  \rownumber. & Never Again: My Journey to Completing My First Ironman, Part Two, What's Up Yukon, Yukon, Sep 22, 2016 \href{bit.ly/2DtcQSr}{link} \\
+  \rownumber. & Bugaboos – Part 1, What's Up Yukon, Yukon, Dec 14, 2016 \href{bit.ly/2U886qT}{link} \\
+  \rownumber. & Taking the Kain Route: Bugaboos – Part 2, What's Up Yukon, Yukon, Feb 15, 2017 \href{bit.ly/2HsmjNI}{link} \\
+  \rownumber. & Pacing Ourselves to Pigeon Spire: Bugaboos – Part 4, What's Up Yukon, Yukon, Feb 22, \href{bit.ly/2S5a3qA}{link} \\
+  \rownumber. & Taking on Sunshine Crack: Bugaboos – Part 3, What's Up Yukon, Yukon, Feb 22, 2017 \href{bit.ly/2CFn6Ft}{link} \\
+  \rownumber. & There and Back: Hiking the Kalalau Trail, Kauai, Hawaii, What's Up Yukon, Yukon, Oct 4, 2017 \href{bit.ly/2Dtae76}{link} \\
+  \rownumber. & Bear Mountain – A Loving Tribute to a Living Nightmare: First attempt, summer of 2016 – Part 1 of 2 What's Up Yukon, Yukon, Sep 19, 2018 \href{bit.ly/2CFpOLh}{link} \\
+  \rownumber. & Bear Mountain – A Loving Tribute to a Living Nightmare: First attempt, summer of 2016 – Part 2 of 2 What's Up Yukon, Yukon, Oct 24, 2018 \href{bit.ly/2FPeKOV}{link} \\
+  \rownumber. & Bear Mountain – A Redux: Second Attempt - Summer 2017, What's Up Yukon, Yukon, Dec 5, 2018 \href{bit.ly/2DsyUfR}{link} \\
+\end{longtable}
+
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \label{work_submitted}
+  \\
+  \textbf{8.}  & \textbf{WORK SUBMITTED (including publisher and date of submission)}                                      \\
+  \\
+\end{tabular}
+
+\setcounter{magicrownumbers}{0}
+\begin{longtable}{ L{0.5cm}  L{15.2cm}  }
+  \rownumber. & \bibentry{zhu-etal-cmro2} \\
+  \rownumber. & \bibentry{zhu-etal-cmro2} \\
+\end{longtable}
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \label{Work_in_progress}
+  \\
+  \textbf{9.}  & \textbf{WORK IN PROGRESS (including degree of completion)}                                      \\
+  \\
+\end{tabular}
+
+\setcounter{magicrownumbers}{0}
+\begin{longtable}{ L{0.5cm} L{15.2cm} }
+\rownumber. & \bibentry{archibald-etal-sLASER} \textit{Paper written. Waiting for code fix. Plan to submit to} Imaging Neuroscience. \\
+\rownumber. & \bibentry{archibald-etal-mrshinybrain} \textit{Paper written. Waiting for reconsenting process. Plan to submit to} Scientific Data. \\
+  \rownumber. & \bibentry{sochan-etal-fmri} \textit{Currently in the writing phase.} \\
+\rownumber. & \bibentry{carmichael-etal-magnetic} \textit{Editing phase. Plan to submit to} Pediatric Radiology. \\
+  \rownumber. & \bibentry{alexandermarkweberInvestigatingHeadImpacts} \textit{We are currently in the data analysis period. I have helped with designing the pulse sequences and with data analysis.} \\
+  \rownumber. & \bibentry{evelynarmourFractalAnalysisResting} \textit{Data analysis complete; M McLean is writing two papers.} \\
+\end{longtable}
+
+\begin{tabular}{L{.5cm} L{18.9cm} }
+  \\
+  \textbf{10.}  & \textbf{ONGOING COLLABORATIONS}                                      \\
+  \\
+\end{tabular}
+
+\textbf{Local}
+
+\begin{longtable}{ L{0.5cm}  L{15.2cm}  }
+  \rownumber. & Ruth Grunau, Neonatal brain MRI \\
+  \rownumber. & Dewi Schrader, Focal cortical dysplasia detection \\
+  \rownumber. & Andrei Krassioukov, ICORD: Spinal cord injury \\
+  \rownumber. & Stefan Reinsberg, Physics \& Astronomy: Brain oxygenation using cerebro vascular reactivity \\
+  \rownumber. & David Li, Radiology: Neurotrauma \\
+  \rownumber. & Jack Taunton, Sports Medicine: Concussion \\
+  \rownumber. & Todd Woodward, Principal component analysis of fractional anisotropy in white matter of subjects with schizophrenia \\
+  \rownumber. & Osman Ipsiroglu, Iron deficiency in children and adolescents with restless leg syndrome \\
+  \rownumber. & Tim Oberlander, Gut microbiome and brain MRI \\
+  \rownumber. & Tammy Vanderwal, fractal dynamics of fMRI \\
+  \rownumber. & Evelyn Stewart, fractal dynamics of fMRI in children with OCD \\
+  \rownumber. & Donna Lang, impact of e-cigarettes containing nicotine on white matter microstructure in young adults \\
+  \rownumber. & Osman Ipsiroglu, Sleep and concussion study \\
+  \rownumber. & Ruth Grunau, Canadian Brain Platform (CNBP): a next-generation framework for the early identification of behavioural deficits in at-risk newborns \\
+  \rownumber. & Anita Datta: Rett Syndrome MRI  \\
+  \rownumber. & Jonathan Rayment: hyperpolarized xenon lung MR imaging \\
+  \rownumber. & Shannon Kolind: Hyperfine portable 64mT MRI Scanner  \\
+  \rownumber. & Tamara Vanderwal: Mutli-echo fMRI pulse sequence development and data analysis \\
+  \rownumber. & Deborah Giaschi: MEGA-PRESS J-editing for GABA measurement \\
+  \rownumber. & Jess Archibald: ASL-prep help with ASL processing \\
+  \rownumber. & Jess Archibald: ShinyR Open Source Spectroscopy \\
+  \rownumber. & Jill Zwicker: processing large imaging datasets on high performance computing clusters (UBC’s Sockeye or BCCHR’s GPCC) \\
+  \rownumber. & Jill Zwicker: VBM analysis of children with Developmental Coordination Disorder \\
+\end{longtable}
+
+\noindent \textbf{National and International}
+
+\setcounter{magicrownumbers}{0}
+
+\begin{longtable}{ L{0.5cm}  L{15.2cm}  }
+  \rownumber. & Günter Grabner, Department of Radiologic Technology, Carinthia University of Applied Sciences, Klagenfurt, Austria: Denoising of myeling water imaging \\
+  \rownumber. & Steven Miller, Toronto: Neonatal brain MRI \\
+  \rownumber. & Yuting Zhang, Department of Radiology, Children’s Hospital of Chongqing Medical University: Neonatal brain MRI,  \\
+  \rownumber. & Department of Radiology, Vienna Medical University: Advanced MRI for the detection of focal cortical dysplasia \\
+\end{longtable}
+
+% \nobibliography{_Weber}
+\nobibliography{test}
+\end{document}
+

@@ -1,0 +1,89 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: UBC_CV.aux
+The style file: mycv.bst
+Database file #1: test.bib
+Warning--empty pages in weber_stanley_2009
+Warning--empty pages in weber_intoxicated_brain_2011
+Warning--empty pages in weber_altered_connectivity_2011
+Warning--empty pages in weber_mrs_ofofwm_2012
+Warning--empty pages in weber_myelin_imaging_2019
+Warning--empty pages in campbell_fractal_analysis_2021
+Warning--empty pages in drayneFractalAnalysisBOLD2022
+Warning--empty pages in mellaAlteredBrainSignaling2023
+Warning--empty pages in weber-goh-2005
+Warning--empty pages in weber-chan-owens-stanley-2008
+Warning--empty pages in weber-sheffield-noseworthy-2010
+Warning--empty pages in weber-soreni-stanley-greco-2011
+Warning--empty pages in pukropskiQuantitativeSusceptibilityMapping2017
+Warning--empty pages in weber-jarrett-dadachanji-2017a
+Warning--empty pages in weber-jarrett-hernandez-torres-2017
+Warning--empty pages in pukropski-weber-jarrett-2017
+Warning--empty pages in meighen-weber-woodward-2018
+Warning--empty pages in shcranzer-grabner-weber-2019
+Warning--empty pages in zhang-kames-rauscher-weber-2019a
+Warning--empty pages in zhang-rauscher-weber-2019b
+Warning--empty pages in beyazaei-cho-xiao-friedlander-2019
+Warning--empty pages in bartels-doucette-birkl-2021a
+Warning--empty pages in bartels-doucette-birkl-2021b
+Warning--empty pages in campbell-vanderwal-weber-2021a
+Warning--empty pages in weber-zhang-kames-2021
+Warning--empty pages in campbell-vanderwal-weber-2021
+Warning--empty pages in drayne-miller-grunau-2021a
+Warning--empty pages in zhu-chan-grunau-2021
+Warning--empty pages in fothergill-birkl-kames-2022a
+Warning--empty pages in fothergill-birkl-kames-2022b
+Warning--empty pages in campbell-vanderwal-weber-2022
+Warning--empty pages in zhu-chan-grunau-2022
+Warning--empty pages in bartels-doucette-birkl-2022
+Warning--empty pages in ma-bartels-kames-2022
+Warning--empty pages in armour-mclean-phillips-2022
+Warning--empty pages in mella-weber-2022
+Warning--empty pages in mclean-armour-weinberg-2022
+Warning--empty pages in zhu-chan-holsti-2022
+Warning--empty pages in sochan-vanderwal-giaschi-2023
+Warning--empty pages in carmichaelInvestigationRegionalCerebral2024a
+Warning--empty pages in carmichaelInvestigationRegionalCerebral2024
+Warning--empty pages in sochanAssociationLongRange2024
+You've used 73 entries,
+            2645 wiz_defined-function locations,
+            953 strings with 25342 characters,
+and the built_in function-call counts, 114459 in all, are:
+= -- 13413
+> -- 1322
+< -- 1
++ -- 549
+- -- 392
+* -- 7543
+:= -- 9389
+add.period$ -- 275
+call.type$ -- 73
+change.case$ -- 84
+chr.to.int$ -- 0
+cite$ -- 115
+duplicate$ -- 15334
+empty$ -- 9027
+format.name$ -- 465
+if$ -- 24336
+int.to.chr$ -- 0
+int.to.str$ -- 73
+missing$ -- 1044
+newline$ -- 385
+num.names$ -- 73
+pop$ -- 7617
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1346
+stack$ -- 0
+substring$ -- 16906
+swap$ -- 3259
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 42
+while$ -- 505
+width$ -- 75
+write$ -- 814
+(There were 42 warnings)
