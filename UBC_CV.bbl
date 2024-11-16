@@ -18,6 +18,16 @@ Gardezi SR, \textbf{Weber} AM, Li Q, Wong FK, \& Stanley EF.
   \textbf{13(11)}:1348--1350.
 \newblock doi: \href{http://doi.org/10.1038/nn.2657}{10.1038/nn.2657}.
 
+\bibitem{warsiBrainFractalBloodOxygen2013}
+Warsi MA, \textbf{Weber} AM, \& \textit{Noseworthy} MD.
+\newblock Brain {{Fractal Blood-Oxygen Level Dependent}} ({{BOLD}})
+  {{Signals}}: {{The Effect}} of {{MRI Acquisition Parameters}} on {{Temporal
+  Fractal Dimension}} ({{FD}}) {{Stability}}.
+\newblock \emph{Visualization, Image Processing and Computation in
+  Biomedicine}, 2013; \textbf{2(1)}.
+\newblock doi:
+  \href{http://doi.org/10.1615/VisualizImageProcComputatBiomed.2013006007}{10.1615/VisualizImageProcComputatBiomed.2013006007}.
+
 \bibitem{anglinMetaboliteMeasurementsCaudate2013}
 Anglin RE, Rosebush PI, \textit{Noseworthy} MD, Tarnopolsky M, \textbf{Weber}
   AM, \textit{Soreni} N, \& Mazurek MF.
@@ -537,6 +547,12 @@ Archibald J, \textbf{Weber} AM, Scheuren P, Ortiz O, Choles C, Lee J, Z{\"o}lch
   Support in Preterm Neonates.
 \newblock \emph{AJNR: American Journal of Neuroradiology}, October 2024; .
 
+\bibitem{carmichael-etal-magnetic}
+\underline{Carmichael} T, \underline{Zhu} A, Grunau RE, \& \textbf{Weber} AM.
+\newblock The Application of Magnetic Susceptibility Separation for Measuring
+  Cerebral Oxygenation in Preterm Neonates.
+\newblock \emph{Pediatric Research}, October 2024; .
+
 \bibitem{archibald-etal-sLASER}
 Archibald J, Near J, \textbf{Weber} AM, Kramer JLK, Mikkelsen M, Craven A,
   Oeltzschner G, MacMillan EL, \& Z{\"o}lch N.
@@ -553,11 +569,6 @@ Archibald J, \textbf{Weber} AM, Scheuren P, Ortiz O, Choles C, Lee J, Z{\"o}lch
 \underline{Sochan} L, Vanderwal T, Giaschi D, \& \textbf{Weber} AM.
 \newblock Association between Long Range Temporal Correlations in {{fMRI BOLD}}
   Signal and the Excitatory-Inhibitory Transmitter Ratio.
-
-\bibitem{carmichael-etal-magnetic}
-\underline{Carmichael} T, \underline{Zhu} A, Grunau RE, \& \textbf{Weber} AM.
-\newblock The Application of Magnetic Susceptibility Separation for Measuring
-  Cerebral Oxygenation in Preterm Neonates.
 
 \bibitem{alexandermarkweberInvestigatingHeadImpacts}
 {Alexander Mark \textbf{Weber}}, {Alexander \textit{\textbf{Rauscher}}}, \&

@@ -45,45 +45,45 @@ Warning--empty pages in sochan-vanderwal-giaschi-2023
 Warning--empty pages in carmichaelInvestigationRegionalCerebral2024a
 Warning--empty pages in carmichaelInvestigationRegionalCerebral2024
 Warning--empty pages in sochanAssociationLongRange2024
-You've used 73 entries,
+You've used 74 entries,
             2645 wiz_defined-function locations,
-            953 strings with 25342 characters,
-and the built_in function-call counts, 114459 in all, are:
-= -- 13413
-> -- 1322
+            962 strings with 25824 characters,
+and the built_in function-call counts, 115504 in all, are:
+= -- 13529
+> -- 1333
 < -- 1
-+ -- 549
-- -- 392
-* -- 7543
-:= -- 9389
-add.period$ -- 275
-call.type$ -- 73
++ -- 553
+- -- 395
+* -- 7620
+:= -- 9484
+add.period$ -- 280
+call.type$ -- 74
 change.case$ -- 84
 chr.to.int$ -- 0
-cite$ -- 115
-duplicate$ -- 15334
-empty$ -- 9027
-format.name$ -- 465
-if$ -- 24336
+cite$ -- 116
+duplicate$ -- 15479
+empty$ -- 9111
+format.name$ -- 469
+if$ -- 24556
 int.to.chr$ -- 0
-int.to.str$ -- 73
-missing$ -- 1044
-newline$ -- 385
-num.names$ -- 73
-pop$ -- 7617
+int.to.str$ -- 74
+missing$ -- 1057
+newline$ -- 392
+num.names$ -- 74
+pop$ -- 7679
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1346
+skip$ -- 1348
 stack$ -- 0
-substring$ -- 16906
-swap$ -- 3259
+substring$ -- 17047
+swap$ -- 3290
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 42
-while$ -- 505
-width$ -- 75
-write$ -- 814
+while$ -- 509
+width$ -- 76
+write$ -- 830
 (There were 42 warnings)
