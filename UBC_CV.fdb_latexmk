@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex UBC_CV"] 1731785440 "UBC_CV.aux" "UBC_CV.bbl" "UBC_CV" 1731785950
+["bibtex UBC_CV"] 1731799694 "UBC_CV.aux" "UBC_CV.bbl" "UBC_CV" 1731800409
   "./mycv.bst" 1712271937 27989 6958c6f23d67937c37f6a47da356222b ""
-  "UBC_CV.aux" 1731785797 11975 a9968deb1e7257345e68fac5e0461632 "pdflatex"
+  "UBC_CV.aux" 1731800409 11975 f7736f3b6d94b4eda3472a5f371855ac "pdflatex"
   "test.bib" 1731785440 68055 049e5771a15acdd373354597965399e5 ""
   (generated)
   "UBC_CV.bbl"
   "UBC_CV.blg"
-["pdflatex"] 1731785950 "UBC_CV.tex" "UBC_CV.pdf" "UBC_CV" 1731785950
+["pdflatex"] 1731800408 "UBC_CV.tex" "UBC_CV.pdf" "UBC_CV" 1731800409
   "/etc/texmf/web2c/texmf.cnf" 1715202138 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/weberam2/Dropbox/signature.png" 1474494152 25954 f4b31b68c731ad386bbe08770ab4bbb3 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -123,10 +123,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1715203549 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1715203580 2798208 762d512197f011fd00e6cef215477187 ""
-  "UBC_CV.aux" 1731785797 11975 a9968deb1e7257345e68fac5e0461632 "pdflatex"
-  "UBC_CV.bbl" 1731785440 28325 4c1aaa58166a540fb97c2b1b6e7edf1c "bibtex UBC_CV"
-  "UBC_CV.out" 1731785797 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "UBC_CV.tex" 1731785948 120882 2b6d2ed616d8e4506d2a144e9589c85e ""
+  "UBC_CV.aux" 1731800409 11975 f7736f3b6d94b4eda3472a5f371855ac "pdflatex"
+  "UBC_CV.bbl" 1731799694 28325 c2035b25b20a1e0a0703a5130e738d3a "bibtex UBC_CV"
+  "UBC_CV.out" 1731800409 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "UBC_CV.tex" 1731800407 122136 31c0e42b0e585eaad413b332d280654a ""
   (generated)
   "UBC_CV.aux"
   "UBC_CV.log"

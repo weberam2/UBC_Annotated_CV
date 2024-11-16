@@ -28,11 +28,11 @@
 \usepackage{array,etoolbox} % a different table option
 \newcounter{magicrownumbers}
 \newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}}
-
 \preto\tabular{\setcounter{magicrownumbers}{0}}
 % \newcounter{magicrownumbers}
 % \def\rownumber{}
-
+\usepackage{etoolbox} % Provides looping and counters
+\newcounter{rowcount}
 % \usepackage{natbib}
 \usepackage{float} % keep tables from floating away
 % \usepackage{biblatex}%
@@ -367,9 +367,9 @@ In addition to the teaching described above, I am an associate member in the Dep
     \hline
     Level                  & Total & Current & Completed \\
     \hline
-    Undergraduate Students & 6     & 2       & 4         \\
+    Undergraduate Students & 6     & 1       & 5         \\
     \hline
-    Graduate Students      & 5     & 1       & 4         \\
+    Graduate Students      & 5     & 0       & 5         \\
     \hline
     Postgraduate MD        & 1     & 0       & 1         \\
     \hline
@@ -379,28 +379,28 @@ In addition to the teaching described above, I am an associate member in the Dep
 \noindent \textbf{Summer, Co-op, and Undergraduate Students Supervised}
 \\
 
-\noindent Total: \underline{6} (2 current, 4 completed) \\
-Summer Student Total: \underline{3} (2 current, 1 completed) \\
+\noindent Total: \underline{6} (1 current, 5 completed) \\
+Summer Student Total: \underline{2} (0 current, 2 completed) \\
 Co-op Student Total: \underline{2} (0 current, 2 completed) \\
-Undergraduate Student Total: \underline{1} (0 current, 1 completed) \\
+Undergraduate Student Total: \underline{2} (1 current, 1 completed) \\
 
 \begin{table}[H]
   \begin{adjustwidth}{-1cm}{-1cm}
     \small
     \centering
-    \begin{tabular}{|l|L{3cm}|l|l|L{2.5cm}|L{5cm}|}
+    \begin{tabular}{|l|L{3cm}|l|l|L{2.5cm}|L{4cm}|}
       \hline
       \multicolumn{1}{|l|}{\multirow{2}{*}{\textit{\textbf{Student Name}}}} & \multicolumn{1}{l|}{\multirow{2}{*}{\textit{\textbf{Program Type}}}} & \multicolumn{2}{c|}{\textit{\textbf{Year}}}  & \multicolumn{1}{l|}{\multirow{2}{*}{\textit{\textbf{Supervisory Role}}}} & \multirow{2}{*}{\textit{\textbf{Achievements}}}                                                                                                       \\ \cline{3-4}
       \multicolumn{1}{|l|}{}                                       & \multicolumn{1}{l|}{}                                       & \multicolumn{1}{l|}{\textit{\textbf{Start}}} & \multicolumn{1}{l|}{\textit{\textbf{Finish}}}                            & \multicolumn{1}{l|}{}                  &                                                                                                     \\ \hline
       \multicolumn{6}{|l|}{\textit{\textbf{Summer Students}}}                                                                                                                                                                                                                                                                                                                    \\ \hline
       Anna Pukropski                                               & German Academic Exchange Service (DAAD)                     & Aug 2016                            & Nov 2016                                                        & Co-Supervisor                                  & - Shared first author publication in Frontiers Neurology \newline - Currently finishing her Masters \\ \hline
       Serafina Ermolenko & Volunteer & May 2024 & September 2024 & Primary Supervisor & \\ \hline
-      Floria Lu & Volunteer & May 2024 & September 2024 & Primary Supervisor & \\ \hline
       \multicolumn{6}{|l|}{\textit{\textbf{Co-op Students}}}                                                                                                                                                                                                                                                                                                                    \\ \hline
       Olivia Campbell & UBC Co-op Student Combined Major in Computer Science, Life Science, and Physics & May 2020 & May 2021 & Primary Supervisor & BB\&D Research Day: Lightning Talk 2020 \\ \hline
       Johann Drayne & UBC Co-op Student, Honours Physics & Jan 2021 & Aug 2021 & Primary Supervisor & ISMRM 2022 Oral presentation; \newline One first-author paper (under review) \\ \hline
       \multicolumn{6}{|l|}{\textit{\textbf{Undergraduate Students}}}                                                                                                                                                                                                                                                                                                                    \\ \hline
       Thomas Carmichael & UBC Honours Integrated Sciences & Sept 2023 & April 2024 & Primary Supervisor & \\ \hline
+      Floria Lu & Volunteer & May 2024 & Present & Primary Supervisor & \\ \hline
     \end{tabular}
   \end{adjustwidth}
 \end{table}
@@ -408,8 +408,8 @@ Undergraduate Student Total: \underline{1} (0 current, 1 completed) \\
 \noindent \textbf{Graduate Students Supervised}
 \\
 
-\noindent Total: \underline{5} (1 current, 4 completed) \\
-M. Sc.  Total \underline{5};    (1 current, 4 completed) \\
+\noindent Total: \underline{5} (0 current, 5 completed) \\
+M. Sc.  Total \underline{5};    (0 current, 5 completed) \\
 Ph. D.  Total \underline{0};    (0 current, 0 completed)
 
 \setlength\LTleft{-1cm}
@@ -462,9 +462,9 @@ Residents Total: 0 (0 current, 0 completed)
 \noindent \textbf{Graduate Student Supervisory Committees }
 \\
 
-\noindent Total: \underline{2} (1 current, 1 completed)\\
+\noindent Total: \underline{3} (2 current, 1 completed)\\
 M. Sc. Total: \underline{2} (1 current, 1 completed)\\
-Ph. D. Total: \underline{0} (0 current, 0 completed)
+Ph. D. Total: \underline{1} (1 current, 0 completed)
 
 
 \begin{table}[H]
@@ -482,6 +482,24 @@ Ph. D. Total: \underline{0} (0 current, 0 completed)
       Siara Kainth & Thesis & Sep 2023 & & Jill Zwicker & Rehabilitation Sciences Program & \\ \hline
     \end{tabular}
   \end{adjustwidth}
+\end{table}
+
+
+\noindent \textbf{Research Staff Supervision}
+\\
+
+\begin{table}[H]
+  \begin{adjustwidth}{-1cm}{-1cm}
+    \small
+  \centering
+  \begin{tabular}{|L{4cm}|L{4cm}|L{2cm}|L{2cm}|L{3cm}|}
+    \hline
+    \textbf{\textit{Name}}                  & \textbf{\textit{Program Type}} & \textbf{\textit{Start}} & \textbf{\textit{Finish}} & \textbf{\textit{Principal Investigator}} \\
+    \hline
+    Isabel Wilson, BSc        & Research Assistant     & Sept 2024       & Present & Alexander Weber         \\
+    \hline
+  \end{tabular}
+\end{adjustwidth}
 \end{table}
 %------------------------------------------------
 
@@ -1243,6 +1261,68 @@ of patients.
   \\
 \end{tabular}
 
+%make table here so that I don't have to keep updating the number of references
+\newcommand{\referencestable}{%
+  \setcounter{rowcount}{0}
+  \stepcounter{rowcount}\therowcount. & \bibentry{gardezipdlim5notneuronal2009}. CA (IF 21.13; Citations 15) \\
+  \stepcounter{rowcount}\therowcount. & *\bibentry{weberNtypeCa2Channels2010}. FA (IF 21.13; Citations 131)\\
+              & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{We were the first group to measure neuronal voltage gated calcium channels using physiological levels of Ca$^{2+}$. 
+                Our study helped overturn the generally accepted conductance hierarchy of calcium channels, 
+              and allowed future researchers to use physiologically measured conductance levels for their models.} \\
+  \stepcounter{rowcount}\therowcount. & \bibentry{warsiBrainFractalBloodOxygen2013}. CA (IF 1.3; Citations 1) \\
+  \stepcounter{rowcount}\therowcount. & \bibentry{anglinMetaboliteMeasurementsCaudate2013}. CA (IF 6.94; Citations 8) \\
+  \stepcounter{rowcount}\therowcount. & \bibentry{weberProtonMagneticResonance2014}. FA (IF 11.22; Citations 32) \\
+  \stepcounter{rowcount}\therowcount. & \bibentry{weberPreliminaryStudyFunctional2014}. FA (IF 5.07; Citations 33) \\
+              % & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{This study was unique and important for several reasons: (1) few studies have focused on childhood OCD; (2) the few fcMRI studies that had been performed on children were seed based, which can introduce bias – our study used independent component analysis for a data-driven approach; and (3) our subjects were medication naïve, suggesting that differences with the control group were due to the disorder, and not due to changes brought on with medication. Our results both supported the generally accepted model in adults, while also implicating other regions outside of this circuit unique to children.} \\
+  \stepcounter{rowcount}\therowcount. & \bibentry{weberPreliminaryStudyEffects2014}. (IF 2.84; Citations 43)  \\
+  \stepcounter{rowcount}\therowcount. & *\bibentry{weberPathologicalInsightsQuantitative2018}. (IF 4.00; Citations 24) \\
+              & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{This paper is unique as it uses a longitudinal research design – meaning that subjects were scanned before and after mild traumatic brain injuries. The results show that changes in myelin water imaging previously reported from the same cohort were likely due to myelin sheath unravelling, as opposed to complete myelin breakdown and removal. This finding is also supported by animal studies performed by other labs. This paper received significant media attention, including several television interviews.} \\
+  \stepcounter{rowcount}\therowcount. & \bibentry{zhangQuantitativeAnalysisPunctate2019}. SA (IF 3.65 Citations 6) \\
+              % & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{This paper represents my first senior author publication. The article was a simple but effective demonstration of how transformative susceptibility based imaging can be to clinicians.} \\
+  \stepcounter{rowcount}\therowcount. & *\bibentry{weberMyelinWaterImaging2020}. (IF 4.04 Citations 26) \\
+              & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{This study is special as we found
+                that R$_{2}^{*}$ mapping and myelin water imaging can provide valuable
+            insights into the development of white matter in neonates. We
+          discovered that R$_{2}^{*}$ values are dependent on both myelin content and
+        fibre orientation. This suggests that these imaging techniques could be
+      used to track white matter development and potentially identify
+    abnormalities in neonates. These findings could have significant
+  implications for understanding and diagnosing neurodevelopmental disorders in
+early life.} \\
+  \stepcounter{rowcount}\therowcount. & \bibentry{weberQuantitativeSusceptibilityMapping2021}. FA (IF 3.65 Citations 3)  \\
+  \stepcounter{rowcount}\therowcount. & *\bibentry{campbellFractalBasedAnalysisFMRI2021}. Co-SA (IF 4.56 Citations 9) \\
+              & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{In this
+              study we found that the complexity of fMRI
+            signals varies between different mental states.
+          Specifically, we observed that the complexity of these signals is
+        higher during movie watching compared to an eyes-open resting state.
+      This suggests that the brain's response to complex stimuli, such as
+    movies, involves a more intricate network of neural activity than
+  previously thought. These findings have important implications for our
+understanding of how the brain processes information and could potentially
+influence the design of future neuroimaging studies.} \\
+  \stepcounter{rowcount}\therowcount. & \bibentry{campbellMonofractalAnalysisFunctional2022}. SA (IF 5.04 Citations 21) \\
+  \stepcounter{rowcount}\therowcount. & \bibentry{bartelsOrientationDependenceR22022}. Co-SA (IF 7.4 Citations 13) \\
+  \stepcounter{rowcount}\therowcount. & \bibentry{fothergillEffectsWearingPly2023}. Co-SA (IF 4.62 Citations 0) \\
+  \stepcounter{rowcount}\therowcount. & \bibentry{weber_cerebrovascular_reactivity_2023}. FA (IF 2.9 Citations 1) \\
+  \stepcounter{rowcount}\therowcount. & \bibentry{malikCorticalGreyMatter2024}. CA (IF 2.33 Citations 1) \\
+  \stepcounter{rowcount}\therowcount. & \bibentry{malikm.a.ChangesCorticalGrey2024}. CA (IF 2.33 Citations 2) \\
+  \stepcounter{rowcount}\therowcount. & \bibentry{mcwilliamsIronDeficiencySleep2024}. CA (IF 5.7 Citations 1) \\
+  \stepcounter{rowcount}\therowcount. & \bibentry{drayneLongRangeTemporalCorrelation2025} SA (IF n/a Citations 1)\\
+  \stepcounter{rowcount}\therowcount. & *\bibentry{mellaTemporalComplexityBOLDSignal2025} SA (IF 3.7 Citations 1)\\
+              & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{This
+                study is significant as it provides insights into the impact of
+                preterm birth on cerebral development. We used the
+                Hurst exponent (H) to measure temporal complexity in resting
+                state functional magnetic resonance signals in preterm and term
+                born infants. The findings suggest that H increases with age
+                and is lower in infants born earlier. The study also found that
+                motor and sensory networks showed the greatest increase in H.
+                The study indicates that H reflects developmental processes
+                in the neonatal brain, with the BOLD signal in preterm infants
+                transforming from anticorrelated to correlated, but reduced
+                compared to term born infants.} \\
+}
 \textbf{Summary (November 2024):} 
 
 \hspace{1cm} Number of publications = 21
@@ -1291,7 +1371,7 @@ of patients.
   \hline
   Topics in Spinal Cord Injury Rehabilitation & 2.9 & Rehabilitation & 51/161 & 16 \\
   \hline
-  Visualization, Image Processing and Computation in Biomedicine & 1.3 & Imaging & n/a & 3
+  Visualization, Image Processing and Computation in Biomedicine & 1.3 & Imaging & n/a & 3 \\
   \hline
 \end{longtable}
 
@@ -1302,66 +1382,9 @@ of patients.
   \\
 \end{tabular}
 
-\setcounter{magicrownumbers}{0}
+
 \begin{longtable}{ L{0.5cm}  L{15.2cm}  }
-  \rownumber. & \bibentry{gardeziPDLIM5NotNeuronal2009}. CA (IF 21.13; Citations 15) \\
-  \rownumber. & *\bibentry{weberNtypeCa2Channels2010}. FA (IF 21.13; Citations 131)\\
-              & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{We were the first group to measure neuronal voltage gated calcium channels using physiological levels of Ca$^{2+}$. 
-                Our study helped overturn the generally accepted conductance hierarchy of calcium channels, 
-              and allowed future researchers to use physiologically measured conductance levels for their models.} \\
-  \rownumber. & \bibentry{warsiBrainFractalBloodOxygen2013}. CA (IF 1.3; Citations 1) \\
-  \rownumber. & \bibentry{anglinMetaboliteMeasurementsCaudate2013}. CA (IF 6.94; Citations 8) \\
-  \rownumber. & \bibentry{weberProtonMagneticResonance2014}. FA (IF 11.22; Citations 32) \\
-  \rownumber. & *\bibentry{weberPreliminaryStudyFunctional2014}. FA (IF 5.07; Citations 33) \\
-              % & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{This study was unique and important for several reasons: (1) few studies have focused on childhood OCD; (2) the few fcMRI studies that had been performed on children were seed based, which can introduce bias – our study used independent component analysis for a data-driven approach; and (3) our subjects were medication naïve, suggesting that differences with the control group were due to the disorder, and not due to changes brought on with medication. Our results both supported the generally accepted model in adults, while also implicating other regions outside of this circuit unique to children.} \\
-  \rownumber. & \bibentry{weberPreliminaryStudyEffects2014}. (IF 2.84; Citations 43)  \\
-  \rownumber. & *\bibentry{weberPathologicalInsightsQuantitative2018}. (IF 4.00; Citations 24) \\
-              & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{This paper is unique as it uses a longitudinal research design – meaning that subjects were scanned before and after mild traumatic brain injuries. The results show that changes in myelin water imaging previously reported from the same cohort were likely due to myelin sheath unravelling, as opposed to complete myelin breakdown and removal. This finding is also supported by animal studies performed by other labs. This paper received significant media attention, including several television interviews.} \\
-  \rownumber. & *\bibentry{zhangQuantitativeAnalysisPunctate2019}. SA (IF 3.65 Citations 6) \\
-              % & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{This paper represents my first senior author publication. The article was a simple but effective demonstration of how transformative susceptibility based imaging can be to clinicians.} \\
-  \rownumber. & \bibentry{weberMyelinWaterImaging2020}. (IF 4.04 Citations 26) \\
-              & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{This study is special as we found
-                that R$_{2}^{*}$ mapping and myelin water imaging can provide valuable
-            insights into the development of white matter in neonates. We
-          discovered that R$_{2}^{*}$ values are dependent on both myelin content and
-        fibre orientation. This suggests that these imaging techniques could be
-      used to track white matter development and potentially identify
-    abnormalities in neonates. These findings could have significant
-  implications for understanding and diagnosing neurodevelopmental disorders in
-early life.} \\
-  \rownumber. & \bibentry{weberQuantitativeSusceptibilityMapping2021}. FA (IF 3.65 Citations 3)  \\
-  \rownumber. & \bibentry{campbellFractalBasedAnalysisFMRI2021}. Co-SA (IF 4.56 Citations 9) \\
-              & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{In this
-              study we found that the complexity of fMRI
-            signals varies between different mental states.
-          Specifically, we observed that the complexity of these signals is
-        higher during movie watching compared to an eyes-open resting state.
-      This suggests that the brain's response to complex stimuli, such as
-    movies, involves a more intricate network of neural activity than
-  previously thought. These findings have important implications for our
-understanding of how the brain processes information and could potentially
-influence the design of future neuroimaging studies.} \\
-  \rownumber. & \bibentry{campbellMonofractalAnalysisFunctional2022}. SA (IF 5.04 Citations 21) \\
-  \rownumber. & \bibentry{bartelsOrientationDependenceR22022}. Co-SA (IF 7.4 Citations 13) \\
-  \rownumber. & \bibentry{fothergillEffectsWearingPly2023}. Co-SA (IF 4.62 Citations 0) \\
-  \rownumber. & \bibentry{weber_cerebrovascular_reactivity_2023}. FA (IF 2.9 Citations 1) \\
-  \rownumber. & \bibentry{malikCorticalGreyMatter2024}. CA (IF 2.33 Citations 1) \\
-  \rownumber. & \bibentry{malikm.a.ChangesCorticalGrey2024}. CA (IF 2.33 Citations 2) \\
-  \rownumber. & \bibentry{mcwilliamsIronDeficiencySleep2024}. CA (IF 5.7 Citations 1) \\
-  \rownumber. & \bibentry{mellaTemporalComplexityBOLDSignal2025} SA (IF 3.7 Citations 1)\\
-              & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{This
-                study is significant as it provides insights into the impact of
-                preterm birth on cerebral development. We used the
-                Hurst exponent (H) to measure temporal complexity in resting
-                state functional magnetic resonance signals in preterm and term
-                born infants. The findings suggest that H increases with age
-                and is lower in infants born earlier. The study also found that
-                motor and sensory networks showed the greatest increase in H.
-                The study indicates that H reflects developmental processes
-                in the neonatal brain, with the BOLD signal in preterm infants
-                transforming from anticorrelated to correlated, but reduced
-                compared to term born infants.} \\
-  \rownumber. & \bibentry{drayneLongRangeTemporalCorrelation2025} SA (IF n/a Citations 1)\\
+  \referencestable
 \end{longtable}
 
 \begin{tabular}{L{.5cm} L{18.9cm} }

@@ -3,7 +3,7 @@
 \providecommand{\urlprefix}{URL }
 \providecommand{\eprint}[2][]{\url{#2}}
 
-\bibitem{gardeziPDLIM5NotNeuronal2009}
+\bibitem{gardezipdlim5notneuronal2009}
 Gardezi SR, \textbf{Weber} AM, Li Q, Wong FK, \& Stanley EF.
 \newblock {{PDLIM5}} Is Not a Neuronal {{CaV2}}.2 Adaptor Protein.
 \newblock \emph{Nature Neuroscience}, August 2009; \textbf{12(8)}:957--958.
@@ -176,15 +176,6 @@ McWilliams S, Hill O, Ipsiroglu OS, Clemens S, \textbf{Weber} AM, Chen M,
 \newblock \emph{Nutrients}, January 2024; \textbf{16(15)}:2559.
 \newblock doi: \href{http://doi.org/10.3390/nu16152559}{10.3390/nu16152559}.
 
-\bibitem{mellaTemporalComplexityBOLDSignal2025}
-\underline{Mella} AE, {Vanderwal, Tamara}, {Miller, Steven P}, \&
-  {\textbf{Weber}, Alexander M}.
-\newblock Temporal {{Complexity}} of the {{BOLD-Signal In Preterm Versus Term
-  Infants}}.
-\newblock \emph{Cerebral Cortex}, January 2025; \textbf{35(1)}.
-\newblock doi:
-  \href{http://doi.org/10.1093/cercor/bhae426}{10.1093/cercor/bhae426}.
-
 \bibitem{drayneLongRangeTemporalCorrelation2025}
 \underline{Drayne} {\relax JP}, \underline{Mella} {\relax AE}, McLean {\relax
   MA}, Ufkes S, Chau V, Guo T, Branson {\relax HM}, Kelly E, Miller {\relax
@@ -193,6 +184,15 @@ McWilliams S, Hill O, Ipsiroglu OS, Clemens S, \textbf{Weber} AM, Chen M,
   fMRI Signal}} in {{Preterm Infants}}: {{Scanned Shortly After Birth}} and at
   {{Term-Equivalent Age}}.
 \newblock \emph{PLOS Complex Systems}, January 2025; \textbf{2(1)}.
+
+\bibitem{mellaTemporalComplexityBOLDSignal2025}
+\underline{Mella} AE, {Vanderwal, Tamara}, {Miller, Steven P}, \&
+  {\textbf{Weber}, Alexander M}.
+\newblock Temporal {{Complexity}} of the {{BOLD-Signal In Preterm Versus Term
+  Infants}}.
+\newblock \emph{Cerebral Cortex}, January 2025; \textbf{35(1)}.
+\newblock doi:
+  \href{http://doi.org/10.1093/cercor/bhae426}{10.1093/cercor/bhae426}.
 
 \bibitem{weber_stanley_2009}
 \textbf{Weber} AM \& Stanley EF.
