@@ -674,6 +674,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/datetime2-english/datetime2-englis
 INPUT /usr/share/texlive/texmf-dist/tex/latex/datetime2-english/datetime2-english-base.ldf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/datetime2-english/datetime2-english-base.ldf
 INPUT /usr/share/texlive/texmf-dist/tex/latex/datetime2-english/datetime2-english-base.ldf
+INPUT ./citationvalues.tex
+INPUT citationvalues.tex
+INPUT ./citationvalues.tex
+INPUT citationvalues.tex
 INPUT ./UBC_CV.bbl
 INPUT UBC_CV.bbl
 INPUT ./UBC_CV.bbl
