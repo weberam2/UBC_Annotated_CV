@@ -129,7 +129,7 @@ Bartels LM, Doucette J, Birkl C, \underline{Zhang} Y, \textbf{Weber} AM, \&
 \newblock doi:
   \href{http://doi.org/10.1016/j.neuroimage.2022.119702}{10.1016/j.neuroimage.2022.119702}.
 
-\bibitem{fothergillEffectsWearingPly2023}
+\bibitem{fothergillEffectsWearing3Ply2023}
 Fothergill A, Birkl C, Kames C, Su W, \textbf{Weber} A, \&
   \textit{\textbf{Rauscher}} A.
 \newblock The {{Effects}} of {{Wearing}} a 3-{{Ply}} or {{{\textsc{KN95}}}}
@@ -176,23 +176,31 @@ McWilliams S, Hill O, Ipsiroglu OS, Clemens S, \textbf{Weber} AM, Chen M,
 \newblock \emph{Nutrients}, January 2024; \textbf{16(15)}:2559.
 \newblock doi: \href{http://doi.org/10.3390/nu16152559}{10.3390/nu16152559}.
 
-\bibitem{drayneLongRangeTemporalCorrelation2025}
+\bibitem{drayneLongRangeTemporalCorrelation2024}
 \underline{Drayne} {\relax JP}, \underline{Mella} {\relax AE}, McLean {\relax
   MA}, Ufkes S, Chau V, Guo T, Branson {\relax HM}, Kelly E, Miller {\relax
   SP}, Grunau {\relax RE}, \& \textbf{Weber} {\relax AM}.
 \newblock Long-{{Range Temporal Correlation Development}} in {{Resting-State
   fMRI Signal}} in {{Preterm Infants}}: {{Scanned Shortly After Birth}} and at
   {{Term-Equivalent Age}}.
-\newblock \emph{PLOS Complex Systems}, January 2025; \textbf{2(1)}.
+\newblock \emph{PLOS Complex Systems}, December 2024; \textbf{1(4)}.
+\newblock doi: \href{http://doi.org/10.1371/journal.pc
+  sy.0000024}{10.1371/journal.pc sy.0000024}.
 
-\bibitem{mellaTemporalComplexityBOLDSignal2025}
+\bibitem{mellaTemporalComplexityBOLDSignal2024}
 \underline{Mella} AE, {Vanderwal, Tamara}, {Miller, Steven P}, \&
   {\textbf{Weber}, Alexander M}.
 \newblock Temporal {{Complexity}} of the {{BOLD-Signal In Preterm Versus Term
   Infants}}.
-\newblock \emph{Cerebral Cortex}, January 2025; \textbf{35(1)}.
+\newblock \emph{Cerebral Cortex}, November 2024; \textbf{34(11)}.
 \newblock doi:
   \href{http://doi.org/10.1093/cercor/bhae426}{10.1093/cercor/bhae426}.
+
+\bibitem{carmichael-etal-magnetic}
+\underline{Carmichael} T, \underline{Zhu} A, Grunau RE, \& \textbf{Weber} AM.
+\newblock The Application of Magnetic Susceptibility Separation for Measuring
+  Cerebral Oxygenation in Preterm Neonates.
+\newblock \emph{Pediatric Research}, 2025; .
 
 \bibitem{weber_stanley_2009}
 \textbf{Weber} AM \& Stanley EF.
@@ -546,12 +554,6 @@ Archibald J, \textbf{Weber} AM, Scheuren P, Ortiz O, Choles C, Lee J, Z{\"o}lch
 \newblock Regional Cerebral Metabolic Rate of Oxygen and Levels of Respiratory
   Support in Preterm Neonates.
 \newblock \emph{AJNR: American Journal of Neuroradiology}, October 2024; .
-
-\bibitem{carmichael-etal-magnetic}
-\underline{Carmichael} T, \underline{Zhu} A, Grunau RE, \& \textbf{Weber} AM.
-\newblock The Application of Magnetic Susceptibility Separation for Measuring
-  Cerebral Oxygenation in Preterm Neonates.
-\newblock \emph{Pediatric Research}, October 2024; .
 
 \bibitem{archibald-etal-sLASER}
 Archibald J, Near J, \textbf{Weber} AM, Kramer JLK, Mikkelsen M, Craven A,

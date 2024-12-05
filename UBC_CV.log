@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.5.8)  16 NOV 2024 23:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.5.8)  5 DEC 2024 08:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -333,31 +333,34 @@ Package: tracklang 2020/06/30 v1.5 (NLCT) Track Languages
 File: datetime2-english.ldf 2019/10/21 v1.05 (NLCT)
  (/usr/share/texlive/texmf-dist/tex/latex/datetime2-english/datetime2-english-base.ldf
 File: datetime2-english-base.ldf 2019/10/21 v1.05 (NLCT)
-))) (./citationvalues.tex) (./UBC_CV.bbl) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+))) (./citationvalues.tex) (./UBC_CV.bbl)
+runsystem(bash ./boldauthors.sh)...disabled (restricted).
+
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count294
 \l__pdf_internal_box=\box62
 ) (./UBC_CV.aux)
 \openout1 = `UBC_CV.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count295
@@ -411,7 +414,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 90.
+Package hyperref Info: Link coloring ON on input line 71.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -421,936 +424,910 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count301
 )
-LaTeX Info: Redefining \ref on input line 90.
-LaTeX Info: Redefining \pageref on input line 90.
-LaTeX Info: Redefining \nameref on input line 90.
+LaTeX Info: Redefining \ref on input line 71.
+LaTeX Info: Redefining \pageref on input line 71.
+LaTeX Info: Redefining \nameref on input line 71.
  (./UBC_CV.out) (./UBC_CV.out)
 \@outlinefile=\write3
 \openout3 = `UBC_CV.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 92.
+(Font)              <10.95> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 92.
+(Font)              <8> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 92.
+(Font)              <6> on input line 73.
 </home/weberam2/Dropbox/signature.png, id=4, 226.6869pt x 58.0569pt>
 File: /home/weberam2/Dropbox/signature.png Graphic file (type png)
 <use /home/weberam2/Dropbox/signature.png>
-Package pdftex.def Info: /home/weberam2/Dropbox/signature.png  used on input line 112.
+Package pdftex.def Info: /home/weberam2/Dropbox/signature.png  used on input line 93.
 (pdftex.def)             Requested size: 100.0pt x 25.61154pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 []|\OT1/cmr/m/n/10.95 University
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 []|\OT1/cmr/m/n/10.95 Honours
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 []|\OT1/cmr/m/n/10.95 2003-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 []|\OT1/cmr/m/n/10.95 University
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 []|\OT1/cmr/m/n/10.95 2007-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 []|\OT1/cmr/m/n/10.95 McMaster
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
 []|\OT1/cmr/m/n/10.95 2009-
  []
 
 
-Overfull \hbox (1.68904pt too wide) in paragraph at lines 189--189
+Overfull \hbox (1.68904pt too wide) in paragraph at lines 170--170
 []|\OT1/cmr/bx/n/10.95 (a)|  
  []
 
 
-Underfull \hbox (badness 3713) in paragraph at lines 213--213
-[]|\OT1/cmr/m/n/10.95 Union Bar-gain-ing Team {
- []
-
-
-Underfull \hbox (badness 3471) in paragraph at lines 213--213
-[]|\OT1/cmr/m/n/10.95 Jun 2011 { Feb
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
-[]|\OT1/cmr/m/n/10.95 Executive Mem-ber and
- []
-
-
-Underfull \hbox (badness 2237) in paragraph at lines 213--213
-[]|\OT1/cmr/m/n/10.95 Oct 2012 { Aug
- []
-
-
-Underfull \hbox (badness 2042) in paragraph at lines 213--213
-[]|\OT1/cmr/m/n/10.95 Dec 2012 { Aug
- []
-
-
-Underfull \hbox (badness 1158) in paragraph at lines 213--213
-[]|\OT1/cmr/m/n/10.95 Nov 2013 { Sept
+Overfull \hbox (13.15247pt too wide) in paragraph at lines 176--195
+[][] 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  </home/weberam2/Dropbox/signature.png>]
-Overfull \hbox (2.56352pt too wide) in paragraph at lines 219--219
+Overfull \hbox (2.56352pt too wide) in paragraph at lines 200--200
 []|\OT1/cmr/bx/n/10.95 (b)|  
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 241--241
-[]|\OT1/cmr/m/n/10.95 Oct 2015 { Jun
+Overfull \hbox (13.4262pt too wide) in paragraph at lines 204--225
+[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--241
-[]|\OT1/cmr/m/n/10.95 June 2020 {
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--241
-[]|\OT1/cmr/m/n/10.95 March 2022 {
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 244--246
+Underfull \hbox (badness 10000) in paragraph at lines 227--229
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--249
+Underfull \hbox (badness 10000) in paragraph at lines 230--232
 
  []
 
 [2]
-Overfull \hbox (1.16437pt too wide) in paragraph at lines 254--254
+Overfull \hbox (1.16437pt too wide) in paragraph at lines 237--237
 []|\OT1/cmr/bx/n/10.95 (c)|  
  []
 
 
-Overfull \hbox (7.64917pt too wide) in paragraph at lines 256--257
+Overfull \hbox (7.64917pt too wide) in paragraph at lines 239--240
 []|\OT1/cmr/m/it/10.95 N/A|  
  []
 
 
-Overfull \hbox (1.68904pt too wide) in paragraph at lines 279--279
+Overfull \hbox (1.68904pt too wide) in paragraph at lines 262--262
 []|\OT1/cmr/bx/n/10.95 (a)|  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--286
+Underfull \hbox (badness 10000) in paragraph at lines 267--269
 
  []
 
 
-Overfull \hbox (2.56352pt too wide) in paragraph at lines 293--293
+Overfull \hbox (2.56352pt too wide) in paragraph at lines 276--276
 []|\OT1/cmr/bx/n/10.95 (b)|  
  []
 
 [3] [4]
-Overfull \hbox (1.16437pt too wide) in paragraph at lines 359--359
+Overfull \hbox (1.16437pt too wide) in paragraph at lines 340--340
 []|\OT1/cmr/bx/n/10.95 (c)|  
  []
 
 
-Overfull \hbox (2.56352pt too wide) in paragraph at lines 369--369
+Overfull \hbox (2.56352pt too wide) in paragraph at lines 350--350
 []|\OT1/cmr/bx/n/10.95 (d)|  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--392
+Underfull \hbox (badness 10000) in paragraph at lines 371--373
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--397
+Underfull \hbox (badness 10000) in paragraph at lines 374--378
 
  []
 
-[5]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 402.
+(Font)              <7> on input line 383.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 402.
+(Font)              <5> on input line 383.
 
-Overfull \hbox (4.0924pt too wide) in paragraph at lines 402--416
+Overfull \hbox (4.0924pt too wide) in paragraph at lines 383--397
  [] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 419--421
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 400--402
 
  []
 
 
-Overfull \hbox (9.70392pt too wide) in alignment at lines 429--441
+Overfull \hbox (9.70392pt too wide) in alignment at lines 410--422
  [] [] [] [] [] [] [] 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 446--448
+Underfull \hbox (badness 10000) in paragraph at lines 427--429
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 473--475
+Underfull \hbox (badness 10000) in paragraph at lines 454--456
 
  []
 
 
-Overfull \hbox (1.87242pt too wide) in paragraph at lines 490--490
+Overfull \hbox (1.87242pt too wide) in paragraph at lines 471--471
 []|\OT1/cmr/m/n/10 Experimental 
  []
 
 
-Overfull \hbox (5.45576pt too wide) in paragraph at lines 493--493
+Overfull \hbox (5.45576pt too wide) in paragraph at lines 474--474
 []|\OT1/cmr/m/n/10 Rehabilitation 
  []
 
 
-Overfull \hbox (9.70392pt too wide) in paragraph at lines 485--495
+Overfull \hbox (9.70392pt too wide) in paragraph at lines 466--476
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--501
+Underfull \hbox (badness 10000) in paragraph at lines 480--482
 
  []
 
 
-Overfull \hbox (1.33926pt too wide) in paragraph at lines 519--519
+Overfull \hbox (1.33926pt too wide) in paragraph at lines 500--500
 []|\OT1/cmr/bx/n/10.95 (e)|  
  []
 
 
-Overfull \hbox (9.58148pt too wide) in paragraph at lines 524--531
+Overfull \hbox (9.58148pt too wide) in paragraph at lines 505--512
 [][] 
  []
 
 
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 561--561
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 542--542
 []|\OT1/cmr/bx/n/10.95 10.|  
  []
 
 
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 564--564
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 545--545
 []|\OT1/cmr/bx/n/10.95 11.|  
  []
 
 
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 567--567
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 548--548
 []|\OT1/cmr/bx/n/10.95 12.|  
  []
 
 
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 570--570
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 551--551
 []|\OT1/cmr/bx/n/10.95 13.|  
  []
 
 
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 573--573
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 554--554
 []|\OT1/cmr/bx/n/10.95 14.|  
  []
 
 
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 576--576
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 557--557
 []|\OT1/cmr/bx/n/10.95 15.|  
  []
 
 
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 578--578
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 559--559
 []|\OT1/cmr/bx/n/10.95 16.|  
  []
 
 
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 581--581
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 562--562
 []|\OT1/cmr/bx/n/10.95 17.|  
  []
 
 
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 584--584
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 565--565
 []|\OT1/cmr/bx/n/10.95 18.|  
  []
 
 
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 587--587
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 568--568
 []|\OT1/cmr/bx/n/10.95 19.|  
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 532--590
+Underfull \hbox (badness 10000) in alignment at lines 513--571
 [] []
  []
 
 [8] [9] [10]
-Overfull \hbox (0.60925pt too wide) in paragraph at lines 596--596
+Overfull \hbox (0.60925pt too wide) in paragraph at lines 577--577
 []|\OT1/cmr/bx/n/10.95 (f)|  
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 601--610
+Underfull \hbox (badness 10000) in alignment at lines 582--591
 [] []
  []
 
 
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 616--616
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 597--597
 []|\OT1/cmr/bx/n/10.95 (g)|  
  []
 
 
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 633--633
-[]|\OT1/cmr/bx/n/10.95 (g)|  
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 638--645
+Underfull \hbox (badness 10000) in alignment at lines 602--610
 [] []
  []
 
 [11]
-Underfull \hbox (badness 10000) in alignment at lines 654--667
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 617--617
+[]|\OT1/cmr/bx/n/10.95 (g)|  
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 622--629
 [] []
  []
 
 
-Overfull \hbox (1.68904pt too wide) in paragraph at lines 672--672
-[]|\OT1/cmr/bx/n/10.95 (a)|  
+Underfull \hbox (badness 10000) in alignment at lines 638--651
+[] []
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 686--688
+Overfull \hbox (1.68904pt too wide) in paragraph at lines 656--656
+[]|\OT1/cmr/bx/n/10.95 (a)|  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 670--672
 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 698--704
-[] []
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 709--713
+Underfull \hbox (badness 10000) in alignment at lines 682--688
 [] []
  []
 
 [13]
-Underfull \hbox (badness 10000) in alignment at lines 719--725
+Underfull \hbox (badness 10000) in alignment at lines 693--697
 [] []
  []
 
 
-Overfull \hbox (2.56352pt too wide) in paragraph at lines 729--729
+Underfull \hbox (badness 10000) in alignment at lines 703--709
+[] []
+ []
+
+
+Overfull \hbox (2.56352pt too wide) in paragraph at lines 713--713
 []|\OT1/cmr/bx/n/10.95 (b)|  
  []
 
 
-Overfull \hbox (0.42694pt too wide) in paragraph at lines 727--732
+Overfull \hbox (0.42694pt too wide) in paragraph at lines 711--716
 [][] 
  []
 
 
-Overfull \hbox (4.00456pt too wide) in paragraph at lines 737--737
+Overfull \hbox (4.00456pt too wide) in paragraph at lines 721--721
 []|\OT1/cmr/bx/it/10.95 Grant 
  []
 
 
-Overfull \hbox (2.06482pt too wide) in paragraph at lines 737--737
+Overfull \hbox (2.06482pt too wide) in paragraph at lines 721--721
 []|\OT1/cmr/bx/it/10.95 Duration|  
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 735--763
+Underfull \hbox (badness 10000) in alignment at lines 719--747
  [] [] [] [] [] [] [] 
  []
 
 [14] [15]
-Overfull \hbox (4.00456pt too wide) in paragraph at lines 776--776
+Overfull \hbox (4.00456pt too wide) in paragraph at lines 760--760
 []|\OT1/cmr/bx/it/10.95 Grant 
  []
 
 
-Overfull \hbox (2.06482pt too wide) in paragraph at lines 776--776
+Overfull \hbox (2.06482pt too wide) in paragraph at lines 760--760
 []|\OT1/cmr/bx/it/10.95 Duration|  
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 774--780
+Underfull \hbox (badness 10000) in alignment at lines 758--770
 [] [] [] [] [] [] []
  []
 
-
-Overfull \hbox (1.16437pt too wide) in paragraph at lines 784--784
+[16]
+Overfull \hbox (1.16437pt too wide) in paragraph at lines 774--774
 []|\OT1/cmr/bx/n/10.95 (c)|  
  []
 
 
-Overfull \hbox (2.56352pt too wide) in paragraph at lines 786--786
+Overfull \hbox (2.56352pt too wide) in paragraph at lines 776--776
 []|\OT1/cmr/bx/n/10.95 (d)|  
  []
 
 
-Overfull \hbox (0.42694pt too wide) in paragraph at lines 782--789
+Overfull \hbox (0.42694pt too wide) in paragraph at lines 772--779
 [][] 
  []
 
 
-Overfull \hbox (22.1597pt too wide) in paragraph at lines 793--793
+Overfull \hbox (22.1597pt too wide) in paragraph at lines 783--783
 []|\OT1/cmr/bx/n/10.95 Institution/Organization|  
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 791--829
-[] [] [] []
- []
-
-[16]
-Overfull \hbox (1.33926pt too wide) in paragraph at lines 833--833
-[]|\OT1/cmr/bx/n/10.95 (e)|  
- []
-
-
-Overfull \hbox (0.60925pt too wide) in paragraph at lines 845--845
-[]|\OT1/cmr/bx/n/10.95 (f)|  
- []
-
-
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 847--847
-[]|\OT1/cmr/bx/n/10.95 (g)|  
- []
-
-
-Overfull \hbox (22.1597pt too wide) in paragraph at lines 855--855
-[]|\OT1/cmr/bx/n/10.95 Institution/Organization|  
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 853--881
+Underfull \hbox (badness 10000) in alignment at lines 781--819
 [] [] [] []
  []
 
 [17]
-Overfull \hbox (2.56352pt too wide) in paragraph at lines 886--886
-[]|\OT1/cmr/bx/n/10.95 (h)|  
- []
-
-
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 895--895
-[]|\OT1/cmr/bx/n/10.95 10.|  
- []
-
-
-Overfull \hbox (1.68904pt too wide) in paragraph at lines 897--897
-[]|\OT1/cmr/bx/n/10.95 (a)|  
- []
-
-[18]
-Overfull \hbox (2.56352pt too wide) in paragraph at lines 919--919
-[]|\OT1/cmr/bx/n/10.95 (b)|  
- []
-
-
-Overfull \hbox (1.90959pt too wide) in alignment at lines 924--946
-[] [] [] [] []
- []
-
-
-Overfull \hbox (1.16437pt too wide) in paragraph at lines 949--949
-[]|\OT1/cmr/bx/n/10.95 (c)|  
- []
-
-
-Overfull \hbox (2.56352pt too wide) in paragraph at lines 951--951
-[]|\OT1/cmr/bx/n/10.95 (d)|  
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 958--974
-[] []
- []
-
-[19]
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 978--978
-[]|\OT1/cmr/bx/n/10.95 11.|  
- []
-
-
-Overfull \hbox (1.68904pt too wide) in paragraph at lines 980--980
-[]|\OT1/cmr/bx/n/10.95 (a)|  
- []
-
-
-Overfull \hbox (2.56352pt too wide) in paragraph at lines 982--982
-[]|\OT1/cmr/bx/n/10.95 (b)|  
- []
-
-
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 977--986
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 988--993
-[] []
- []
-
-
-Overfull \hbox (1.16437pt too wide) in paragraph at lines 998--998
-[]|\OT1/cmr/bx/n/10.95 (c)|  
- []
-
-
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 996--1001
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 1004--1013
-[] []
- []
-
-[20]
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 1017--1017
-[]|\OT1/cmr/bx/n/10.95 12.|  
- []
-
-
-Overfull \hbox (1.68904pt too wide) in paragraph at lines 1019--1019
-[]|\OT1/cmr/bx/n/10.95 (a)|  
- []
-
-
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1016--1023
-[][]
- []
-
-
-Overfull \hbox (2.56352pt too wide) in paragraph at lines 1036--1036
-[]|\OT1/cmr/bx/n/10.95 (b)|  
- []
-
-
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1034--1039
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 1041--1045
-[] []
- []
-
-
-Overfull \hbox (1.16437pt too wide) in paragraph at lines 1049--1049
-[]|\OT1/cmr/bx/n/10.95 (c)|  
- []
-
-
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1047--1052
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 1054--1056
-[] []
- []
-
-
-Overfull \hbox (2.56352pt too wide) in paragraph at lines 1060--1060
-[]|\OT1/cmr/bx/n/10.95 (d)|  
- []
-
-
-Overfull \hbox (1.33926pt too wide) in paragraph at lines 1062--1062
+Overfull \hbox (1.33926pt too wide) in paragraph at lines 823--823
 []|\OT1/cmr/bx/n/10.95 (e)|  
  []
 
 
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1058--1065
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 1067--1070
-[] []
- []
-
-[21]
-Overfull \hbox (0.60925pt too wide) in paragraph at lines 1074--1074
+Overfull \hbox (0.60925pt too wide) in paragraph at lines 835--835
 []|\OT1/cmr/bx/n/10.95 (f)|  
  []
 
 
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 1076--1076
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 837--837
 []|\OT1/cmr/bx/n/10.95 (g)|  
  []
 
 
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1072--1079
-[][] 
+Overfull \hbox (22.1597pt too wide) in paragraph at lines 845--845
+[]|\OT1/cmr/bx/n/10.95 Institution/Organization|  
  []
 
 
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 1092--1092
-[]|\OT1/cmr/bx/n/10.95 11.|  
+Underfull \hbox (badness 10000) in alignment at lines 843--871
+[] [] [] []
  []
 
-
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 1097--1097
-[]|\OT1/cmr/bx/n/10.95 16.|  
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 1081--1098
-[] []
- []
-
-
-Overfull \hbox (2.56352pt too wide) in paragraph at lines 1102--1102
+[18]
+Overfull \hbox (2.56352pt too wide) in paragraph at lines 876--876
 []|\OT1/cmr/bx/n/10.95 (h)|  
  []
 
 
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1100--1105
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 1107--1116
-[] []
- []
-
-
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1118--1125
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 1127--1136
-[] []
- []
-
-[22]
-Underfull \hbox (badness 10000) in alignment at lines 1141--1149
-[] []
- []
-
-
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 1152--1152
-[]|\OT1/cmr/bx/n/10.95 13.|  
- []
-
-
-Overfull \hbox (5.18694pt too wide) in paragraph at lines 1154--1154
-[]|\OT1/cmr/bx/n/10.95 (a).|  
- []
-
-
-Overfull \hbox (2.16995pt too wide) in paragraph at lines 1160--1160
-[]|\OT1/cmr/bx/n/10.95 Amount|  
- []
-
-
-Overfull \hbox (1.90959pt too wide) in alignment at lines 1158--1164
-[] [] [] [] []
- []
-
-[23]
-Overfull \hbox (6.06142pt too wide) in paragraph at lines 1168--1168
-[]|\OT1/cmr/bx/n/10.95 (b).|  
- []
-
-
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1166--1171
-[][] 
- []
-
-
-Overfull \hbox (2.16995pt too wide) in paragraph at lines 1174--1174
-[]|\OT1/cmr/bx/n/10.95 Amount|  
- []
-
-
-Overfull \hbox (1.9096pt too wide) in alignment at lines 1172--1192
-[] [] [] [] []
- []
-
-
-Overfull \hbox (4.66226pt too wide) in paragraph at lines 1196--1196
-[]|\OT1/cmr/bx/n/10.95 (c).|  
- []
-
-
-Overfull \hbox (6.06142pt too wide) in paragraph at lines 1198--1198
-[]|\OT1/cmr/bx/n/10.95 (d).|  
- []
-
-
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 1200--1200
-[]|\OT1/cmr/bx/n/10.95 14.|  
- []
-
-
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1194--1203
-[][] 
- []
-
-[24]
-File: /home/weberam2/Dropbox/signature.png Graphic file (type png)
-<use /home/weberam2/Dropbox/signature.png>
-Package pdftex.def Info: /home/weberam2/Dropbox/signature.png  used on input line 1226.
-(pdftex.def)             Requested size: 100.0pt x 25.61154pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1248--1251
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1252--1253
-
- []
-
-
-Overfull \hbox (2.76285pt too wide) in paragraph at lines 1254--1254
-[]|\OT1/cmr/m/n/10.95 FA|  
- []
-
-
-Overfull \hbox (4.73993pt too wide) in paragraph at lines 1255--1255
-[]|\OT1/cmr/m/n/10.95 CA|  
- []
-
-
-Overfull \hbox (2.91493pt too wide) in paragraph at lines 1256--1256
-[]|\OT1/cmr/m/n/10.95 SA|  
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 1253--1257
-[] [] []
- []
-
-
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1269--1274
-[][] 
- []
-
-
-Overfull \hbox (4.75507pt too wide) in alignment at lines 1303--1343
-[] [] [] [] []
- []
-
-[25]
-Overfull \hbox (1.68904pt too wide) in paragraph at lines 1348--1348
-[]|\OT1/cmr/bx/n/10.95 (a)|  
- []
-
-
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1345--1351
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 1352--1412
-[] []
- []
-
-[26] [27] [28]
-Overfull \hbox (2.56352pt too wide) in paragraph at lines 1417--1417
-[]|\OT1/cmr/bx/n/10.95 (b)|  
- []
-
-
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1414--1420
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 1424--1433
-[] []
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 1438--1475
-[] []
- []
-
-[29] [30pdfTeX warning (ext4): destination with the same identifier (name{cite.weber-jarrett-dadachanji-2017a}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.1475 \end{longtable}
-                      pdfTeX warning (ext4): destination with the same identifier (name{cite.weber-jarrett-hernandez-torres-2017}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.1475 \end{longtable}
-                      ] [31]
-Underfull \hbox (badness 10000) in alignment at lines 1478--1480
-[] []
- []
-
-
-Overfull \hbox (1.16437pt too wide) in paragraph at lines 1484--1484
-[]|\OT1/cmr/bx/n/10.95 (c)|  
- []
-
-
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1482--1487
-[][] 
- []
-
-
-Overfull \hbox (1.68904pt too wide) in paragraph at lines 1493--1493
-[]|\OT1/cmr/bx/n/10.95 (a)|  
- []
-
-
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1488--1496
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 1498--1502
-[] []
- []
-
-[32]
-Overfull \hbox (2.56352pt too wide) in paragraph at lines 1506--1506
-[]|\OT1/cmr/bx/n/10.95 (b)|  
- []
-
-
-Overfull \hbox (1.16437pt too wide) in paragraph at lines 1508--1508
-[]|\OT1/cmr/bx/n/10.95 (c)|  
- []
-
-
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1504--1511
-[][] 
- []
-
-
-Overfull \hbox (1.68904pt too wide) in paragraph at lines 1517--1517
-[]|\OT1/cmr/bx/n/10.95 (a)|  
- []
-
-
-Overfull \hbox (2.56352pt too wide) in paragraph at lines 1519--1519
-[]|\OT1/cmr/bx/n/10.95 (b)|  
- []
-
-
-Overfull \hbox (1.16437pt too wide) in paragraph at lines 1521--1521
-[]|\OT1/cmr/bx/n/10.95 (c)|  
- []
-
-
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1512--1524
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 1526--1528
-[] []
- []
-
-
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1530--1535
-[][] 
- []
-
-
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1536--1541
-[][] 
- []
-
-
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1542--1547
-[][] 
- []
-
-
-Overfull \hbox (1.68904pt too wide) in paragraph at lines 1553--1553
-[]|\OT1/cmr/bx/n/10.95 (a)|  
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 1570--1596
-[] []
- []
-
-[33]
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1599--1605
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 1607--1610
-[] []
- []
-
-[34]
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1612--1618
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 1620--1626
-[] []
- []
-
-
-Overfull \hbox (1.86394pt too wide) in paragraph at lines 1630--1630
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 885--885
 []|\OT1/cmr/bx/n/10.95 10.|  
  []
 
 
-Overfull \hbox (94.3207pt too wide) in paragraph at lines 1628--1633
+Overfull \hbox (1.68904pt too wide) in paragraph at lines 887--887
+[]|\OT1/cmr/bx/n/10.95 (a)|  
+ []
+
+
+Overfull \hbox (2.56352pt too wide) in paragraph at lines 909--909
+[]|\OT1/cmr/bx/n/10.95 (b)|  
+ []
+
+
+Overfull \hbox (1.90959pt too wide) in alignment at lines 914--936
+[] [] [] [] []
+ []
+
+[19]
+Overfull \hbox (1.16437pt too wide) in paragraph at lines 939--939
+[]|\OT1/cmr/bx/n/10.95 (c)|  
+ []
+
+
+Overfull \hbox (2.56352pt too wide) in paragraph at lines 941--941
+[]|\OT1/cmr/bx/n/10.95 (d)|  
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 948--965
+[] []
+ []
+
+[20]
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 969--969
+[]|\OT1/cmr/bx/n/10.95 11.|  
+ []
+
+
+Overfull \hbox (1.68904pt too wide) in paragraph at lines 971--971
+[]|\OT1/cmr/bx/n/10.95 (a)|  
+ []
+
+
+Overfull \hbox (2.56352pt too wide) in paragraph at lines 973--973
+[]|\OT1/cmr/bx/n/10.95 (b)|  
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 968--977
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 979--984
+[] []
+ []
+
+
+Overfull \hbox (1.16437pt too wide) in paragraph at lines 989--989
+[]|\OT1/cmr/bx/n/10.95 (c)|  
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 987--992
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 1636--1659
+Underfull \hbox (badness 10000) in alignment at lines 995--1004
+[] []
+ []
+
+
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 1008--1008
+[]|\OT1/cmr/bx/n/10.95 12.|  
+ []
+
+
+Overfull \hbox (1.68904pt too wide) in paragraph at lines 1010--1010
+[]|\OT1/cmr/bx/n/10.95 (a)|  
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1007--1014
+[][]
+ []
+
+[21]
+Overfull \hbox (2.56352pt too wide) in paragraph at lines 1027--1027
+[]|\OT1/cmr/bx/n/10.95 (b)|  
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1025--1030
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1032--1036
+[] []
+ []
+
+
+Overfull \hbox (1.16437pt too wide) in paragraph at lines 1040--1040
+[]|\OT1/cmr/bx/n/10.95 (c)|  
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1038--1043
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1045--1047
+[] []
+ []
+
+
+Overfull \hbox (2.56352pt too wide) in paragraph at lines 1051--1051
+[]|\OT1/cmr/bx/n/10.95 (d)|  
+ []
+
+
+Overfull \hbox (1.33926pt too wide) in paragraph at lines 1053--1053
+[]|\OT1/cmr/bx/n/10.95 (e)|  
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1049--1056
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1058--1061
+[] []
+ []
+
+
+Overfull \hbox (0.60925pt too wide) in paragraph at lines 1065--1065
+[]|\OT1/cmr/bx/n/10.95 (f)|  
+ []
+
+
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 1067--1067
+[]|\OT1/cmr/bx/n/10.95 (g)|  
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1063--1070
+[][] 
+ []
+
+
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 1083--1083
+[]|\OT1/cmr/bx/n/10.95 11.|  
+ []
+
+
+Overfull \hbox (1.40771pt too wide) in paragraph at lines 1087--1087
+[]|\OT1/cmr/bx/n/10.95 15\OT1/cmr/m/n/10.95 .|  
+ []
+
+
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 1088--1088
+[]|\OT1/cmr/bx/n/10.95 16.|  
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1072--1089
+[] []
+ []
+
+[22]
+Overfull \hbox (2.56352pt too wide) in paragraph at lines 1093--1093
+[]|\OT1/cmr/bx/n/10.95 (h)|  
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1091--1096
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1098--1107
+[] []
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1109--1116
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1118--1127
+[] []
+ []
+
+[23]
+Underfull \hbox (badness 10000) in alignment at lines 1132--1140
+[] []
+ []
+
+
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 1143--1143
+[]|\OT1/cmr/bx/n/10.95 13.|  
+ []
+
+
+Overfull \hbox (5.18694pt too wide) in paragraph at lines 1145--1145
+[]|\OT1/cmr/bx/n/10.95 (a).|  
+ []
+
+
+Overfull \hbox (2.16995pt too wide) in paragraph at lines 1151--1151
+[]|\OT1/cmr/bx/n/10.95 Amount|  
+ []
+
+
+Overfull \hbox (1.90959pt too wide) in alignment at lines 1149--1155
+[] [] [] [] []
+ []
+
+
+Overfull \hbox (6.06142pt too wide) in paragraph at lines 1159--1159
+[]|\OT1/cmr/bx/n/10.95 (b).|  
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1157--1162
+[][] 
+ []
+
+
+Overfull \hbox (2.16995pt too wide) in paragraph at lines 1165--1165
+[]|\OT1/cmr/bx/n/10.95 Amount|  
+ []
+
+
+Overfull \hbox (1.9096pt too wide) in alignment at lines 1163--1183
+[] [] [] [] []
+ []
+
+[24]
+Overfull \hbox (4.66226pt too wide) in paragraph at lines 1187--1187
+[]|\OT1/cmr/bx/n/10.95 (c).|  
+ []
+
+
+Overfull \hbox (6.06142pt too wide) in paragraph at lines 1189--1189
+[]|\OT1/cmr/bx/n/10.95 (d).|  
+ []
+
+
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 1191--1191
+[]|\OT1/cmr/bx/n/10.95 14.|  
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1185--1194
+[][] 
+ []
+
+[25]
+File: /home/weberam2/Dropbox/signature.png Graphic file (type png)
+<use /home/weberam2/Dropbox/signature.png>
+Package pdftex.def Info: /home/weberam2/Dropbox/signature.png  used on input line 1217.
+(pdftex.def)             Requested size: 100.0pt x 25.61154pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1239--1242
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1243--1244
+
+ []
+
+
+Overfull \hbox (2.76285pt too wide) in paragraph at lines 1245--1245
+[]|\OT1/cmr/m/n/10.95 FA|  
+ []
+
+
+Overfull \hbox (4.73993pt too wide) in paragraph at lines 1246--1246
+[]|\OT1/cmr/m/n/10.95 CA|  
+ []
+
+
+Overfull \hbox (2.91493pt too wide) in paragraph at lines 1247--1247
+[]|\OT1/cmr/m/n/10.95 SA|  
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1244--1248
+[] [] []
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1260--1265
+[][] 
+ []
+
+
+Overfull \hbox (4.75507pt too wide) in alignment at lines 1296--1338
+[] [] [] [] []
+ []
+
+[26]
+Overfull \hbox (1.68904pt too wide) in paragraph at lines 1343--1343
+[]|\OT1/cmr/bx/n/10.95 (a)|  
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1340--1346
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1347--1408
+[] []
+ []
+
+[27] [28] [29]
+Overfull \hbox (2.56352pt too wide) in paragraph at lines 1413--1413
+[]|\OT1/cmr/bx/n/10.95 (b)|  
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1410--1416
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1420--1429
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1434--1471
+[] []
+ []
+
+[30] [31pdfTeX warning (ext4): destination with the same identifier (name{cite.weber-jarrett-dadachanji-2017a}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1471 \end{longtable}
+                      pdfTeX warning (ext4): destination with the same identifier (name{cite.weber-jarrett-hernandez-torres-2017}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1471 \end{longtable}
+                      ] [32]
+Underfull \hbox (badness 10000) in alignment at lines 1474--1476
+[] []
+ []
+
+
+Overfull \hbox (1.16437pt too wide) in paragraph at lines 1480--1480
+[]|\OT1/cmr/bx/n/10.95 (c)|  
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1478--1483
+[][] 
+ []
+
+
+Overfull \hbox (1.68904pt too wide) in paragraph at lines 1489--1489
+[]|\OT1/cmr/bx/n/10.95 (a)|  
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1484--1492
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1494--1498
+[] []
+ []
+
+[33]
+Overfull \hbox (2.56352pt too wide) in paragraph at lines 1502--1502
+[]|\OT1/cmr/bx/n/10.95 (b)|  
+ []
+
+
+Overfull \hbox (1.16437pt too wide) in paragraph at lines 1504--1504
+[]|\OT1/cmr/bx/n/10.95 (c)|  
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1500--1507
+[][] 
+ []
+
+
+Overfull \hbox (1.68904pt too wide) in paragraph at lines 1513--1513
+[]|\OT1/cmr/bx/n/10.95 (a)|  
+ []
+
+
+Overfull \hbox (2.56352pt too wide) in paragraph at lines 1515--1515
+[]|\OT1/cmr/bx/n/10.95 (b)|  
+ []
+
+
+Overfull \hbox (1.16437pt too wide) in paragraph at lines 1517--1517
+[]|\OT1/cmr/bx/n/10.95 (c)|  
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1508--1520
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1522--1524
+[] []
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1526--1531
+[][] 
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1532--1537
+[][] 
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1538--1543
+[][] 
+ []
+
+
+Overfull \hbox (1.68904pt too wide) in paragraph at lines 1549--1549
+[]|\OT1/cmr/bx/n/10.95 (a)|  
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1566--1592
+[] []
+ []
+
+[34]
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1595--1601
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1603--1605
+[] []
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1607--1613
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1615--1621
 [] []
  []
 
 [35]
-Underfull \hbox (badness 10000) in alignment at lines 1665--1670
+Overfull \hbox (1.86394pt too wide) in paragraph at lines 1625--1625
+[]|\OT1/cmr/bx/n/10.95 10.|  
+ []
+
+
+Overfull \hbox (94.3207pt too wide) in paragraph at lines 1623--1628
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1631--1654
 [] []
  []
 
-(./UBC_CV.bbl) [36] (./UBC_CV.aux)
+[36]
+Underfull \hbox (badness 10000) in alignment at lines 1660--1665
+[] []
+ []
+
+(./UBC_CV.bbl) [37] (./UBC_CV.aux)
 Package rerunfilecheck Info: File `UBC_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14757 strings out of 478287
- 257974 string characters out of 5849290
- 622906 words of memory out of 5000000
- 32600 multiletter control sequences out of 15000+600000
+ 14763 strings out of 478287
+ 258025 string characters out of 5849290
+ 624167 words of memory out of 5000000
+ 32603 multiletter control sequences out of 15000+600000
  476121 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,16n,63p,1170b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,13n,63p,1170b,483s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on UBC_CV.pdf (36 pages, 308336 bytes).
+Output written on UBC_CV.pdf (37 pages, 310063 bytes).
 PDF statistics:
- 434 PDF objects out of 1000 (max. 8388607)
- 362 compressed objects within 4 object streams
- 149 named destinations out of 1000 (max. 500000)
+ 446 PDF objects out of 1000 (max. 8388607)
+ 373 compressed objects within 4 object streams
+ 152 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

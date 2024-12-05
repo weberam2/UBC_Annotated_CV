@@ -7,7 +7,7 @@
 \usepackage{color} % allow color
 \usepackage[margin=.8in]{geometry} % set margins,showframe
 \usepackage[table,xcdraw]{xcolor}
-\usepackage{graphicx} % images\RequirePackage{graphicx,xcolor}
+\usepackage{graphicx} % images
 \global\providecommand{\doiprefix}{doi: }
 \usepackage{fancyhdr} % header footer
 \usepackage{tabularx} % nice tables
@@ -29,37 +29,21 @@
 \newcounter{magicrownumbers}
 \newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}}
 \preto\tabular{\setcounter{magicrownumbers}{0}}
-% \newcounter{magicrownumbers}
-% \def\rownumber{}
 \usepackage{etoolbox} % Provides looping and counters
 \newcounter{rowcount}
-% \usepackage{natbib}
 \usepackage{float} % keep tables from floating away
-% \usepackage{biblatex}%
 \usepackage{datetime2}
 \makeatletter
 \newcommand{\monthyeardate}{%
   \DTMenglishmonthname{\@dtm@month}, \@dtm@year
 }
 \makeatother
-
 \newcommand{\PreserveBackslash}[1]{\let\temp=\\#1\let\\=\temp}
 \newcolumntype{C}[1]{>{\PreserveBackslash\centering}p{#1}}
 \newcolumntype{R}[1]{>{\PreserveBackslash\raggedleft}p{#1}}
 \newcolumntype{L}[1]{>{\PreserveBackslash\raggedright}p{#1}}
-
-% \newcommand{\totalcitations}{393}
-% \newcommand{\ntypecal}{131}
-% \newcommand{\ethanol}{43}
-% \newcommand{\psychopharm}{33}
-% \newcommand{\psychotropic}{32}
-% \newcommand{\pathological}{24}
-% \newcommand{\pdlim}{15}
-% \newcommand{\punctate}{15}
-% \newcommand{\rtwostar}{0}
-% \newcommand{\anglin}{8}
-% \newcommand{\warsi}{1}
 \input{citationvalues.tex}
+
 %%%%%%%%%%%%%%%%%
 %% HEADER AND FOOTER %%
 %%%%%%%%%%%%%%%%%
@@ -77,11 +61,8 @@
 %%%%%%%%%%%%%%%%%
 
 \nobibliography*
-% \bibliographystyle{science}
-% \bibliographystyle{vancouver-elife}
 \bibliographystyle{mycv}
-% \bibliographystyle{abbrv}
-
+\immediate\write18{bash ./boldauthors.sh} % run: pdflatx --shell-escape UBC_CV.tex
 
 %%%%%%%%%%%%%%%%%
 %% DOCUMENT %%
@@ -192,7 +173,7 @@ $^{2}$ \textit{Department of Physiology with a Collaborative Program in Neurosci
 
 \begin{table}[H]
   \label{6. Employment Record}
-  \begin{tabularx}{1\textwidth}{|p{8cm}|p{5cm}|X|}
+  \begin{tabular}{|L{8cm}|L{5cm}|l|}
     \hline
     \textit{University, Company or Organization}                                     & \textit{Rank or Title}                     & \textit{Dates}       \\
     \hline
@@ -210,7 +191,7 @@ $^{2}$ \textit{Department of Physiology with a Collaborative Program in Neurosci
     \hline
     What’s Up Yukon, Whitehorse, YT                                                  & Freelance Writer                           & Jan 2015 – 2019      \\
     \hline
-  \end{tabularx}
+  \end{tabular}
 \end{table}
 
 %------------------------------------------------
@@ -220,7 +201,7 @@ $^{2}$ \textit{Department of Physiology with a Collaborative Program in Neurosci
 \end{tabular}
 
 \begin{table}[H]
-  \begin{tabularx}{1\textwidth}{|p{8cm}|p{5cm}|X|}
+  \begin{tabular}{|L{8cm}|L{5cm}|l|}
     \hline
     \textit{Department}                             & \textit{Rank or Title}                     & \textit{Dates}       \\
     \hline
@@ -238,7 +219,9 @@ $^{2}$ \textit{Department of Physiology with a Collaborative Program in Neurosci
     \hline
     UBC Djavad Mowafaghian Centre for Brain Health  & Full Member                                & March 2022 – Present \\
     \hline
-  \end{tabularx}
+    BCCH MRI Research Facility & Associate Director - MRI Investigator Support Unit & Dec 2024 - Present \\
+    \hline
+  \end{tabular}
 \end{table}
 
 I was appointed an Independent Investigator at BCCHR in July 2019, and in June 2020 was appointed as Assistant Professor (Partner) in the Dept of Pediatrics, UBC. I spent the first year (2019-2020) setting up my lab, finishing up previous work and publishing papers, as well as started networking and collaborating on potential new projects. I submitted several grants as PI (Brain Canada, CIHR Catalyst Grant, NSERC Discovery Grant) and joined several grants as co-applicant. I also started a monthly MRI Journal Club, taught a course in Clinical Research Methods, and hired a co-op student at the beginning of the summer of 2020.
@@ -294,10 +277,8 @@ My biggest accomplishment in Teaching has been developing, from scratch, a gradu
   \\
 \end{tabular}
 
-\begin{table}[H]
-  \centering
-% \begin{center}
-  \begin{tabular}{|l|l|l|l|l|l|l|l|l|}
+\begin{center}
+  \begin{longtable}{|l|l|l|l|l|l|l|l|l|}
     \hline
     \multicolumn{1}{|l|}{\multirow{2}{*}{\textit{Year}}} & \multicolumn{1}{l|}{\multirow{2}{*}{\textit{Course \#}}}                                                        & \multicolumn{1}{l|}{\multirow{2}{*}{\textit{Hours}}} & \multicolumn{1}{l|}{\multirow{2}{*}{\textit{Class Size}}} & \multicolumn{1}{l|}{\multirow{2}{*}{\textit{Contact Hrs}}} & \multicolumn{4}{c|}{\textit{Taught}}                                                                                                               \\ \cline{6-9}
     \multicolumn{1}{|l|}{}                               & \multicolumn{1}{l|}{}                                                                                           & \multicolumn{1}{l|}{}                                & \multicolumn{1}{l|}{}                                     & \multicolumn{1}{l|}{}                                      & \multicolumn{1}{l|}{\textit{Lec}}    & \multicolumn{1}{l|}{\textit{Tut}} & \multicolumn{1}{l|}{\textit{Lab}} & \multicolumn{1}{l|}{\textit{$^{1}$Other}} \\ \hline
@@ -316,8 +297,8 @@ My biggest accomplishment in Teaching has been developing, from scratch, a gradu
     2023                                                 & WACH502                                                                                                         & 20                                                   & 23                                                        &                                                            & 1.5                                  &                                   &                                   & 18.5                                \\ \hline
     2024                                                 & WACH505                                                                                                         & 520                                                  & 15                                                        & 20                                                         & 50                                   &                                   &                                   & 470                                 \\ \hline
     2024                                                 & BMEG 557                                                                                                        & 20                                                   & 15                                                        &                                                            & 1                                    &                                   &                                   & 19                                  \\ \hline
-  \end{tabular}
-\end{table}
+  \end{longtable}
+\end{center}
 \vspace{-10pt}
 $^{1}$ Other includes preparation time for lectures, meetings, etc.
 
@@ -617,14 +598,17 @@ Ph. D. Total: \underline{1} (1 current, 0 completed)
   \\
 \end{tabular}
 
-\begin{table}[H]
-  \begin{tabular}{L{0.5cm} L{15.6cm}}
+% \begin{table}[H]
+  \begin{longtable}{L{0.5cm} L{15.6cm}}
     \rownumber. & \textbf{Magnetic Resonance Imaging Journal Club (MRJC)} \hfill Jan 2020 - Present \\
                 & Started a monthly journal club, in which I lead and facilitate monthly discussions on interesting scholarly articles in all things MR related. The MRJC aims to stimulate discussion of emerging MRI technologies, clinical and scientific applications, basic concepts, and its history. \\
     \rownumber. & \textbf{Precision Health Data Analysis Bootcamp} \hfill Summer 2022 \\
                 & Helped acquire funding, develop, and facilitate the Precision Health Data Analysis Bootcamp with Dr. Phillip Richmond and Lynne Williams. \\
-  \end{tabular}
-\end{table}
+    \rownumber. & \textbf{BCCH MRI Research Facility Wiki} \hfill Dec 2024 \\
+                & Created$^{1}$ and spearheaded a  \href{https://bcch-mri-research-facility.github.io}{`wiki' website}  for BCCH MRI Research Facility users. The website aims to provide a wealth of resources for neuroimaging data scientists in order to educate and empower users to plan their research, apply for grants, create their MRI protocol sequences, analyze their data, publish their work, and share their findings with the scientific and lay community.\\
+                & $^{1}$ with help from Lynne Williams \\
+  \end{longtable}
+% \end{table}
 
 %------------------------------------------------
 
@@ -776,6 +760,12 @@ $^{4}$ I supported in grant preparation, and methods design.
   \textit{\textbf{Granting Agency}} & \textit{\textbf{Title}} & \textit{\textbf{Grant Type}} & \textit{\textbf{Amount Per Year}} & \textit{\textbf{Duration}} & \textit{\textbf{PI}} & \textit{\textbf{Co-PI(s)}} \\
   \hline
   NFRF & An interdisciplinary approach to translating evidence into practice for survivors of brain injury caused by intimate partner violence & C & Minimum \$2,000,000 per year (including indirect costs) \newline Maximum \$4,000,000 / yr (including indirect costs) & LOI January 10, 2024 & Paul van Donkelaar & Vicky Bungav, Peter Cripton, Sandy Shultz, Cheryl Wellington, \textbf{Alexander Weber}, + 10 more \\
+  \hline
+  Michael Smith 2025 Scholar Competition & Identifying The Structural and Functional Link In Preterm Infant Brain Recovery & C & & LOI Nov 2024 & \textbf{Alexander Weber} & n/a \\
+  \hline
+  BCCHRI - Catalyst Grant & Brain and Motor Development of Young Children & C & \$20,000 / year & Nov 2024 & Jill Zwicker, \textbf{Alexander Weber} & n/a \\
+  \hline
+  BCCHRI - Catalyst Grant & Brain development in infants who receive Calmer & C & \$20,000 / year & Dec 2024 & Liisa Holsti, Manon Ranger & Thiviya Selvanathan, \textbf{Alexander Weber} \\
   \hline
 \end{longtable}
 
@@ -970,6 +960,7 @@ This course has also provides a much needed opportunity for other faculty to tea
   \rownumber. & WACH PROGRAM Focus. April 2022 \\
   \rownumber. & Adjudicate the 2022 Faculty of Medicine Graduate Student Awards \\
   \rownumber. & Adjudicate the 2023 Faculty of Medicine Graduate Student Awards \\
+  \rownumber. & Adjudicate the 2024 Faculty of Medicine Graduate Student Awards \\
 
 \end{longtable}
 
@@ -1093,7 +1084,7 @@ I believe that service to the oppressed or disadvantaged community is as importa
   \rownumber. & Magnetic Resonance Imaging - January, 2023 \\
   \rownumber. & Neurotrauma Reports - February, 2023 \\
   \rownumber. & Human Brain Mapping - June, 2023 \\
-  \rownumber. & CIHR Reviewer - 1 submission reviewed - November, 2024 \\
+  \textbf{\rownumber}. & \textbf{CIHR Reviewer} - 1 submission reviewed - November, 2024 \\
   \textbf{\rownumber.} & \textbf{CIHR Fellowship} - November, 2024 \\
 \end{longtable}
 
@@ -1296,6 +1287,7 @@ of patients.
 \newcommand{\ifneurimag}{7.4}
 \newcommand{\ifnmr}{4.04}
 \newcommand{\ifnutrients}{5.72}
+\newcommand{\ifpedres}{3.1}
 \newcommand{\ifprog}{5.07}
 \newcommand{\ifpsych}{11.22}
 \newcommand{\iftopics}{2.9}
@@ -1330,6 +1322,8 @@ of patients.
   NMR in Biomedicine & \ifnmr & Spectroscopy & 9/44 & 10 \\
   \hline
   Nutrients & \ifnutrients & Food Science & 40/389 & 19\\ 
+  \hline
+  Pediatric Research & \ifpedres & Pediatrics & 30/330 & 22 \\
   \hline
   PLOS Complex Systems & n/a & Biology & n/a & 20 \\
   \hline
@@ -1391,13 +1385,13 @@ understanding of how the brain processes information and could potentially
 influence the design of future neuroimaging studies.} \\
   \stepcounter{rowcount}\therowcount. & \bibentry{campbellMonofractalAnalysisFunctional2022}. SA (IF \ifhbm; Citations \campbellreview) \\
   \stepcounter{rowcount}\therowcount. & \bibentry{bartelsOrientationDependenceR22022}. Co-SA (IF \ifneurimag; Citations \bartel) \\
-  \stepcounter{rowcount}\therowcount. & \bibentry{fothergillEffectsWearingPly2023}. Co-SA (IF \ifjmri; Citations \fothergill) \\
+  \stepcounter{rowcount}\therowcount. & \bibentry{fothergillEffectsWearing3Ply2023}. Co-SA (IF \ifjmri; Citations \fothergill) \\
   \stepcounter{rowcount}\therowcount. & \bibentry{weber_cerebrovascular_reactivity_2023}. FA (IF \iftopics; Citations \sci) \\
   \stepcounter{rowcount}\therowcount. & \bibentry{malikCorticalGreyMatter2024}. CA (IF \iffronthum; Citations \dcdcontrols) \\
   \stepcounter{rowcount}\therowcount. & \bibentry{malikm.a.ChangesCorticalGrey2024}. CA (IF \iffronthum; Citations \dcdchanges) \\
   \stepcounter{rowcount}\therowcount. & \bibentry{mcwilliamsIronDeficiencySleep2024}. CA (IF \ifnutrients; Citations \iron) \\
-  \stepcounter{rowcount}\therowcount. & \bibentry{drayneLongRangeTemporalCorrelation2025} SA (IF n/a; Citations 1)\\
-  \stepcounter{rowcount}\therowcount. & *\bibentry{mellaTemporalComplexityBOLDSignal2025} SA (IF \ifcercor; Citations 1)\\
+  \stepcounter{rowcount}\therowcount. & \bibentry{drayneLongRangeTemporalCorrelation2024} SA (IF n/a; Citations 1)\\
+  \stepcounter{rowcount}\therowcount. & *\bibentry{mellaTemporalComplexityBOLDSignal2024} SA (IF \ifcercor; Citations 1)\\
               & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{This
                 study is significant as it provides insights into the impact of
                 preterm birth on cerebral development. We used the
@@ -1410,6 +1404,7 @@ influence the design of future neuroimaging studies.} \\
                 in the neonatal brain, with the BOLD signal in preterm infants
                 transforming from anticorrelated to correlated, but reduced
                 compared to term born infants.} \\
+    \stepcounter{rowcount}\therowcount. & \bibentry{carmichael-etal-magnetic} SA (IF \ifpedres; Citations 0) \\
 \end{longtable}
 
 \begin{tabular}{L{.5cm} L{18.9cm} }
@@ -1607,7 +1602,6 @@ benefits of challenging yourself and the beauty of the outdoors.
 \setcounter{magicrownumbers}{0}
 \begin{longtable}{ L{0.5cm}  L{15.2cm}  }
   \rownumber. & \bibentry{zhu-etal-cmro2} \\
-\rownumber. & \bibentry{carmichael-etal-magnetic} \\
 \end{longtable}
 
 \begin{tabular}{L{.5cm} L{18.9cm} }

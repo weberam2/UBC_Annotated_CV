@@ -47,37 +47,37 @@ Warning--empty pages in carmichaelInvestigationRegionalCerebral2024
 Warning--empty pages in sochanAssociationLongRange2024
 You've used 74 entries,
             2645 wiz_defined-function locations,
-            961 strings with 25796 characters,
-and the built_in function-call counts, 115504 in all, are:
-= -- 13529
+            962 strings with 25827 characters,
+and the built_in function-call counts, 115512 in all, are:
+= -- 13531
 > -- 1333
 < -- 1
 + -- 553
 - -- 395
-* -- 7620
-:= -- 9484
-add.period$ -- 280
+* -- 7623
+:= -- 9486
+add.period$ -- 281
 call.type$ -- 74
 change.case$ -- 84
 chr.to.int$ -- 0
 cite$ -- 116
-duplicate$ -- 15479
-empty$ -- 9111
+duplicate$ -- 15478
+empty$ -- 9110
 format.name$ -- 469
-if$ -- 24556
+if$ -- 24557
 int.to.chr$ -- 0
 int.to.str$ -- 74
 missing$ -- 1057
-newline$ -- 392
+newline$ -- 393
 num.names$ -- 74
 pop$ -- 7679
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1348
+skip$ -- 1349
 stack$ -- 0
 substring$ -- 17047
-swap$ -- 3290
+swap$ -- 3287
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
@@ -85,5 +85,5 @@ type$ -- 0
 warning$ -- 42
 while$ -- 509
 width$ -- 76
-write$ -- 830
+write$ -- 832
 (There were 42 warnings)

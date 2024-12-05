@@ -1,0 +1,36 @@
+---
+format: 
+  pdf:
+    documentclass: report
+    classoptions: [11pt,notitlepage,english]
+    number-sections: true
+    colorlinks: true
+    include-in-header:
+      - file: header.tex
+    keep-tex: true
+jupyter: python3
+---
+
+\begin{center}
+  \underline{\textbf{THE UNIVERSITY OF BRITISH COLUMBIA}}
+  \vspace{10pt}
+
+  \textbf{Curriculum Vitae for Faculty Members}
+\end{center}
+
+% This could probably be better done with a table:
+\noindent % Prevent indentation
+\begin{minipage}[t]{0.33\textwidth}
+  \raggedright
+  \textbf{Date:} \monthyeardate
+\end{minipage}%
+\begin{minipage}[t]{0.33\textwidth}
+  \begin{center}
+    \textbf{Initials:} AMW \hspace{10pt} 
+  \end{center}
+\end{minipage}%
+\begin{minipage}[t]{0.33\textwidth}
+  \raggedleft
+  % \phantom{ sometext }
+  \includegraphics[width=100pt]{/home/weberam2/Dropbox/signature.png}
+\end{minipage}

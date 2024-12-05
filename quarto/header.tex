@@ -1,0 +1,58 @@
+\usepackage{color} % allow color
+\usepackage[margin=.8in]{geometry} % set margins,showframe
+% \usepackage[table,xcdraw]{xcolor}
+% \usepackage{graphicx} % images
+\global\providecommand{\doiprefix}{doi: }
+\usepackage{fancyhdr} % header footer
+\usepackage{tabularx} % nice tables
+\usepackage{bibentry} % allow citation in text
+\makeatletter\let\saved@bibitem\@bibitem\makeatother
+\usepackage{hyperref}
+\makeatletter\let\@bibitem\saved@bibitem\makeatother
+\hypersetup{
+	colorlinks=true,
+	urlcolor=blue,
+}
+\usepackage{xstring} %for name formatting
+\usepackage{longtable} %for tables that go across pages
+\usepackage{adjustbox} %to adjust width of longtable
+\usepackage{multirow}
+\usepackage{changepage}   % for the adjustwidth environment
+\usepackage{enumitem} % I'm not sure I need this anymore
+\usepackage{array,etoolbox} % a different table option
+\newcounter{magicrownumbers}
+\newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}}
+\preto\tabular{\setcounter{magicrownumbers}{0}}
+\usepackage{etoolbox} % Provides looping and counters
+\newcounter{rowcount}
+\usepackage{float} % keep tables from floating away
+\usepackage{datetime2}
+\makeatletter
+\newcommand{\monthyeardate}{%
+	\DTMenglishmonthname{\@dtm@month}, \@dtm@year
+}
+\makeatother
+\newcommand{\PreserveBackslash}[1]{\let\temp=\\#1\let\\=\temp}
+\newcolumntype{C}[1]{>{\PreserveBackslash\centering}p{#1}}
+\newcolumntype{R}[1]{>{\PreserveBackslash\raggedleft}p{#1}}
+\newcolumntype{L}[1]{>{\PreserveBackslash\raggedright}p{#1}}
+\input{../citationvalues.tex}
+
+%%%%%%%%%%%%%%%%%
+%% HEADER AND FOOTER %%
+%%%%%%%%%%%%%%%%%
+
+\renewcommand{\headrulewidth}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\footnotesize{CV: AM WEBER}}
+\rhead{\footnotesize{\monthyeardate}}
+\rfoot{\thepage}
+\lfoot{\textbf{\footnotesize{UBC FOM | Professoriate}}}
+
+%%%%%%%%%%%%%%%%%
+%% CITE IN TEXT %%
+%%%%%%%%%%%%%%%%%
+
+\nobibliography*
+\bibliographystyle{mycv}
