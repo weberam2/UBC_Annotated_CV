@@ -46,6 +46,9 @@ urls_to_commands = {
     "https://www.frontiersin.org/articles/10.3389/fnhum.2024.1316117/full": "\\dcdchanges",
     "https://www.frontiersin.org/articles/10.3389/fnhum.2024.1276057/full": "\\dcdcontrols",
     "https://www.mdpi.com/2072-6643/16/15/2559": "\\iron",
+    "https://journals.plos.org/complexsystems/article?id=10.1371/journal.pcsy.0000024": "\\sickkids",
+    "https://academic.oup.com/cercor/article-abstract/34/10/bhae426/7906856": "\\dhcp",
+    "https://www.nature.com/articles/s41390-025-03966-6": "\\carmichael",
 }
 
 for pub in data_loaded[0]["publications"]:

@@ -16,9 +16,9 @@ Warning--empty pages in weber-chan-owens-stanley-2008
 Warning--empty pages in weber-sheffield-noseworthy-2010
 Warning--empty pages in weber-soreni-stanley-greco-2011
 Warning--empty pages in pukropskiQuantitativeSusceptibilityMapping2017
-Warning--empty pages in weber-jarrett-dadachanji-2017a
 Warning--empty pages in weber-jarrett-hernandez-torres-2017
 Warning--empty pages in pukropski-weber-jarrett-2017
+Warning--empty pages in weber-jarrett-dadachanji-2017a
 Warning--empty pages in meighen-weber-woodward-2018
 Warning--empty pages in shcranzer-grabner-weber-2019
 Warning--empty pages in zhang-kames-rauscher-weber-2019a
@@ -45,45 +45,45 @@ Warning--empty pages in sochan-vanderwal-giaschi-2023
 Warning--empty pages in carmichaelInvestigationRegionalCerebral2024a
 Warning--empty pages in carmichaelInvestigationRegionalCerebral2024
 Warning--empty pages in sochanAssociationLongRange2024
-You've used 74 entries,
+You've used 75 entries,
             2645 wiz_defined-function locations,
-            962 strings with 25827 characters,
-and the built_in function-call counts, 115512 in all, are:
-= -- 13531
-> -- 1333
+            972 strings with 26197 characters,
+and the built_in function-call counts, 116356 in all, are:
+= -- 13637
+> -- 1344
 < -- 1
-+ -- 553
-- -- 395
-* -- 7623
-:= -- 9486
-add.period$ -- 281
-call.type$ -- 74
++ -- 564
+- -- 398
+* -- 7661
+:= -- 9543
+add.period$ -- 284
+call.type$ -- 75
 change.case$ -- 84
 chr.to.int$ -- 0
-cite$ -- 116
-duplicate$ -- 15478
-empty$ -- 9110
-format.name$ -- 469
-if$ -- 24557
+cite$ -- 117
+duplicate$ -- 15577
+empty$ -- 9162
+format.name$ -- 473
+if$ -- 24731
 int.to.chr$ -- 0
-int.to.str$ -- 74
-missing$ -- 1057
-newline$ -- 393
-num.names$ -- 74
-pop$ -- 7679
+int.to.str$ -- 75
+missing$ -- 1066
+newline$ -- 398
+num.names$ -- 75
+pop$ -- 7699
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1349
+skip$ -- 1427
 stack$ -- 0
-substring$ -- 17047
-swap$ -- 3287
+substring$ -- 17091
+swap$ -- 3395
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 42
-while$ -- 509
-width$ -- 76
-write$ -- 832
+while$ -- 515
+width$ -- 77
+write$ -- 843
 (There were 42 warnings)

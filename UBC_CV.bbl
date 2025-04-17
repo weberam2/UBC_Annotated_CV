@@ -177,15 +177,14 @@ McWilliams S, Hill O, Ipsiroglu OS, Clemens S, \textbf{Weber} AM, Chen M,
 \newblock doi: \href{http://doi.org/10.3390/nu16152559}{10.3390/nu16152559}.
 
 \bibitem{drayneLongRangeTemporalCorrelation2024}
-\underline{Drayne} {\relax JP}, \underline{Mella} {\relax AE}, McLean {\relax
-  MA}, Ufkes S, Chau V, Guo T, Branson {\relax HM}, Kelly E, Miller {\relax
-  SP}, Grunau {\relax RE}, \& \textbf{Weber} {\relax AM}.
-\newblock Long-{{Range Temporal Correlation Development}} in {{Resting-State
-  fMRI Signal}} in {{Preterm Infants}}: {{Scanned Shortly After Birth}} and at
-  {{Term-Equivalent Age}}.
-\newblock \emph{PLOS Complex Systems}, December 2024; \textbf{1(4)}.
-\newblock doi: \href{http://doi.org/10.1371/journal.pc
-  sy.0000024}{10.1371/journal.pc sy.0000024}.
+\underline{Drayne} JP, \underline{Mella} AE, McLean MM, Ufkes S, Chau V, Guo T,
+  Branson HM, Kelly E, Miller SP, Grunau RE, \& \textbf{Weber} AM.
+\newblock Long-Range Temporal Correlation Development in Resting-State {{fMRI}}
+  Signal in Preterm Infants: {{Scanned}} Shortly after Birth and at
+  Term-Equivalent Age.
+\newblock \emph{PLOS Complex Systems}, December 2024; \textbf{1(4)}:e0000,024.
+\newblock doi:
+  \href{http://doi.org/10.1371/journal.pcsy.0000024}{10.1371/journal.pcsy.0000024}.
 
 \bibitem{mellaTemporalComplexityBOLDSignal2024}
 \underline{Mella} AE, {Vanderwal, Tamara}, {Miller, Steven P}, \&
@@ -197,10 +196,19 @@ McWilliams S, Hill O, Ipsiroglu OS, Clemens S, \textbf{Weber} AM, Chen M,
   \href{http://doi.org/10.1093/cercor/bhae426}{10.1093/cercor/bhae426}.
 
 \bibitem{carmichael-etal-magnetic}
-\underline{Carmichael} T, \underline{Zhu} A, Grunau RE, \& \textbf{Weber} AM.
+\underline{Carmichael} TG, \textit{\textbf{Rauscher}} A, Grunau RE, \&
+  \textbf{Weber} AM.
 \newblock The Application of Magnetic Susceptibility Separation for Measuring
   Cerebral Oxygenation in Preterm Neonates.
-\newblock \emph{Pediatric Research}, 2025; .
+\newblock \emph{Pediatric Research}, March 2025; doi:
+  \href{http://doi.org/10.1038/s41390-025-03966-6}{10.1038/s41390-025-03966-6}.
+
+\bibitem{zhu-etal-cmro2}
+\underline{Zhu} A, Chau C, Chan N, Chacko A, Holsti L, Grunau RE, \&
+  \textbf{Weber} AM.
+\newblock Regional Cerebral Metabolic Rate of Oxygen and Levels of Respiratory
+  Support in Preterm Neonates.
+\newblock \emph{NMR in Biomedicine}, April 2025; .
 
 \bibitem{weber_stanley_2009}
 \textbf{Weber} AM \& Stanley EF.
@@ -296,15 +304,6 @@ Pukropski A, \textbf{Weber} AM, Jarrett M, Kames C, Dadachanji S, Li DKB,
 \newblock In \emph{{{TBI}}: {{Mechanisms}} \& {{Therapies}}}. Honolulu, HI,
   USA, April 2017;  .
 
-\bibitem{weber-jarrett-dadachanji-2017a}
-\textbf{Weber} AM, Jarrett M, Dadachanji S, Li D, Taunton J, \&
-  \textit{\textbf{Rauscher}} A.
-\newblock Diffusion Entropy of Fractional Anisotropy Values in White Matter in
-  Mild Traumatic Brain Injury.
-\newblock In \emph{Proceedings of the International Society for Magnetic
-  Resonance in Medicine ({{ISMRM}})}. Honolulu, HI, USA, 2017-04-23/2017-04-27;
-   .
-
 \bibitem{weber-jarrett-hernandez-torres-2017}
 \textbf{Weber} AM, Jarrett M, {Hernandez-Torres} E, Dadachanji S, Li D, Taunton
   J, \& \textit{\textbf{Rauscher}} A.
@@ -321,6 +320,15 @@ Pukropski A, \textbf{Weber} A, Jarrett M, Kames C, Dadachanji S, Li D, Taunton
   Traumatic Brain Injury.
 \newblock In \emph{Proceedings of the Organization for Human Brain Mapping
   ({{OHBM}})}. Vancouver, BC, Canada, 2017-06-25/2017-06-29;  .
+
+\bibitem{weber-jarrett-dadachanji-2017a}
+\textbf{Weber} AM, Jarrett M, Dadachanji S, Li D, Taunton J, \&
+  \textit{\textbf{Rauscher}} A.
+\newblock Diffusion Entropy of Fractional Anisotropy Values in White Matter in
+  Mild Traumatic Brain Injury.
+\newblock In \emph{Proceedings of the International Society for Magnetic
+  Resonance in Medicine ({{ISMRM}})}. Honolulu, HI, USA, 2017-04-23/2017-04-27;
+   .
 
 \bibitem{meighen-weber-woodward-2018}
 Meighen R, \textbf{Weber} AM, \& Woodward T.
@@ -540,6 +548,13 @@ Archibald J, \textbf{Weber} AM, Scheuren P, Ortiz O, Choles C, Lee J, Z{\"o}lch
   Data with {{MRShiny}} Brain - an Interactive Web Application.
 \newblock \emph{NeuroLibre}, April 2024; .
 
+\bibitem{sochanDoesBrainsBalance2025}
+\underline{Sochan} L, Archibald J, \& \textbf{Weber} AM.
+\newblock Does the {{Brain}}'s {{E}}:{{I Balance Really Shape Long-Range
+  Temporal Correlations}}? {{Lessons Learned}} from {{3T MRI}}, April 2025.
+\newblock doi:
+  \href{http://doi.org/10.1101/2025.03.28.645973}{10.1101/2025.03.28.645973}.
+
 \bibitem{weberImagingRoleMyelin2018}
 \textbf{Weber} AM, Torres C, \& \textit{\textbf{Rauscher}} A.
 \newblock Imaging the {{Role}} of {{Myelin}} in {{Concussion}}.
@@ -548,12 +563,10 @@ Archibald J, \textbf{Weber} AM, Scheuren P, Ortiz O, Choles C, Lee J, Z{\"o}lch
 \newblock doi:
   \href{http://doi.org/10.1016/j.nic.2017.09.005}{10.1016/j.nic.2017.09.005}.
 
-\bibitem{zhu-etal-cmro2}
-\underline{Zhu} A, Chau C, Chan N, Chacko A, Holsti L, Grunau RE, \&
-  \textbf{Weber} AM.
-\newblock Regional Cerebral Metabolic Rate of Oxygen and Levels of Respiratory
-  Support in Preterm Neonates.
-\newblock \emph{AJNR: American Journal of Neuroradiology}, October 2024; .
+\bibitem{sochan-etal-fmri}
+\underline{Sochan} L, Vanderwal T, Giaschi D, \& \textbf{Weber} AM.
+\newblock Association between Long Range Temporal Correlations in {{fMRI BOLD}}
+  Signal and the Excitatory-Inhibitory Transmitter Ratio.
 
 \bibitem{archibald-etal-sLASER}
 Archibald J, Near J, \textbf{Weber} AM, Kramer JLK, Mikkelsen M, Craven A,
@@ -566,11 +579,6 @@ Archibald J, \textbf{Weber} AM, Scheuren P, Ortiz O, Choles C, Lee J, Z{\"o}lch
   N, MacMillan EL, \& Kramer JLK.
 \newblock Integrating Structural, Functional, and Biochemical Brain Imaging
   Data with {{MRShiny}} Brain - an Interactive Web Application.
-
-\bibitem{sochan-etal-fmri}
-\underline{Sochan} L, Vanderwal T, Giaschi D, \& \textbf{Weber} AM.
-\newblock Association between Long Range Temporal Correlations in {{fMRI BOLD}}
-  Signal and the Excitatory-Inhibitory Transmitter Ratio.
 
 \bibitem{alexandermarkweberInvestigatingHeadImpacts}
 {Alexander Mark \textbf{Weber}}, {Alexander \textit{\textbf{Rauscher}}}, \&
