@@ -38,7 +38,7 @@ urls_to_commands = {
     "https://www.ajnr.org/content/40/7/1221.abstract": "\\punctate",
     "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/abs/10.1002/nbm.4222": "\\rtwostar",
     "https://www.ajnr.org/content/42/7/1327.abstract": "\\perinatal",
-    "https://www.frontiersin.org/articles/10.3389/fphys.2021.809943/full": "\\campbellfractal",
+    "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2021.809943/full?field&journalName=Frontiers_in_Physiology&id=809943": "\\campbellfractal",
     "https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.25801": "\\campbellreview",
     "https://www.sciencedirect.com/science/article/pii/S1053811922008230": "\\bartel",
     "https://onlinelibrary.wiley.com/doi/abs/10.1002/jmri.28448": "\\fothergill",
