@@ -26,10 +26,11 @@ latex_commands = []
 latex_commands.append(f"\\newcommand{{\\totalcitations}}{{{totalcitations}}}")
 
 # Extract specific citation counts by matching titles
+# NOTE: these links have to be identical to what google scholar points to. So get the links from there
 urls_to_commands = {
     "https://www.nature.com/articles/nn.2657": "\\ntypecal",
     "https://www.nature.com/articles/nn0809-957a": "\\pdlim",
-    "https://www.cell.com/biophysj/fulltext/S0006-3495(08)02149-8": "\\warsi",
+    "https://www.dl.begellhouse.com/journals/7e4ff0643eace965,0f56de4765dd934d,324a78f56257c7e5.html?utm_source=TrendMD&utm_medium=cpc&utm_campaign=Visualization%252C_Image_Processing_and_Computation_in_Biomedicine_TrendMD_1": "\\warsi",
     "https://www.cmajopen.ca/content/1/1/E48.short": "\\anglin",
     "https://www.sciencedirect.com/science/article/pii/S0925492714000316": "\\psychotropic",
     "https://www.sciencedirect.com/science/article/pii/S0278584614000773": "\\psychopharm",
@@ -49,6 +50,7 @@ urls_to_commands = {
     "https://journals.plos.org/complexsystems/article?id=10.1371/journal.pcsy.0000024": "\\sickkids",
     "https://academic.oup.com/cercor/article-abstract/34/10/bhae426/7906856": "\\dhcp",
     "https://www.nature.com/articles/s41390-025-03966-6": "\\carmichael",
+    "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/abs/10.1002/nbm.70065": "\\zhucmro",
 }
 
 for pub in data_loaded[0]["publications"]:

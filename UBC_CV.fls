@@ -1,8 +1,10 @@
 PWD /home/weberam2/Dropbox/AssistantProf_BCCHRI/CV/LaTeX
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
-INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
-INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+PWD /Users/weberam2/Dropbox/AssistantProf_BCCHRI/CV/LaTeX
+INPUT /usr/local/texlive/2025/texmf.cnf
+INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
 INPUT UBC_CV.tex
 OUTPUT UBC_CV.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
