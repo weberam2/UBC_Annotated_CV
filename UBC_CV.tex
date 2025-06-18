@@ -19,6 +19,8 @@
   colorlinks=true,
   urlcolor=blue,
 }
+\usepackage{pgfplots} %tikz
+\pgfplotsset{compat=1.18}
 \usepackage{xstring} %for name formatting
 \usepackage{longtable} %for tables that go across pages
 \usepackage{adjustbox} %to adjust width of longtable
@@ -1249,7 +1251,6 @@ I believe that service to the oppressed or disadvantaged community is as importa
   \includegraphics[width=100pt]{../../../signature.png}
 \end{minipage}
 
-
 \vspace{15pt}
 
 %%%%%%%%%%%%%%%%%
@@ -1265,7 +1266,7 @@ I believe that service to the oppressed or disadvantaged community is as importa
 \noindent\textbf{\underline{Authorship Statement}}
 
 \vspace{5pt}
-\noindent* Most Important papers 
+\noindent* Most important papers 
 \vspace{5pt}
 
 \noindent\underline{Underline} – Trainees under my direct supervision \\
@@ -1295,13 +1296,34 @@ of patients.
   \\
 \end{tabular}
 
-\textbf{Summary (June 2025):} 
+\textbf{Summary (\datecitationran):} 
 
-\hspace{1cm} Number of publications = 22
+% \hspace{1cm} Number of publications = 23
+\hspace{1cm} Number of publications = \totalpapers %23
 
-\hspace{1cm} Number of citations = \totalcitations%391
+\hspace{1cm} Number of citations = \totalcitations%450
 
-\hspace{1cm} h-index = 11
+\hspace{1cm} h-index = \hindex %11
+
+\vspace{20pt}
+
+\begin{tikzpicture}
+\begin{axis}[
+    ybar,
+    xtick=data,
+    axis lines=left, % <--- Only show left & bottom axes
+    xticklabel style={rotate=45, anchor=east},
+    xlabel=Year,
+    ylabel=Citations,
+    enlarge x limits=0.05,
+    ymin=0,
+    width=17cm,
+    height=5cm,
+    xticklabel={\pgfmathprintnumber[int detect,1000 sep={}]{\tick}}
+]
+    \input{tikz/citations_data.tex}
+\end{axis}
+\end{tikzpicture}
 
 % you can find this info at peerref.com
 % run `Python3 cite.py` to update number of citations
@@ -1378,20 +1400,20 @@ of patients.
 
 \begin{longtable}{ L{0.5cm}  L{15.2cm}  }
   \setcounter{rowcount}{0}
-  \stepcounter{rowcount}\therowcount. & \bibentry{gardezipdlim5notneuronal2009}. CA (IF \ifnatneur; Citations \pdlim; \pdlimalt) \\
+  \stepcounter{rowcount}\therowcount. & \noindent\bibentry{gardezipdlim5notneuronal2009}. CA (IF \ifnatneur; Citations \pdlim; \pdlimalt) \\
   \stepcounter{rowcount}\therowcount. & *\bibentry{weberNtypeCa2Channels2010}. FA (IF \ifnatneur; Citations \ntypecal; \ntypecalalt)\\
               & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{We were the first group to measure neuronal voltage gated calcium channels using physiological levels of Ca$^{2+}$. 
                 Our study helped overturn the generally accepted conductance hierarchy of calcium channels, 
               and allowed future researchers to use physiologically measured conductance levels for their models.} \\
-  \stepcounter{rowcount}\therowcount. & \bibentry{warsiBrainFractalBloodOxygen2013}. CA (IF \ifvisual; Citations \warsi; \warsialt) \\
-  \stepcounter{rowcount}\therowcount. & \bibentry{anglinMetaboliteMeasurementsCaudate2013}. CA (IF \ifcmajo; Citations \anglin; \anglinalt) \\
-  \stepcounter{rowcount}\therowcount. & \bibentry{weberProtonMagneticResonance2014}. FA (IF \ifpsych; Citations \psychotropic; \psychotropicalt) \\
-  \stepcounter{rowcount}\therowcount. & \bibentry{weberPreliminaryStudyFunctional2014}. FA (IF \ifprog; Citations \psychopharm; \psychopharmalt) \\
+  \stepcounter{rowcount}\therowcount. & \noindent\bibentry{warsiBrainFractalBloodOxygen2013}. CA (IF \ifvisual; Citations \warsi; \warsialt) \\
+  \stepcounter{rowcount}\therowcount. & \noindent\bibentry{anglinMetaboliteMeasurementsCaudate2013}. CA (IF \ifcmajo; Citations \anglin; \anglinalt) \\
+  \stepcounter{rowcount}\therowcount. & \noindent\bibentry{weberProtonMagneticResonance2014}. FA (IF \ifpsych; Citations \psychotropic; \psychotropicalt) \\
+  \stepcounter{rowcount}\therowcount. & \noindent\bibentry{weberPreliminaryStudyFunctional2014}. FA (IF \ifprog; Citations \psychopharm; \psychopharmalt) \\
               % & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{This study was unique and important for several reasons: (1) few studies have focused on childhood OCD; (2) the few fcMRI studies that had been performed on children were seed based, which can introduce bias – our study used independent component analysis for a data-driven approach; and (3) our subjects were medication naïve, suggesting that differences with the control group were due to the disorder, and not due to changes brought on with medication. Our results both supported the generally accepted model in adults, while also implicating other regions outside of this circuit unique to children.} \\
-  \stepcounter{rowcount}\therowcount. & \bibentry{weberPreliminaryStudyEffects2014}. (IF \ifmagma; Citations \ethanol; \ethanolalt)  \\
+  \stepcounter{rowcount}\therowcount. & \noindent\bibentry{weberPreliminaryStudyEffects2014}. (IF \ifmagma; Citations \ethanol; \ethanolalt)  \\
   \stepcounter{rowcount}\therowcount. & *\bibentry{weberPathologicalInsightsQuantitative2018}. (IF \iffrontneur; Citations \pathological; \pathologicalalt) \\
               & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{This paper is unique as it uses a longitudinal research design – meaning that subjects were scanned before and after mild traumatic brain injuries. The results show that changes in myelin water imaging previously reported from the same cohort were likely due to myelin sheath unravelling, as opposed to complete myelin breakdown and removal. This finding is also supported by animal studies performed by other labs. This paper received significant media attention, including several television interviews.} \\
-  \stepcounter{rowcount}\therowcount. & \bibentry{zhangQuantitativeAnalysisPunctate2019}. SA (IF \ifajnr; Citations \punctate; \punctatealt) \\
+  \stepcounter{rowcount}\therowcount. & \noindent\bibentry{zhangQuantitativeAnalysisPunctate2019}. SA (IF \ifajnr; Citations \punctate; \punctatealt) \\
               % & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{This paper represents my first senior author publication. The article was a simple but effective demonstration of how transformative susceptibility based imaging can be to clinicians.} \\
               \stepcounter{rowcount}\therowcount. & *\bibentry{weberMyelinWaterImaging2020}. (IF \ifnmr; Citations \rtwostar; \rtwostaralt) \\
               & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{This study is special as we found
@@ -1403,7 +1425,7 @@ of patients.
     abnormalities in neonates. These findings could have significant
   implications for understanding and diagnosing neurodevelopmental disorders in
 early life.} \\
-  \stepcounter{rowcount}\therowcount. & \bibentry{weberQuantitativeSusceptibilityMapping2021}. FA (IF \ifajnr; Citations \perinatal; \perinatalalt)  \\
+  \stepcounter{rowcount}\therowcount. & \noindent\bibentry{weberQuantitativeSusceptibilityMapping2021}. FA (IF \ifajnr; Citations \perinatal; \perinatalalt)  \\
   \stepcounter{rowcount}\therowcount. & *\bibentry{campbellFractalBasedAnalysisFMRI2021}. Co-SA (IF \iffrontphys; Citations \campbellfractal; \campbellfractalalt) \\
               & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{In this
               study we found that the complexity of fMRI
@@ -1415,14 +1437,14 @@ early life.} \\
   previously thought. These findings have important implications for our
 understanding of how the brain processes information and could potentially
 influence the design of future neuroimaging studies.} \\
-  \stepcounter{rowcount}\therowcount. & \bibentry{campbellMonofractalAnalysisFunctional2022}. SA (IF \ifhbm; Citations \campbellreview; \campbellreviewalt) \\
-  \stepcounter{rowcount}\therowcount. & \bibentry{bartelsOrientationDependenceR22022}. Co-SA (IF \ifneurimag; Citations \bartel; \bartelalt) \\
-  \stepcounter{rowcount}\therowcount. & \bibentry{fothergillEffectsWearing3Ply2023}. Co-SA (IF \ifjmri; Citations \fothergill; \fothergillalt) \\
-  \stepcounter{rowcount}\therowcount. & \bibentry{weber_cerebrovascular_reactivity_2023}. FA (IF \iftopics; Citations \sci; \scialt) \\
-  \stepcounter{rowcount}\therowcount. & \bibentry{malikCorticalGreyMatter2024}. CA (IF \iffronthum; Citations \dcdcontrols; \dcdcontrolsalt) \\
-  \stepcounter{rowcount}\therowcount. & \bibentry{malikm.a.ChangesCorticalGrey2024}. CA (IF \iffronthum; Citations \dcdchanges; \dcdchangesalt) \\
-  \stepcounter{rowcount}\therowcount. & \bibentry{mcwilliamsIronDeficiencySleep2024}. CA (IF \ifnutrients; Citations \iron; \ironalt) \\
-  \stepcounter{rowcount}\therowcount. & \bibentry{drayneLongRangeTemporalCorrelation2024} SA (IF n/a; Citations \sickkids; \sickkidsalt)\\
+  \stepcounter{rowcount}\therowcount. & \noindent\bibentry{campbellMonofractalAnalysisFunctional2022}. SA (IF \ifhbm; Citations \campbellreview; \campbellreviewalt) \\
+  \stepcounter{rowcount}\therowcount. & \noindent\bibentry{bartelsOrientationDependenceR22022}. Co-SA (IF \ifneurimag; Citations \bartel; \bartelalt) \\
+  \stepcounter{rowcount}\therowcount. & \noindent\bibentry{fothergillEffectsWearing3Ply2023}. Co-SA (IF \ifjmri; Citations \fothergill; \fothergillalt) \\
+  \stepcounter{rowcount}\therowcount. & \noindent\bibentry{weber_cerebrovascular_reactivity_2023}. FA (IF \iftopics; Citations \sci; \scialt) \\
+  \stepcounter{rowcount}\therowcount. & \noindent\bibentry{malikCorticalGreyMatter2024}. CA (IF \iffronthum; Citations \dcdcontrols; \dcdcontrolsalt) \\
+  \stepcounter{rowcount}\therowcount. & \noindent\bibentry{malikm.a.ChangesCorticalGrey2024}. CA (IF \iffronthum; Citations \dcdchanges; \dcdchangesalt) \\
+  \stepcounter{rowcount}\therowcount. & \noindent\bibentry{mcwilliamsIronDeficiencySleep2024}. CA (IF \ifnutrients; Citations \iron; \ironalt) \\
+  \stepcounter{rowcount}\therowcount. & \noindent\bibentry{drayneLongRangeTemporalCorrelation2024} SA (IF n/a; Citations \sickkids; \sickkidsalt)\\
   \stepcounter{rowcount}\therowcount. & *\bibentry{mellaTemporalComplexityBOLDSignal2024} SA (IF \ifcercor; Citations \dhcp; \dhcpalt)\\
               & \parshape 1 .5cm \dimexpr\linewidth-2cm\relax \textit{This
                 study is significant as it provides insights into the impact of
@@ -1436,9 +1458,9 @@ influence the design of future neuroimaging studies.} \\
                 in the neonatal brain, with the BOLD signal in preterm infants
                 transforming from anticorrelated to correlated, but reduced
                 compared to term born infants.} \\
-    \stepcounter{rowcount}\therowcount. & \bibentry{carmichael-etal-magnetic} SA (IF \ifpedres; Citations \carmichael; \carmichaelalt) \\
+    \stepcounter{rowcount}\therowcount. & \noindent\bibentry{carmichael-etal-magnetic} SA (IF \ifpedres; Citations \carmichael; \carmichaelalt) \\
                                         & Published as fully reproducible manuscript at \href{https://github.com/WeberLab/Chisep_CSVO2_Manuscript}{WeberLab/Chisep\_CSVO2\_Manuscript} \\
-    \stepcounter{rowcount}\therowcount. & \bibentry{zhu-etal-cmro2} SA (IF \ifnmr; Citations \zhucmro; \zhucmroalt) \\
+    \stepcounter{rowcount}\therowcount. & \noindent\bibentry{zhu-etal-cmro2} SA (IF \ifnmr; Citations \zhucmro; \zhucmroalt) \\
                                         & Published as fully reproducible manuscript at \href{https://github.com/WeberLab/CMRO2\_Manuscript}{WeberLab/CMRO2\_Manuscript} \\
 \end{longtable}
 
@@ -1453,54 +1475,54 @@ influence the design of future neuroimaging studies.} \\
 
 \setcounter{magicrownumbers}{0}
 \begin{longtable}{ L{0.5cm}  L{15.2cm}  }
-  \rownumber. & \bibentry{weber_stanley_2009} \\
-  \rownumber. & \bibentry{weber_intoxicated_brain_2011} \\
-  \rownumber. & \bibentry{weber_altered_connectivity_2011} \\
-  \rownumber. & \bibentry{weber_mrs_ofofwm_2012} \\
-  \rownumber. & \bibentry{weber_myelin_imaging_2019} \\
-  \rownumber. & \bibentry{campbell_fractal_analysis_2021} \\
-  \rownumber. & \bibentry{drayneFractalAnalysisBOLD2022} \\
-  \rownumber. & \bibentry{mellaAlteredBrainSignaling2023} \\
+  \rownumber. & \noindent\bibentry{weber_stanley_2009} \\
+  \rownumber. & \noindent\bibentry{weber_intoxicated_brain_2011} \\
+  \rownumber. & \noindent\bibentry{weber_altered_connectivity_2011} \\
+  \rownumber. & \noindent\bibentry{weber_mrs_ofofwm_2012} \\
+  \rownumber. & \noindent\bibentry{weber_myelin_imaging_2019} \\
+  \rownumber. & \noindent\bibentry{campbell_fractal_analysis_2021} \\
+  \rownumber. & \noindent\bibentry{drayneFractalAnalysisBOLD2022} \\
+  \rownumber. & \noindent\bibentry{mellaAlteredBrainSignaling2023} \\
 \end{longtable}
 
 \textbf{Poster Presentations}
 
 % \setcounter{magicrownumbers}{0}
 \begin{longtable}{ L{0.5cm}  L{15.2cm}  }
-  \rownumber. & \bibentry{weber-goh-2005} \\
-  \rownumber. & \bibentry{weber-chan-owens-stanley-2008} \\
-  \rownumber. & \bibentry{weber-sheffield-noseworthy-2010} \\
-  \rownumber. & \bibentry{weber-soreni-stanley-greco-2011} \\
-  \rownumber. & \bibentry{pukropskiQuantitativeSusceptibilityMapping2017} \\
-  \rownumber. & \bibentry{weber-jarrett-hernandez-torres-2017} \\
-  \rownumber. & \bibentry{pukropski-weber-jarrett-2017} \\
-  \rownumber. & \bibentry{weber-jarrett-dadachanji-2017a} \\
-  \rownumber. & \bibentry{meighen-weber-woodward-2018} \\
-  \rownumber. & \bibentry{shcranzer-grabner-weber-2019} \\
-  \rownumber. & \bibentry{zhang-kames-rauscher-weber-2019a} \\
-  \rownumber. & \bibentry{zhang-rauscher-weber-2019b} \\
-  \rownumber. & \bibentry{beyazaei-cho-xiao-friedlander-2019} \\
-  \rownumber. & \bibentry{bartels-doucette-birkl-2021a} \\
-  \rownumber. & \bibentry{bartels-doucette-birkl-2021b} \\
-  \rownumber. & \bibentry{campbell-vanderwal-weber-2021a} \\
-  \rownumber. & \bibentry{weber-zhang-kames-2021} \\
-  \rownumber. & \bibentry{campbell-vanderwal-weber-2021} \\
-  \rownumber. & \bibentry{drayne-miller-grunau-2021a} \\
-  \rownumber. & \bibentry{zhu-chan-grunau-2021} \\
-  \rownumber. & \bibentry{fothergill-birkl-kames-2022a} \\
-  \rownumber. & \bibentry{fothergill-birkl-kames-2022b} \\
-  \rownumber. & \bibentry{campbell-vanderwal-weber-2022} \\
-  \rownumber. & \bibentry{zhu-chan-grunau-2022} \\
-  \rownumber. & \bibentry{bartels-doucette-birkl-2022} \\
-  \rownumber. & \bibentry{ma-bartels-kames-2022} \\
-  \rownumber. & \bibentry{armour-mclean-phillips-2022} \\
-  \rownumber. & \bibentry{mella-weber-2022} \\
-  \rownumber. & \bibentry{mclean-armour-weinberg-2022} \\
-  \rownumber. & \bibentry{zhu-chan-holsti-2022} \\
-  \rownumber. & \bibentry{sochan-vanderwal-giaschi-2023} \\
-  \rownumber. & \bibentry{carmichaelInvestigationRegionalCerebral2024a} \\
-  \rownumber. & \bibentry{carmichaelInvestigationRegionalCerebral2024} \\
-  \rownumber. & \bibentry{sochanAssociationLongRange2024} \\
+  \rownumber. & \noindent\bibentry{weber-goh-2005} \\
+  \rownumber. & \noindent\bibentry{weber-chan-owens-stanley-2008} \\
+  \rownumber. & \noindent\bibentry{weber-sheffield-noseworthy-2010} \\
+  \rownumber. & \noindent\bibentry{weber-soreni-stanley-greco-2011} \\
+  \rownumber. & \noindent\bibentry{pukropskiQuantitativeSusceptibilityMapping2017} \\
+  \rownumber. & \noindent\bibentry{weber-jarrett-hernandez-torres-2017} \\
+  \rownumber. & \noindent\bibentry{pukropski-weber-jarrett-2017} \\
+  \rownumber. & \noindent\bibentry{weber-jarrett-dadachanji-2017a} \\
+  \rownumber. & \noindent\bibentry{meighen-weber-woodward-2018} \\
+  \rownumber. & \noindent\bibentry{shcranzer-grabner-weber-2019} \\
+  \rownumber. & \noindent\bibentry{zhang-kames-rauscher-weber-2019a} \\
+  \rownumber. & \noindent\bibentry{zhang-rauscher-weber-2019b} \\
+  \rownumber. & \noindent\bibentry{beyazaei-cho-xiao-friedlander-2019} \\
+  \rownumber. & \noindent\bibentry{bartels-doucette-birkl-2021a} \\
+  \rownumber. & \noindent\bibentry{bartels-doucette-birkl-2021b} \\
+  \rownumber. & \noindent\bibentry{campbell-vanderwal-weber-2021a} \\
+  \rownumber. & \noindent\bibentry{weber-zhang-kames-2021} \\
+  \rownumber. & \noindent\bibentry{campbell-vanderwal-weber-2021} \\
+  \rownumber. & \noindent\bibentry{drayne-miller-grunau-2021a} \\
+  \rownumber. & \noindent\bibentry{zhu-chan-grunau-2021} \\
+  \rownumber. & \noindent\bibentry{fothergill-birkl-kames-2022a} \\
+  \rownumber. & \noindent\bibentry{fothergill-birkl-kames-2022b} \\
+  \rownumber. & \noindent\bibentry{campbell-vanderwal-weber-2022} \\
+  \rownumber. & \noindent\bibentry{zhu-chan-grunau-2022} \\
+  \rownumber. & \noindent\bibentry{bartels-doucette-birkl-2022} \\
+  \rownumber. & \noindent\bibentry{ma-bartels-kames-2022} \\
+  \rownumber. & \noindent\bibentry{armour-mclean-phillips-2022} \\
+  \rownumber. & \noindent\bibentry{mella-weber-2022} \\
+  \rownumber. & \noindent\bibentry{mclean-armour-weinberg-2022} \\
+  \rownumber. & \noindent\bibentry{zhu-chan-holsti-2022} \\
+  \rownumber. & \noindent\bibentry{sochan-vanderwal-giaschi-2023} \\
+  \rownumber. & \noindent\bibentry{carmichaelInvestigationRegionalCerebral2024a} \\
+  \rownumber. & \noindent\bibentry{carmichaelInvestigationRegionalCerebral2024} \\
+  \rownumber. & \noindent\bibentry{sochanAssociationLongRange2024} \\
 \end{longtable}
 
 
@@ -1521,10 +1543,10 @@ influence the design of future neuroimaging studies.} \\
 
 \setcounter{magicrownumbers}{0}
 \begin{longtable}{ L{0.5cm}  L{15.2cm}  }
-  \rownumber. & \bibentry{weberCerebrovascularReactivityFollowing2022} \\
-  \rownumber. & \bibentry{mellaTemporalComplexityBOLDSignal2023} \\
-  \rownumber. & \bibentry{archibald-etal-mrshinybraina} \\
-  \rownumber. & \bibentry{sochanDoesBrainsBalance2025} \\
+  \rownumber. & \noindent\bibentry{weberCerebrovascularReactivityFollowing2022} \\
+  \rownumber. & \noindent\bibentry{mellaTemporalComplexityBOLDSignal2023} \\
+  \rownumber. & \noindent\bibentry{archibald-etal-mrshinybraina} \\
+  \rownumber. & \noindent\bibentry{sochanDoesBrainsBalance2025} \\
 \end{longtable}
 
 \begin{tabular}{L{.5cm} L{18.9cm} }
@@ -1550,7 +1572,7 @@ influence the design of future neuroimaging studies.} \\
 
 \setcounter{magicrownumbers}{0}
 \begin{longtable}{ L{0.5cm}  L{15.2cm}  }
-  \rownumber. & \bibentry{weberImagingRoleMyelin2018} \\
+  \rownumber. & \noindent\bibentry{weberImagingRoleMyelin2018} \\
 \end{longtable}
 
 \begin{tabular}{L{.5cm} L{18.9cm} }
@@ -1631,7 +1653,7 @@ benefits of challenging yourself and the beauty of the outdoors.
 
 \setcounter{magicrownumbers}{0}
 \begin{longtable}{ L{0.5cm}  L{15.2cm}  }
-      \rownumber. & \bibentry{sochan-etal-fmri}. \textit{Submitted to} Imaging Neuroscience\\
+      \rownumber. & \noindent\bibentry{sochan-etal-fmri}. \textit{Submitted to} Imaging Neuroscience\\
 \end{longtable}
 
 \begin{tabular}{L{.5cm} L{18.9cm} }
@@ -1643,10 +1665,10 @@ benefits of challenging yourself and the beauty of the outdoors.
 
 \setcounter{magicrownumbers}{0}
 \begin{longtable}{ L{0.5cm} L{15.2cm} }
-\rownumber. & \bibentry{archibald-etal-sLASER} \textit{Paper written. Waiting for code fix. Plan to submit to} Imaging Neuroscience. \\
-\rownumber. & \bibentry{archibald-etal-mrshinybrain} \textit{Paper written. Waiting for reconsenting process. Plan to submit to} Scientific Data. \\
-  \rownumber. & \bibentry{alexandermarkweberInvestigatingHeadImpacts} \textit{We are currently in the data analysis period. I have helped with designing the pulse sequences and with data analysis.} \\
-  \rownumber. & \bibentry{evelynarmourFractalAnalysisResting} \textit{Data analysis complete; M McLean is writing two papers.} \\
+\rownumber. & \noindent\bibentry{archibald-etal-sLASER} \textit{Paper written. Waiting for code fix. Plan to submit to} Imaging Neuroscience. \\
+\rownumber. & \noindent\bibentry{archibald-etal-mrshinybrain} \textit{Paper written. Waiting for reconsenting process. Plan to submit to} Scientific Data. \\
+\rownumber. & \noindent\bibentry{alexandermarkweberInvestigatingHeadImpacts} \textit{We are currently in the data analysis period. I have helped with designing the pulse sequences and with data analysis.} \\
+\rownumber. & \noindent\bibentry{evelynarmourFractalAnalysisResting} \textit{Data analysis complete; M McLean is writing two papers.} \\
 \end{longtable}
 
 \begin{tabular}{L{.5cm} L{18.9cm} }

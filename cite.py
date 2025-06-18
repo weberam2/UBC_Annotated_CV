@@ -1,5 +1,9 @@
 from scholar_scraper import scholar_scraper
 import json
+from datetime import date
+
+# get todya's date as month (word) and year (number)
+todaydate = date.today().strftime("%B %Y")
 
 # Define the list of authors Google Scholar IDs
 scholarIds = [
@@ -7,20 +11,23 @@ scholarIds = [
 ]
 
 # Start scraping and print the resulted JSON to the console
-# print(scholar_scraper.start_scraping(scholarIds))
 with open("output.json", "w") as f:
     # Write data to the JSON file
     f.write(scholar_scraper.start_scraping(scholarIds))
-
+# open the json file
 with open("output.json", "r") as file:
     data_loaded = json.load(file)
-
+# get number of total ciations
 totalcitations = data_loaded[0]["citedby"]
 
-# print(str(totalcitations))
+# file to write to that latex will read from
 filename = "citationvalues.tex"
 
+# start with an empty list
 latex_commands = []
+
+# Write today's date
+latex_commands.append(f"\\newcommand{{\\datecitationran}}{{{todaydate}}}")
 
 # Write total citations
 latex_commands.append(f"\\newcommand{{\\totalcitations}}{{{totalcitations}}}")
@@ -53,10 +60,34 @@ urls_to_commands = {
     "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/abs/10.1002/nbm.70065": "\\zhucmro",
 }
 
+# count the total number of urls above
+numberofpapers = len(urls_to_commands)
+latex_commands.append(f"\\newcommand{{\\totalpapers}}{{{numberofpapers}}}")
+
+# fill citations.tex with number of citations for each paper
+citationslist = []
 for pub in data_loaded[0]["publications"]:
     if pub["pub_url"] in urls_to_commands:
         command = urls_to_commands[pub["pub_url"]]
         latex_commands.append(f"\\newcommand{{{command}}}{{{pub['num_citations']}}}")
+        citationslist.append(pub["num_citations"])
+
+
+# calculate H-index
+def h_index(citations):
+    citations.sort(reverse=True)
+    h = 0
+    for i, c in enumerate(citations, 1):
+        if c >= i:
+            h = i
+        else:
+            break
+    return h + 1
+
+
+latex_commands.append(f"\\newcommand{{\\hindex}}{{{h_index(citationslist)}}}")
+
+# print(f"H-index = {h_index(citationslist)}")
 
 # Write all commands to the file at once
 with open(filename, "w") as file:
