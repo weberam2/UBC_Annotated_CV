@@ -21,25 +21,25 @@ def get_altmetric_data(doi):
         )
         wiki = data.get("cited_by_wikipedia_count") or 0
 
-        altmet = (
-            f"Altmetric score = {score} ($>$ {pct}\\% all altmetric papers; $>$ {threemonthpct}\\% last three months). "
-            f"{readers} readers, "
-            f"{posts} posts, "
+        altmet = ""
+        altmet += f"Altmetric score = {score}"
+
+        if int(pct) > 0:
+            altmet += (
+                f"; $>$ {pct}\\% all altmetric papers; "
+                f"$>$ {threemonthpct}\\% last three months"
+            )
+
+        altmet += (
+            f". {readers} user saves, "
+            f"{posts} social-media posts, "
             f"{news} news outlets, "
             f"and {wiki} English Wikipedia pages."
         )
         return altmet
-        # print(altmet)
     else:
         return "No Altmetric data to report."
 
-
-# with open("WeberPapers.csv") as f:
-#     reader = csv.DictReader(f)
-#     dois = filter(None, (row["DOI"] for row in reader))
-#     for doi in dois:
-#         get_altmetric_data(doi)
-# print(doi)
 
 latex_alt = []
 dois_to_altmet = {
@@ -66,15 +66,37 @@ dois_to_altmet = {
     "10.1093/cercor/bhae426": "\\dhcpalt",
     "10.1038/s41390-025-03966-6": "\\carmichaelalt",
     "10.1002/nbm.70065": "\\zhucmroalt",
+    "10.1101/2025.03.28.645973": "\\sochanpreprintalt",
+    "10.1101/2023.12.08.570818": "\\dhcppreprintalt",
+    "10.1101/2022.06.28.22276567": "\\scipreprintalt",
+    "10.55458/neurolibre.00029": "\\mrishinyalt",
+    "10.1016/j.nic.2017.09.005": "\\myelinchapteralt",
 }
+
+
+def get_unpaywall_data(doi, oa_count):
+    url = f"https://api.unpaywall.org/v2/{doi}?email=unpaywall_01@example.com"
+    response = requests.get(url)
+    if response.status_code == 200:  # | response2.status_code == 200:
+        data = response.json()
+        if data.get("is_oa") is True:
+            oa_count += 1
+            return oa_count
+
+    return oa_count
+
+
+oa_count = 0
 for key in dois_to_altmet:
     # print(key)
     # get_altmetric_data(key)
     latex_alt.append(
         f"\\newcommand{{{dois_to_altmet[key]}}}{{{get_altmetric_data(key)}}}"
     )
+    oa_count = get_unpaywall_data(key, oa_count)
 
-# print(latex_alt)
+
+latex_alt.append(f"\\newcommand{{\\oacount}}{{{oa_count}}}")
 
 with open(filename, "w") as file:
     file.write("\n".join(latex_alt))

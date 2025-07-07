@@ -58,6 +58,7 @@ urls_to_commands = {
     "https://academic.oup.com/cercor/article-abstract/34/10/bhae426/7906856": "\\dhcp",
     "https://www.nature.com/articles/s41390-025-03966-6": "\\carmichael",
     "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/abs/10.1002/nbm.70065": "\\zhucmro",
+    "https://www.neuroimaging.theclinics.com/article/S1052-5149(17)30113-2/abstract": "\\myelinchapter",
 }
 
 # count the total number of urls above
