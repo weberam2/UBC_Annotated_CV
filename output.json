@@ -1,24 +1,24 @@
 [
     {
         "affiliation": "Assistant Professor, University of British Columbia; Staff Imaging Scientist, BC Children's Hospital",
-        "citedby": 450,
+        "citedby": 457,
         "cites_per_year": {
             "2010": 4,
             "2011": 4,
             "2012": 20,
             "2013": 20,
-            "2014": 12,
-            "2015": 26,
+            "2014": 19,
+            "2015": 29,
             "2016": 21,
-            "2017": 31,
+            "2017": 30,
             "2018": 24,
-            "2019": 21,
+            "2019": 25,
             "2020": 26,
             "2021": 36,
-            "2022": 51,
+            "2022": 38,
             "2023": 47,
             "2024": 54,
-            "2025": 46
+            "2025": 52
         },
         "coauthors": [
             {
@@ -42,14 +42,14 @@
                 "scholar_id": "a22tkAsAAAAJ"
             },
             {
-                "affiliation": "University of British Columbia",
-                "name": "David K. B. Li",
-                "scholar_id": "kqHxIZoAAAAJ"
-            },
-            {
                 "affiliation": "Medical University of Innsbruck",
                 "name": "Christoph Birkl",
                 "scholar_id": "N7wbr4wAAAAJ"
+            },
+            {
+                "affiliation": "University of British Columbia",
+                "name": "David K. B. Li",
+                "scholar_id": "kqHxIZoAAAAJ"
             },
             {
                 "affiliation": "PhD Student, Univerity of British Columbia",
@@ -72,14 +72,14 @@
                 "scholar_id": "HgNUkFYAAAAJ"
             },
             {
-                "affiliation": "McMaster University",
-                "name": "Rebecca Anglin",
-                "scholar_id": "rCVRuVEAAAAJ"
-            },
-            {
                 "affiliation": "University of British Columbia",
                 "name": "Jill G Zwicker",
                 "scholar_id": "C9Tvc-oAAAAJ"
+            },
+            {
+                "affiliation": "McMaster University",
+                "name": "Rebecca Anglin",
+                "scholar_id": "rCVRuVEAAAAJ"
             },
             {
                 "affiliation": "Professor Emerita, University of Toronto",
@@ -106,21 +106,21 @@
                     "2011": 3,
                     "2012": 18,
                     "2013": 18,
-                    "2014": 10,
-                    "2015": 13,
+                    "2014": 17,
+                    "2015": 16,
                     "2016": 6,
                     "2017": 10,
-                    "2018": 11,
-                    "2019": 8,
-                    "2020": 5,
+                    "2018": 12,
+                    "2019": 13,
+                    "2020": 6,
                     "2021": 4,
-                    "2022": 25,
-                    "2023": 4,
+                    "2022": 13,
+                    "2023": 3,
                     "2024": 3,
                     "2025": 4
                 },
                 "journal": "Nature neuroscience",
-                "num_citations": 142,
+                "num_citations": 147,
                 "number": "11",
                 "pages": "1348-1350",
                 "pub_url": "https://www.nature.com/articles/nn.2657",
@@ -131,10 +131,10 @@
                 "volume": "13"
             },
             {
-                "abstract": " To study the effect of acute alcohol intoxication on the functional connectivity of the default mode network (DMN) and temporal fractal properties of the healthy adult brain.Eleven healthy male volunteers were asked to drink 0.59 g/kg of ethanol. Resting state blood oxygen level dependent (rsBOLD) MRI scans were obtained before consumption, 60 min post-consumption and 90 min post-consumption. Before each rsBOLD scan, pointed-resolved spectroscopy (PRESS) 1H-MRS (magnetic resonance spectroscopy) scans were acquired to measure ethanol levels in the right basal ganglia.Significant changes in DMN connectivity were found following alcohol consumption (p < 0.01). Both increased and decreased regional connectivity were found after 60 min, whereas mostly …",
+                "abstract": " To study the effect of acute alcohol intoxication on the functional connectivity of the default mode network (DMN) and temporal fractal properties of the healthy adult brain.Eleven healthy male volunteers were asked to drink 0.59 g/kg of ethanol. Resting state blood oxygen level dependent (rsBOLD) MRI scans were obtained before consumption, 60 min post-consumption and 90 min post-consumption. Before each rsBOLD scan, pointed-resolved spectroscopy (PRESS) 1H-MRS (magnetic resonance spectroscopy) scans were acquired to measure ethanol levels in the right basal ganglia.Significant changes in DMN connectivity were found following alcohol consumption (p < 0.01). Both increased and decreased regional connectivity were found after 60 min, whereas mostly decreased connectivity was found after 90 min. The fractal behaviour of the rsBOLD signal, which is …",
                 "author": "Alexander M Weber and Noam Soreni and Michael D Noseworthy",
                 "author_pub_id": "nPuyG8gAAAAJ:u5HHmVD_uO8C",
-                "citation": "Magnetic Resonance Materials in Physics, Biology and Medicine 27, 291-301, 2014",
+                "citation": "Magnetic Resonance Materials in Physics, Biology and Medicine 27 (4), 291-301, 2014",
                 "cites_per_year": {
                     "2014": 1,
                     "2015": 2,
@@ -146,10 +146,12 @@
                     "2021": 4,
                     "2022": 4,
                     "2023": 4,
-                    "2024": 6
+                    "2024": 6,
+                    "2025": 1
                 },
                 "journal": "Magnetic Resonance Materials in Physics, Biology and Medicine",
-                "num_citations": 44,
+                "num_citations": 45,
+                "number": "4",
                 "pages": "291-301",
                 "pub_url": "https://link.springer.com/article/10.1007/s10334-013-0420-5",
                 "pub_year": 2014,
@@ -159,14 +161,14 @@
                 "volume": "27"
             },
             {
-                "abstract": "Evidence suggests that obsessive–compulsive disorder (OCD) is associated with a dysfunction in the cortico-striatal–thalamic–cortical (CSTC) circuitry. Resting state functional connectivity magnetic resonance imaging (rs-fcMRI) allows measurements of resting state networks (RSNs), brain networks that are present at ‘rest’. However, although OCD has a typical onset during childhood or adolescence, only two other studies have performed rs-fcMRI comparisons of RSNs in children and adolescents with OCD against healthy controls.In the present study, we performed resting state functional magnetic resonance imaging using a 3 Tesla MRI, in 11 medication-naïve children and adolescents with OCD and 9 healthy controls. In contrast to previous studies that relied on a priori determination of RSNs, we determined resting state functional connectivity with a data-driven independent component …",
+                "abstract": "BackgroundEvidence suggests that obsessive–compulsive disorder (OCD) is associated with a dysfunction in the cortico-striatal–thalamic–cortical (CSTC) circuitry. Resting state functional connectivity magnetic resonance imaging (rs-fcMRI) allows measurements of resting state networks (RSNs), brain networks that are present at ‘rest’. However, although OCD has a typical onset during childhood or adolescence, only two other studies have performed rs-fcMRI comparisons of RSNs in children and adolescents with OCD against healthy controls.MethodsIn the present study, we performed resting state functional magnetic resonance imaging using a 3 Tesla MRI, in 11 medication-naïve children and adolescents with OCD and 9 healthy controls. In contrast to previous studies that relied on a priori determination of RSNs, we determined resting state functional connectivity with a data-driven independent component …",
                 "author": "Alexander Mark Weber and Noam Soreni and Michael David Noseworthy",
                 "author_pub_id": "nPuyG8gAAAAJ:UeHWp8X0CEIC",
                 "citation": "Progress in Neuro-Psychopharmacology and Biological Psychiatry 53, 129-136, 2014",
                 "cites_per_year": {
                     "2015": 3,
                     "2016": 4,
-                    "2017": 9,
+                    "2017": 8,
                     "2018": 1,
                     "2019": 2,
                     "2020": 4,
@@ -177,7 +179,7 @@
                     "2025": 1
                 },
                 "journal": "Progress in Neuro-Psychopharmacology and Biological Psychiatry",
-                "num_citations": 36,
+                "num_citations": 35,
                 "pages": "129-136",
                 "pub_url": "https://www.sciencedirect.com/science/article/pii/S0278584614000773",
                 "pub_year": 2014,
@@ -185,6 +187,27 @@
                 "title": "A preliminary study of functional connectivity of medication naive children with obsessive–compulsive disorder",
                 "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:eu_Twl9IcPwJ:scholar.google.com/",
                 "volume": "53"
+            },
+            {
+                "abstract": "The following review will aid readers in providing an overview of scale‐free dynamics and monofractal analysis, as well as its applications and potential in functional magnetic resonance imaging (fMRI) neuroscience and clinical research. Like natural phenomena such as the growth of a tree or crashing ocean waves, the brain expresses scale‐invariant, or fractal, patterns in neural signals that can be measured. While neural phenomena may represent both monofractal and multifractal processes and can be quantified with many different interrelated parameters, this review will focus on monofractal analysis using the Hurst exponent (H). Monofractal analysis of fMRI data is an advanced analysis technique that measures the complexity of brain signaling by quantifying its degree of scale‐invariance. As such, the H value of the blood oxygenation level‐dependent (BOLD) signal specifies how the degree of correlation …",
+                "author": "Olivia Lauren Campbell and Alexander Mark Weber",
+                "author_pub_id": "nPuyG8gAAAAJ:dhFuZR0502QC",
+                "citation": "Human Brain Mapping 43 (8), 2693-2706, 2022",
+                "cites_per_year": {
+                    "2022": 2,
+                    "2023": 6,
+                    "2024": 12,
+                    "2025": 12
+                },
+                "num_citations": 32,
+                "number": "8",
+                "pages": "2693-2706",
+                "pub_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.25801",
+                "pub_year": 2022,
+                "publisher": "John Wiley & Sons, Inc.",
+                "title": "Monofractal analysis of functional magnetic resonance imaging: An introductory review",
+                "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:kIkgZBySH5EJ:scholar.google.com/",
+                "volume": "43"
             },
             {
                 "abstract": "R2* relaxation provides a semiquantitative method of detecting myelin, iron and white matter fibre orientation angles. Compared with standard histogram‐based analyses, angle‐resolved analysis of R2* has previously been shown to substantially improve the detection of subtle differences in the brain between healthy siblings of subjects with multiple sclerosis and unrelated healthy controls. Neonates, who are born with very little myelin and iron, and an underdeveloped connectome, provide researchers with an opportunity to investigate whether R2* is intimately linked with fibre‐angle or myelin content as it is in adults, which may in future studies be explored as a potential white matter developmental biomarker. Five healthy adult volunteers (mean age [±SD] = 31.2 [±8.3] years; three males) were recruited from Vancouver, Canada. Eight term neonates (mean age = 38.6 ± 1.2 weeks; five males) were recruited from …",
@@ -195,12 +218,12 @@
                     "2020": 3,
                     "2021": 7,
                     "2022": 7,
-                    "2023": 8,
+                    "2023": 7,
                     "2024": 2,
                     "2025": 5
                 },
                 "journal": "NMR in Biomedicine",
-                "num_citations": 33,
+                "num_citations": 32,
                 "number": "3",
                 "pages": "e4222",
                 "pub_url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/abs/10.1002/nbm.4222",
@@ -219,8 +242,8 @@
                     "2015": 4,
                     "2016": 8,
                     "2017": 2,
-                    "2018": 5,
-                    "2019": 2,
+                    "2018": 4,
+                    "2019": 1,
                     "2020": 2,
                     "2021": 4,
                     "2022": 0,
@@ -228,7 +251,7 @@
                     "2024": 1
                 },
                 "journal": "Psychiatry Research: Neuroimaging",
-                "num_citations": 31,
+                "num_citations": 29,
                 "number": "1-2",
                 "pages": "67-74",
                 "pub_url": "https://www.sciencedirect.com/science/article/pii/S0925492714000316",
@@ -237,27 +260,6 @@
                 "title": "Proton magnetic resonance spectroscopy of prefrontal white matter in psychotropic naïve children and adolescents with obsessive–compulsive disorder",
                 "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:bI0XrxirquwJ:scholar.google.com/",
                 "volume": "222"
-            },
-            {
-                "abstract": "The following review will aid readers in providing an overview of scale‐free dynamics and monofractal analysis, as well as its applications and potential in functional magnetic resonance imaging (fMRI) neuroscience and clinical research. Like natural phenomena such as the growth of a tree or crashing ocean waves, the brain expresses scale‐invariant, or fractal, patterns in neural signals that can be measured. While neural phenomena may represent both monofractal and multifractal processes and can be quantified with many different interrelated parameters, this review will focus on monofractal analysis using the Hurst exponent (H). Monofractal analysis of fMRI data is an advanced analysis technique that measures the complexity of brain signaling by quantifying its degree of scale‐invariance. As such, the H value of the blood oxygenation level‐dependent (BOLD) signal specifies how the degree of correlation …",
-                "author": "Olivia Lauren Campbell and Alexander Mark Weber",
-                "author_pub_id": "nPuyG8gAAAAJ:dhFuZR0502QC",
-                "citation": "Human Brain Mapping 43 (8), 2693-2706, 2022",
-                "cites_per_year": {
-                    "2022": 3,
-                    "2023": 6,
-                    "2024": 12,
-                    "2025": 8
-                },
-                "num_citations": 29,
-                "number": "8",
-                "pages": "2693-2706",
-                "pub_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.25801",
-                "pub_year": 2022,
-                "publisher": "John Wiley & Sons, Inc.",
-                "title": "Monofractal analysis of functional magnetic resonance imaging: An introductory review",
-                "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:kIkgZBySH5EJ:scholar.google.com/",
-                "volume": "43"
             },
             {
                 "abstract": "Myelin sensitive MRI techniques, such as diffusion tensor imaging and myelin water imaging, have previously been used to reveal changes in myelin after sports-related concussions. What is not clear from these studies, however, is how myelin is affected: whether it becomes degraded and possibly removed, or whether the myelin sheath loosens and becomes “decompacted”. Previously, our team revealed myelin specific changes in ice hockey players 2 weeks post-concussion using myelin water imaging. In that study, 45 subjects underwent a pre-season baseline scan, 11 of which sustained a concussion during play and received follow-up scans: eight were scanned within 3 days, 10 were scanned at 14 days, and nine were scanned at 60 days. In the current retrospective analysis, we used quantitative susceptibility mapping, along with the diffusion tensor imaging measures axial diffusivity and radial diffusivity, to investigate this myelin disruption. If sports-related concussive hits lead to myelin fragmentation in regions of lowered MWF, this should result in a measurable increase in magnetic susceptibility, due to the anisotropic myelin fragmenting into isotropic myelin debris, and the diamagnetic myelin tissue being removed, while no such changes should be expected if the myelin sheath simply loosens and becomes decompacted. An increase in radial diffusivity would likewise reveal myelin fragmentation, as myelin sheaths block water diffusion out of the axon, with little to no changes expected for myelin sheath loosening. Statistical analysis of the same voxels-of-interest that were found to have reduced myelin water fraction 2 weeks post …",
@@ -271,12 +273,12 @@
                     "2022": 3,
                     "2023": 3,
                     "2024": 4,
-                    "2025": 5
+                    "2025": 6
                 },
                 "journal": "Frontiers in Neurology",
-                "num_citations": 26,
+                "num_citations": 27,
                 "pages": "575",
-                "pub_url": "https://www.frontiersin.org/articles/10.3389/fneur.2018.00575/full",
+                "pub_url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2018.00575/full",
                 "pub_year": 2018,
                 "publisher": "Frontiers Media SA",
                 "title": "Pathological insights from quantitative susceptibility mapping and diffusion tensor imaging in ice hockey players pre and post-concussion",
@@ -289,12 +291,12 @@
                 "author_pub_id": "nPuyG8gAAAAJ:e5wmG9Sq2KIC",
                 "citation": "NeuroImage 264, 119702, 2022",
                 "cites_per_year": {
-                    "2023": 7,
+                    "2023": 8,
                     "2024": 5,
                     "2025": 4
                 },
                 "journal": "NeuroImage",
-                "num_citations": 16,
+                "num_citations": 17,
                 "pages": "119702",
                 "pub_url": "https://www.sciencedirect.com/science/article/pii/S1053811922008230",
                 "pub_year": 2022,
@@ -304,32 +306,7 @@
                 "volume": "264"
             },
             {
-                "abstract": "Myelin, the fatty substance that surrounds, protects, and electrically insulates axons in the central nervous system, is thought to play an important role in the pathophysiology of mild traumatic brain injuries (mTBIs). 1, 2 White matter tracts (both myelinated and nonmyelinated axons) are vulnerable to damage from the impact-acceleration forces sustained in a traumatic brain injury (TBI), with evidence indicating that nonmyelinated axons are more vulnerable than myelinated ones. 3 Further evidence suggests that damage to either the axon or myelin sheath alone can lead to damage to the other. 4, 5 This damage occurs from diffuse shear strains caused by linear and rotational acceleration of the brain during blast impacts. As opposed to more severe TBI, in which complete axon severance is observed following high-magnitude impacts, it is thought that axonal and myelin disorder in mTBI takes days to weeks to …",
-                "author": "Alexander Mark Weber and Carlos Torres and Alexander Rauscher",
-                "author_pub_id": "nPuyG8gAAAAJ:zYLM7Y9cAGgC",
-                "citation": "Neuroimaging Clinics 28 (1), 83-90, 2018",
-                "cites_per_year": {
-                    "2018": 2,
-                    "2019": 1,
-                    "2020": 4,
-                    "2021": 2,
-                    "2022": 1,
-                    "2023": 2,
-                    "2024": 2,
-                    "2025": 1
-                },
-                "num_citations": 16,
-                "number": "1",
-                "pages": "83-90",
-                "pub_url": "https://www.neuroimaging.theclinics.com/article/S1052-5149(17)30113-2/abstract",
-                "pub_year": 2018,
-                "publisher": "Elsevier",
-                "title": "Imaging the role of myelin in concussion",
-                "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:NBADe092Cf8J:scholar.google.com/",
-                "volume": "28"
-            },
-            {
-                "abstract": "Background: Temporal fractals are characterized by prominent scale-invariance and self-similarity across time scales. Monofractal analysis quantifies this scaling behavior in a single parameter, the Hurst exponent (H). Higher H reflects greater correlation in the signal structure, which is taken as being more fractal. Previous fMRI studies have observed lower H during conventional tasks relative to resting state conditions, and shown that H is negatively correlated with task difficulty and novelty. To date, no study has investigated the fractal dynamics of BOLD signal during naturalistic conditions.Methods: We performed fractal analysis on Human Connectome Project 7T fMRI data (n = 72, 41 females, mean age 29.46 ± 3.76 years) to compare H across movie-watching and rest.Results: In contrast to previous work using conventional tasks, we found higher H values for movie relative to rest (mean difference = 0.014; p = 5.279 × 10−7; 95% CI [0.009, 0.019]). H was significantly higher in movie than rest in the visual, somatomotor and dorsal attention networks, but was significantly lower during movie in the frontoparietal and default networks. We found no cross-condition differences in test-retest reliability of H. Finally, we found that H of movie-derived stimulus properties (e.g., luminance changes) were fractal whereas H of head motion estimates were non-fractal.Conclusions: Overall, our findings suggest that movie-watching induces fractal signal dynamics. In line with recent work characterizing connectivity-based brain state dynamics during movie-watching, we speculate that these fractal dynamics reflect the configuring and reconfiguring of brain states …",
+                "abstract": "",
                 "author": "Olivia Campbell and Tamara Vanderwal and Alexander Mark Weber",
                 "author_pub_id": "nPuyG8gAAAAJ:4TOpqqG69KYC",
                 "citation": "Frontiers in Physiology 12, 809943, 2022",
@@ -342,12 +319,37 @@
                 "journal": "Frontiers in Physiology",
                 "num_citations": 15,
                 "pages": "809943",
-                "pub_url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2021.809943/full?field&journalName=Frontiers_in_Physiology&id=809943",
+                "pub_url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2021.809943/full?field",
                 "pub_year": 2022,
                 "publisher": "Frontiers",
                 "title": "Fractal-based analysis of fMRI BOLD signal during naturalistic viewing conditions",
                 "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:U0_LnOwrtYMJ:scholar.google.com/",
                 "volume": "12"
+            },
+            {
+                "abstract": "Myelin, the fatty substance that surrounds, protects, and electrically insulates axons in the central nervous system, is thought to play an important role in the pathophysiology of mild traumatic brain injuries (mTBIs). 1, 2 White matter tracts (both myelinated and nonmyelinated axons) are vulnerable to damage from the impact-acceleration forces sustained in a traumatic brain injury (TBI), with evidence indicating that nonmyelinated axons are more vulnerable than myelinated ones. 3 Further evidence suggests that damage to either the axon or myelin sheath alone can lead to damage to the other. 4, 5 This damage occurs from diffuse shear strains caused by linear and rotational acceleration of the brain during blast impacts. As opposed to more severe TBI, in which complete axon severance is observed following high-magnitude impacts, it is thought that axonal and myelin disorder in mTBI takes days to weeks to …",
+                "author": "Alexander Mark Weber and Carlos Torres and Alexander Rauscher",
+                "author_pub_id": "nPuyG8gAAAAJ:zYLM7Y9cAGgC",
+                "citation": "Neuroimaging Clinics 28 (1), 83-90, 2018",
+                "cites_per_year": {
+                    "2018": 2,
+                    "2019": 1,
+                    "2020": 3,
+                    "2021": 2,
+                    "2022": 1,
+                    "2023": 2,
+                    "2024": 2,
+                    "2025": 1
+                },
+                "num_citations": 15,
+                "number": "1",
+                "pages": "83-90",
+                "pub_url": "https://www.neuroimaging.theclinics.com/article/S1052-5149(17)30113-2/abstract",
+                "pub_year": 2018,
+                "publisher": "Elsevier",
+                "title": "Imaging the role of myelin in concussion",
+                "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:NBADe092Cf8J:scholar.google.com/",
+                "volume": "28"
             },
             {
                 "abstract": "Methods). However, in contrast with what would be predicted from the earlier report, GST–LIM1-3 did not enhance but instead blocked the action of the PKC activator (Fig. 1).Although we have not explored this action further, we speculate that this effect might be most simply attributed to binding of LIM1–3 to PKC and its removal as a potential CaV2. 2 modulating agent. This finding prompted us to retest whether PDLIM5 is a component of a molecular complex with CaV2. 2 by biochemical and immunocytochemical analysis. This was facilitated by the availability of a new commercially available selective polyclonal mouse antibody to PDLIM5,",
@@ -431,10 +433,10 @@
                 "volume": "40"
             },
             {
-                "abstract": "Preterm birth causes alterations in structural and functional cerebral development that are not fully understood. Here, we investigate whether basic characteristics of BOLD signal itself might differ across preterm, term equivalent, and term infants. Anatomical, fMRI, and diffusion weighted imaging data from 716 neonates born at 23–43 weeks gestational age were obtained from the Developing Human Connectome Project. Hurst exponent (H; a measure of temporal complexity of a time-series) was computed from the power spectral density of the BOLD signal within 13 resting state networks. Using linear mixed effects models to account for scan age and birth age, we found that H increased with age, that earlier birth age contributed to lower H values, and that H increased most in motor and sensory networks. We then tested for a relationship between temporal complexity and structural development using H and …",
+                "abstract": "Preterm birth causes alterations in structural and functional cerebral development that are not fully understood. Here, we investigate whether basic characteristics of BOLD signal itself might differ across preterm, term equivalent, and term infants. Anatomical, fMRI, and diffusion weighted imaging data from 716 neonates born at 23–43 weeks gestational age were obtained from the Developing Human Connectome Project. Hurst exponent (H; a measure of temporal complexity of a time-series) was computed from the power spectral density of the BOLD signal within 13 resting state networks. Using linear mixed effects models to account for scan age and birth age, we found that H increased with age, that earlier birth age contributed to lower H values, and that H increased most in motor and sensory networks. We then tested for a relationship between temporal complexity and structural development using H and DTI …",
                 "author": "Allison Eve Mella and Tamara Vanderwal and Steven P Miller and Alexander Mark Weber",
                 "author_pub_id": "nPuyG8gAAAAJ:maZDTaKrznsC",
-                "citation": "Cerebral Cortex 34 (10), bhae426, 2024",
+                "citation": "Cerebral Cortex 34 (10), 2024",
                 "cites_per_year": {
                     "2024": 1,
                     "2025": 4
@@ -442,10 +444,9 @@
                 "journal": "Cerebral Cortex",
                 "num_citations": 5,
                 "number": "10",
-                "pages": "bhae426",
-                "pub_url": "https://academic.oup.com/cercor/article-abstract/34/10/bhae426/7906856",
+                "pub_url": "https://journals.aai.org/cercor/article/34/10/bhae426/7906856",
                 "pub_year": 2024,
-                "publisher": "Oxford University Press",
+                "publisher": "Oxford Academic",
                 "title": "Temporal complexity of the BOLD-signal in preterm versus term infants",
                 "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:L1MRkFb574YJ:scholar.google.com/",
                 "volume": "34"
@@ -488,7 +489,7 @@
                 "pub_url": "https://www.ajnr.org/content/42/7/1327.abstract",
                 "pub_year": 2021,
                 "publisher": "American Journal of Neuroradiology",
-                "title": "Quantitative Susceptibility Mapping of Venous Vessels in Neonates with Perinatal Asphyxia",
+                "title": "Quantitative susceptibility mapping of venous vessels in neonates with perinatal asphyxia",
                 "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:GsdDs61TDKgJ:scholar.google.com/",
                 "volume": "42"
             },
@@ -499,9 +500,9 @@
                 "citation": "Nutrients 16 (15), 2559, 2024",
                 "cites_per_year": {
                     "2024": 1,
-                    "2025": 3
+                    "2025": 2
                 },
-                "num_citations": 4,
+                "num_citations": 3,
                 "number": "15",
                 "pages": "2559",
                 "pub_url": "https://www.mdpi.com/2072-6643/16/15/2559",
@@ -517,10 +518,11 @@
                 "author_pub_id": "nPuyG8gAAAAJ:_Qo2XoVZTnwC",
                 "citation": "Frontiers in Human Neuroscience 18, 1276057, 2024",
                 "cites_per_year": {
-                    "2024": 2
+                    "2024": 2,
+                    "2025": 1
                 },
                 "journal": "Frontiers in Human Neuroscience",
-                "num_citations": 2,
+                "num_citations": 3,
                 "pages": "1276057",
                 "pub_url": "https://www.frontiersin.org/articles/10.3389/fnhum.2024.1276057/full",
                 "pub_year": 2024,
@@ -536,10 +538,10 @@
                 "citation": "Proceedings of the International Society of Magnetic Resonance Medicine …, 2022",
                 "cites_per_year": {
                     "2022": 1,
-                    "2023": 1
+                    "2023": 2
                 },
                 "journal": "Proceedings of the International Society of Magnetic Resonance Medicine, London, UK",
-                "num_citations": 2,
+                "num_citations": 3,
                 "pub_url": "https://archive.ismrm.org/2022/2456.html",
                 "pub_year": 2022,
                 "title": "Diffusion metrics in human white matter depend on fibre orientation",
@@ -603,16 +605,17 @@
                 "abstract": "It has been found that fractal analysis of the BOLD signal in fMRI can be used to measure brain functioning, development, and health. There has to our knowledge, however, not been any fractal analysis fMRI studies done in newborns. By computing the mean Hurst exponent in 9 resting state networks and in a grey matter mask. We found the largest increase in the Hurst exponent between pre-term and term equivalent aged subjects was in the motor and visual network. This motivates the need of further exploration of fractal analysis as a measure of brain dynamics in pre-term infants.",
                 "author": "JP Drayne and O Campbell and C Chau and S Miller and R Grunau and AM Weber",
                 "author_pub_id": "nPuyG8gAAAAJ:TFP_iSt0sucC",
-                "citation": "International Society of Magnetic Resonance in Medicine London, UK, 2022",
+                "citation": "Proceedings of the International Society of Magnetic Resonance in Medicine 30, 2022",
                 "cites_per_year": {
                     "2024": 1
                 },
-                "journal": "International Society of Magnetic Resonance in Medicine London, UK",
+                "journal": "Proceedings of the International Society of Magnetic Resonance in Medicine",
                 "num_citations": 1,
                 "pub_url": "https://weberlab.github.io/conferences/",
                 "pub_year": 2022,
                 "title": "Fractal analysis of the BOLD signal in preterm infants scanned shortly after birth and at term-equivalent age",
-                "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:PrGxXEUKwaMJ:scholar.google.com/"
+                "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:PrGxXEUKwaMJ:scholar.google.com/",
+                "volume": "30"
             },
             {
                 "abstract": "In adult White Matter (WM), tissue orientation effects on $$$ R_2 $$$ are best described by diffusion within field inhomogeneities created by the myelin sheath. Here we studied how $$$ R_2 $$$ relaxation depends on white matter fibre orientation in the human newborn brain in vivo. We found that the orientation dependency is very different from adults and best described by a model of dipole-dipole interaction.",
@@ -722,7 +725,7 @@
                 "pages": "1-1",
                 "pub_url": "https://www.nature.com/articles/s41390-025-04167-x",
                 "pub_year": 2025,
-                "publisher": "Nature Publishing Group",
+                "publisher": "Nature Publishing Group US",
                 "title": "ECI biocommentary",
                 "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:CwWcJvDQIp8J:scholar.google.com/"
             },
@@ -750,7 +753,7 @@
                 "journal": "Current Perspectives on Developmental Coordination Disorder (DCD), volume II",
                 "num_citations": 0,
                 "pages": "120",
-                "pub_url": "https://books.google.com/books?hl=en&lr=&id=LTQZEQAAQBAJ&oi=fnd&pg=PA120&dq=info:kz9QNeDKHcMJ:scholar.google.com&ots=XC3rGvEcLN&sig=26AdgSx-OQmaySTqTSs2nSwi0IA",
+                "pub_url": "https://books.google.com/books?hl=en&lr=&id=LTQZEQAAQBAJ&oi=fnd&pg=PA120&dq=info:kz9QNeDKHcMJ:scholar.google.com&ots=XC3uIuyfOO&sig=WrfDBJDO3eMM6HoGOPyXiK9JjBY",
                 "pub_year": 2024,
                 "publisher": "Frontiers Media SA",
                 "title": "Orientation to daily Occupational",
@@ -765,7 +768,7 @@
                 "journal": "Current Perspectives on Developmental Coordination Disorder (DCD), volume II",
                 "num_citations": 0,
                 "pages": "107",
-                "pub_url": "https://books.google.com/books?hl=en&lr=&id=LTQZEQAAQBAJ&oi=fnd&pg=PA107&dq=info:IhgHcXdV4X8J:scholar.google.com&ots=XC3rGvEcLO&sig=JncSksJ8n9awFSkvASJEh5pW4cQ",
+                "pub_url": "https://books.google.com/books?hl=en&lr=&id=LTQZEQAAQBAJ&oi=fnd&pg=PA107&dq=info:IhgHcXdV4X8J:scholar.google.com&ots=XC3uIuyfOQ&sig=p57tuVfuGG5os6ZmHKyqZ8l9zcM",
                 "pub_year": 2024,
                 "publisher": "Frontiers Media SA",
                 "title": "Cortical grey matter volume",

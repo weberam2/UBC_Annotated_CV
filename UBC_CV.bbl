@@ -140,8 +140,8 @@ Fothergill A, Birkl C, Kames C, Su W, \textbf{Weber} A, \&
 
 \bibitem{weber_cerebrovascular_reactivity_2023}
 \textbf{Weber} AM, Nightingale TE, Jarrett M, Lee AHX, \underline{Campbell} OL,
-  Walter M, Lucas SJE, Phillips A, \textit{\textbf{Rauscher}} A, \& Krassioukov
-  AV.
+  Walter M, \underline{Lu}cas SJE, Phillips A, \textit{\textbf{Rauscher}} A, \&
+  Krassioukov AV.
 \newblock Cerebrovascular {{Reactivity Following Spinal Cord Injury}}.
 \newblock \emph{Topics in Spinal Cord Injury Rehabilitation}, May 2024;
   \textbf{30(2)}:78--95.
@@ -525,10 +525,18 @@ McLean M, \underline{Armour} EE, Weinberg J, Miller SP, \textbf{Weber} AM, \&
 \newblock In \emph{International Society for Magnetic Resonance in Medicine
   ({{ISMRM}})}. Singapore, May 2024;  .
 
+\bibitem{luRevealingHiddenInsights2025}
+\underline{Lu} F \& \textbf{Weber} AM.
+\newblock Revealing {{Hidden Insights}}: {{Deep Learning Recovery}} of {{SWI
+  Data}} to {{Explore Brain Iron}} and {{Neurodevelopment}} in {{Preterm
+  Infants}}.
+\newblock In \emph{Summer {{Student Research Program Poster Day}}}. Vancouver,
+  BC, Canada, July 2025;  .
+
 \bibitem{weberCerebrovascularReactivityFollowing2022}
 \textbf{Weber} AM, Nightingale TE, Jarrett M, Lee AHX, \underline{Campbell} O,
-  Walter M, Lucas SJ, Phillips A, \textit{\textbf{Rauscher}} A, \& Krassioukov
-  A.
+  Walter M, \underline{Lu}cas SJ, Phillips A, \textit{\textbf{Rauscher}} A, \&
+  Krassioukov A.
 \newblock Cerebrovascular {{Reactivity Following Spinal Cord Injury}}.
 \newblock \emph{Medrxiv}, June 2022; doi:
   \href{http://doi.org/10.1101/2022.06.28.22276567}{10.1101/2022.06.28.22276567}.
@@ -538,7 +546,7 @@ McLean M, \underline{Armour} EE, Weinberg J, Miller SP, \textbf{Weber} AM, \&
 \newblock Temporal {{Complexity}} of the {{BOLD-Signal In Preterm Versus Term
   Infants}}.
 \newblock \emph{Biorxiv}, December 2023; doi:
-  \href{http://doi.org/10.1093/cercor/bhae426}{10.1093/cercor/bhae426}.
+  \href{http://doi.org/10.1101/2023.12.08.570818}{10.1101/2023.12.08.570818}.
 
 \bibitem{archibaldIntegratingStructuralFunctional2024}
 Archibald J, \textbf{Weber} AM, Scheuren PS, Ortiz O, Choles C, Lee JJ,
