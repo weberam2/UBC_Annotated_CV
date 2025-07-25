@@ -17,6 +17,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   sed -i '' 's/Armour/\\underline{Armour}/g' test.bib
   sed -i '' 's/Carmichael/\\underline{Carmichael}/g' test.bib
   sed -i '' 's/Sochan/\\underline{Sochan}/g' test.bib
+  sed -i '' 's/Lu/\\underline{Lu}/g' test.bib
 else
   # Linux
   sed -i 's/Weber/\\textbf{Weber}/g' test.bib
@@ -31,4 +32,5 @@ else
   sed -i 's/Armour/\\underline{Armour}/g' test.bib
   sed -i 's/Carmichael/\\underline{Carmichael}/g' test.bib
   sed -i 's/Sochan/\\underline{Sochan}/g' test.bib
+  sed -i 's/Lu/\\underline{Lu}/g' test.bib
 fi
