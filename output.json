@@ -1,7 +1,7 @@
 [
     {
         "affiliation": "Assistant Professor, University of British Columbia; Staff Imaging Scientist, BC Children's Hospital",
-        "citedby": 457,
+        "citedby": 488,
         "cites_per_year": {
             "2010": 4,
             "2011": 4,
@@ -15,10 +15,10 @@
             "2019": 25,
             "2020": 26,
             "2021": 36,
-            "2022": 38,
+            "2022": 39,
             "2023": 47,
             "2024": 54,
-            "2025": 52
+            "2025": 81
         },
         "coauthors": [
             {
@@ -62,14 +62,14 @@
                 "scholar_id": "GbV3NC8AAAAJ"
             },
             {
-                "affiliation": "Wayne State University",
-                "name": "Jeffrey A. Stanley",
-                "scholar_id": "16Y6AxkAAAAJ"
-            },
-            {
                 "affiliation": "university of british columbia",
                 "name": "Ruth Grunau",
                 "scholar_id": "HgNUkFYAAAAJ"
+            },
+            {
+                "affiliation": "Wayne State University",
+                "name": "Jeffrey A. Stanley",
+                "scholar_id": "16Y6AxkAAAAJ"
             },
             {
                 "affiliation": "University of British Columbia",
@@ -117,10 +117,10 @@
                     "2022": 13,
                     "2023": 3,
                     "2024": 3,
-                    "2025": 4
+                    "2025": 5
                 },
                 "journal": "Nature neuroscience",
-                "num_citations": 147,
+                "num_citations": 148,
                 "number": "11",
                 "pages": "1348-1350",
                 "pub_url": "https://www.nature.com/articles/nn.2657",
@@ -161,6 +161,27 @@
                 "volume": "27"
             },
             {
+                "abstract": "The following review will aid readers in providing an overview of scale‐free dynamics and monofractal analysis, as well as its applications and potential in functional magnetic resonance imaging (fMRI) neuroscience and clinical research. Like natural phenomena such as the growth of a tree or crashing ocean waves, the brain expresses scale‐invariant, or fractal, patterns in neural signals that can be measured. While neural phenomena may represent both monofractal and multifractal processes and can be quantified with many different interrelated parameters, this review will focus on monofractal analysis using the Hurst exponent (H). Monofractal analysis of fMRI data is an advanced analysis technique that measures the complexity of brain signaling by quantifying its degree of scale‐invariance. As such, the H value of the blood oxygenation level‐dependent (BOLD) signal specifies how the degree of correlation …",
+                "author": "Olivia Lauren Campbell and Alexander Mark Weber",
+                "author_pub_id": "nPuyG8gAAAAJ:dhFuZR0502QC",
+                "citation": "Human Brain Mapping 43 (8), 2693-2706, 2022",
+                "cites_per_year": {
+                    "2022": 2,
+                    "2023": 6,
+                    "2024": 12,
+                    "2025": 16
+                },
+                "num_citations": 36,
+                "number": "8",
+                "pages": "2693-2706",
+                "pub_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.25801",
+                "pub_year": 2022,
+                "publisher": "John Wiley & Sons, Inc.",
+                "title": "Monofractal analysis of functional magnetic resonance imaging: An introductory review",
+                "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:kIkgZBySH5EJ:scholar.google.com/",
+                "volume": "43"
+            },
+            {
                 "abstract": "BackgroundEvidence suggests that obsessive–compulsive disorder (OCD) is associated with a dysfunction in the cortico-striatal–thalamic–cortical (CSTC) circuitry. Resting state functional connectivity magnetic resonance imaging (rs-fcMRI) allows measurements of resting state networks (RSNs), brain networks that are present at ‘rest’. However, although OCD has a typical onset during childhood or adolescence, only two other studies have performed rs-fcMRI comparisons of RSNs in children and adolescents with OCD against healthy controls.MethodsIn the present study, we performed resting state functional magnetic resonance imaging using a 3 Tesla MRI, in 11 medication-naïve children and adolescents with OCD and 9 healthy controls. In contrast to previous studies that relied on a priori determination of RSNs, we determined resting state functional connectivity with a data-driven independent component …",
                 "author": "Alexander Mark Weber and Noam Soreni and Michael David Noseworthy",
                 "author_pub_id": "nPuyG8gAAAAJ:UeHWp8X0CEIC",
@@ -176,10 +197,10 @@
                     "2022": 2,
                     "2023": 4,
                     "2024": 2,
-                    "2025": 1
+                    "2025": 2
                 },
                 "journal": "Progress in Neuro-Psychopharmacology and Biological Psychiatry",
-                "num_citations": 35,
+                "num_citations": 36,
                 "pages": "129-136",
                 "pub_url": "https://www.sciencedirect.com/science/article/pii/S0278584614000773",
                 "pub_year": 2014,
@@ -187,27 +208,6 @@
                 "title": "A preliminary study of functional connectivity of medication naive children with obsessive–compulsive disorder",
                 "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:eu_Twl9IcPwJ:scholar.google.com/",
                 "volume": "53"
-            },
-            {
-                "abstract": "The following review will aid readers in providing an overview of scale‐free dynamics and monofractal analysis, as well as its applications and potential in functional magnetic resonance imaging (fMRI) neuroscience and clinical research. Like natural phenomena such as the growth of a tree or crashing ocean waves, the brain expresses scale‐invariant, or fractal, patterns in neural signals that can be measured. While neural phenomena may represent both monofractal and multifractal processes and can be quantified with many different interrelated parameters, this review will focus on monofractal analysis using the Hurst exponent (H). Monofractal analysis of fMRI data is an advanced analysis technique that measures the complexity of brain signaling by quantifying its degree of scale‐invariance. As such, the H value of the blood oxygenation level‐dependent (BOLD) signal specifies how the degree of correlation …",
-                "author": "Olivia Lauren Campbell and Alexander Mark Weber",
-                "author_pub_id": "nPuyG8gAAAAJ:dhFuZR0502QC",
-                "citation": "Human Brain Mapping 43 (8), 2693-2706, 2022",
-                "cites_per_year": {
-                    "2022": 2,
-                    "2023": 6,
-                    "2024": 12,
-                    "2025": 12
-                },
-                "num_citations": 32,
-                "number": "8",
-                "pages": "2693-2706",
-                "pub_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.25801",
-                "pub_year": 2022,
-                "publisher": "John Wiley & Sons, Inc.",
-                "title": "Monofractal analysis of functional magnetic resonance imaging: An introductory review",
-                "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:kIkgZBySH5EJ:scholar.google.com/",
-                "volume": "43"
             },
             {
                 "abstract": "R2* relaxation provides a semiquantitative method of detecting myelin, iron and white matter fibre orientation angles. Compared with standard histogram‐based analyses, angle‐resolved analysis of R2* has previously been shown to substantially improve the detection of subtle differences in the brain between healthy siblings of subjects with multiple sclerosis and unrelated healthy controls. Neonates, who are born with very little myelin and iron, and an underdeveloped connectome, provide researchers with an opportunity to investigate whether R2* is intimately linked with fibre‐angle or myelin content as it is in adults, which may in future studies be explored as a potential white matter developmental biomarker. Five healthy adult volunteers (mean age [±SD] = 31.2 [±8.3] years; three males) were recruited from Vancouver, Canada. Eight term neonates (mean age = 38.6 ± 1.2 weeks; five males) were recruited from …",
@@ -220,10 +220,10 @@
                     "2022": 7,
                     "2023": 7,
                     "2024": 2,
-                    "2025": 5
+                    "2025": 7
                 },
                 "journal": "NMR in Biomedicine",
-                "num_citations": 32,
+                "num_citations": 34,
                 "number": "3",
                 "pages": "e4222",
                 "pub_url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/abs/10.1002/nbm.4222",
@@ -248,10 +248,11 @@
                     "2021": 4,
                     "2022": 0,
                     "2023": 2,
-                    "2024": 1
+                    "2024": 1,
+                    "2025": 1
                 },
                 "journal": "Psychiatry Research: Neuroimaging",
-                "num_citations": 29,
+                "num_citations": 30,
                 "number": "1-2",
                 "pages": "67-74",
                 "pub_url": "https://www.sciencedirect.com/science/article/pii/S0925492714000316",
@@ -273,10 +274,10 @@
                     "2022": 3,
                     "2023": 3,
                     "2024": 4,
-                    "2025": 6
+                    "2025": 7
                 },
                 "journal": "Frontiers in Neurology",
-                "num_citations": 27,
+                "num_citations": 28,
                 "pages": "575",
                 "pub_url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2018.00575/full",
                 "pub_year": 2018,
@@ -293,10 +294,10 @@
                 "cites_per_year": {
                     "2023": 8,
                     "2024": 5,
-                    "2025": 4
+                    "2025": 12
                 },
                 "journal": "NeuroImage",
-                "num_citations": 17,
+                "num_citations": 26,
                 "pages": "119702",
                 "pub_url": "https://www.sciencedirect.com/science/article/pii/S1053811922008230",
                 "pub_year": 2022,
@@ -314,10 +315,10 @@
                     "2022": 1,
                     "2023": 3,
                     "2024": 7,
-                    "2025": 4
+                    "2025": 7
                 },
                 "journal": "Frontiers in Physiology",
-                "num_citations": 15,
+                "num_citations": 18,
                 "pages": "809943",
                 "pub_url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2021.809943/full?field",
                 "pub_year": 2022,
@@ -339,9 +340,9 @@
                     "2022": 1,
                     "2023": 2,
                     "2024": 2,
-                    "2025": 1
+                    "2025": 2
                 },
-                "num_citations": 15,
+                "num_citations": 16,
                 "number": "1",
                 "pages": "83-90",
                 "pub_url": "https://www.neuroimaging.theclinics.com/article/S1052-5149(17)30113-2/abstract",
@@ -385,6 +386,29 @@
                 "volume": "12"
             },
             {
+                "abstract": "It is difficult to distinguish punctate white matter lesions from focal hemorrhagic lesions in neonates on conventional MR imaging because both kinds of lesions show increased signal intensity on T1-weighted images and, frequently, decreased signal intensity on T2-weighted images. Our aim was to distinguish punctate white matter lesions and focal hemorrhagic lesions using quantitative measures.In the current study, we acquired multiecho gradient recalled-echo MR imaging data from 24 neonates with hypoxic-ischemic encephalopathy and postprocessed them as R2* relaxation maps and quantitative susceptibility maps. Seven subjects who were found to have multifocal punctate white matter lesions and/or focal hemorrhagic lesions on R2* maps were included (mean gestational age at birth, 33 ± 4.28 weeks; mean gestational age at scanning, 38 ± …",
+                "author": "Y Zhang and A Rauscher and C Kames and AM Weber",
+                "author_pub_id": "nPuyG8gAAAAJ:Y0pCki6q_DkC",
+                "citation": "American Journal of Neuroradiology 40 (7), 1221-1226, 2019",
+                "cites_per_year": {
+                    "2021": 2,
+                    "2022": 3,
+                    "2023": 1,
+                    "2024": 0,
+                    "2025": 1
+                },
+                "journal": "American Journal of Neuroradiology",
+                "num_citations": 8,
+                "number": "7",
+                "pages": "1221-1226",
+                "pub_url": "https://www.ajnr.org/content/40/7/1221.abstract",
+                "pub_year": 2019,
+                "publisher": "American Journal of Neuroradiology",
+                "title": "Quantitative analysis of punctate white matter lesions in neonates using quantitative susceptibility mapping and R2* relaxation",
+                "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:ZFToBLGdXY0J:scholar.google.com/",
+                "volume": "40"
+            },
+            {
                 "abstract": "Mitochondrial disorders are clinical syndromes associated with mutations in the mitochondrial or nuclear genome that result in impaired oxidative phosphorylation and deficient energy production. Metabolic abnormalities in brain areas associated with cognitive functions could give rise to neuropsychiatric symptomatology. The aim of this study was to use single-voxel proton magnetic resonance spectroscopy to identify metabolic abnormalities in regions implicated in neuropsychiatric symptoms in patients with mitochondrial disorders.N-acetyl-aspartate and creatine levels were measured in the caudate nucleus, anterior cingulate cortex and hippocampus in 15 patients with mitochondrial disorders compared with 15 healthy controls matched for age and sex.N-acetyl-aspartate levels were significantly lower in the caudate nucleus among patients with mitochondrial disorders (mean 7.04 ± 1.19 standard deviation [SD] institutional units) compared with healthy controls (mean 8.19 ± 1.18 SD institutional units; p = 0.02). Creatine levels were lower in the caudate nucleus among patients compared with controls (patients: mean 6.84 ± 1.42 SD institutional units; controls: mean 7.52 ± 0.76 SD institutional units; p = 0.03), but the results were no longer significant after correction for multiple comparisons. There were no significant differences in metabolite measurements between patients and controls in the anterior cingulate cortex and the hippocampus.Metabolic abnormalities were identified exclusively in the caudate nucleus, with significantly lower N-acetyl-aspartate levels among patients compared with controls …",
                 "author": "Rebecca E Anglin and Patricia I Rosebush and Michael D Noseworthy and Mark Tarnopolsky and Alexander M Weber and Noam Soreni and Michael F Mazurek",
                 "author_pub_id": "nPuyG8gAAAAJ:u-x6o8ySG0sC",
@@ -410,27 +434,23 @@
                 "volume": "1"
             },
             {
-                "abstract": "It is difficult to distinguish punctate white matter lesions from focal hemorrhagic lesions in neonates on conventional MR imaging because both kinds of lesions show increased signal intensity on T1-weighted images and, frequently, decreased signal intensity on T2-weighted images. Our aim was to distinguish punctate white matter lesions and focal hemorrhagic lesions using quantitative measures.In the current study, we acquired multiecho gradient recalled-echo MR imaging data from 24 neonates with hypoxic-ischemic encephalopathy and postprocessed them as R2* relaxation maps and quantitative susceptibility maps. Seven subjects who were found to have multifocal punctate white matter lesions and/or focal hemorrhagic lesions on R2* maps were included (mean gestational age at birth, 33 ± 4.28 weeks; mean gestational age at scanning, 38 ± …",
-                "author": "Y Zhang and A Rauscher and C Kames and AM Weber",
-                "author_pub_id": "nPuyG8gAAAAJ:Y0pCki6q_DkC",
-                "citation": "American Journal of Neuroradiology 40 (7), 1221-1226, 2019",
+                "abstract": "Spinal cord injuries (SCI) often result in cardiovascular issues, increasing the risk of stroke and cognitive deficits.This study assessed cerebrovascular reactivity (CVR) using functional magnetic resonance imaging (fMRI) during a hypercapnic challenge in SCI participants compared to noninjured controls.Fourteen participants were analyzed (n = 8 with SCI [unless otherwise noted], median age = 44 years; n = 6 controls, median age = 33 years). CVR was calculated through fMRI signal changes.The results showed a longer CVR component (tau) in the grey matter of SCI participants (n = 7) compared to controls (median difference = 3.0 s; p < .05). Time since injury (TSI) correlated negatively with steady-state CVR in the grey matter and brainstem of SCI participants (RS = −0.81, p = .014; RS = −0.84, p …",
+                "author": "Alexander Mark Weber and Tom E Nightingale and Michael Jarrett and Amanda HX Lee and Olivia Lauren Campbell and Matthias Walter and Samuel JE Lucas and Aaron Phillips and Alexander Rauscher and Andrei V Krassioukov",
+                "author_pub_id": "nPuyG8gAAAAJ:-f6ydRqryjwC",
+                "citation": "Topics in spinal cord injury rehabilitation 30 (2), 78-95, 2024",
                 "cites_per_year": {
-                    "2021": 2,
-                    "2022": 2,
-                    "2023": 1,
-                    "2024": 0,
-                    "2025": 1
+                    "2024": 2,
+                    "2025": 5
                 },
-                "journal": "American Journal of Neuroradiology",
                 "num_citations": 7,
-                "number": "7",
-                "pages": "1221-1226",
-                "pub_url": "https://www.ajnr.org/content/40/7/1221.abstract",
-                "pub_year": 2019,
-                "publisher": "American Journal of Neuroradiology",
-                "title": "Quantitative analysis of punctate white matter lesions in neonates using quantitative susceptibility mapping and R2* relaxation",
-                "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:ZFToBLGdXY0J:scholar.google.com/",
-                "volume": "40"
+                "number": "2",
+                "pages": "78-95",
+                "pub_url": "https://meridian.allenpress.com/tscir/article/30/2/78/500875",
+                "pub_year": 2024,
+                "publisher": "American Spinal Injury Association",
+                "title": "Cerebrovascular Reactivity Following Spinal Cord Injury",
+                "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:2A9ZL3ua4jkJ:scholar.google.com/",
+                "volume": "30"
             },
             {
                 "abstract": "Preterm birth causes alterations in structural and functional cerebral development that are not fully understood. Here, we investigate whether basic characteristics of BOLD signal itself might differ across preterm, term equivalent, and term infants. Anatomical, fMRI, and diffusion weighted imaging data from 716 neonates born at 23–43 weeks gestational age were obtained from the Developing Human Connectome Project. Hurst exponent (H; a measure of temporal complexity of a time-series) was computed from the power spectral density of the BOLD signal within 13 resting state networks. Using linear mixed effects models to account for scan age and birth age, we found that H increased with age, that earlier birth age contributed to lower H values, and that H increased most in motor and sensory networks. We then tested for a relationship between temporal complexity and structural development using H and DTI …",
@@ -444,7 +464,7 @@
                 "journal": "Cerebral Cortex",
                 "num_citations": 5,
                 "number": "10",
-                "pub_url": "https://journals.aai.org/cercor/article/34/10/bhae426/7906856",
+                "pub_url": "https://scholar.google.com/scholar?cluster=9723264270695748399&hl=en&oi=scholarr",
                 "pub_year": 2024,
                 "publisher": "Oxford Academic",
                 "title": "Temporal complexity of the BOLD-signal in preterm versus term infants",
@@ -452,23 +472,42 @@
                 "volume": "34"
             },
             {
-                "abstract": "Spinal cord injuries (SCI) often result in cardiovascular issues, increasing the risk of stroke and cognitive deficits.This study assessed cerebrovascular reactivity (CVR) using functional magnetic resonance imaging (fMRI) during a hypercapnic challenge in SCI participants compared to noninjured controls.Fourteen participants were analyzed (n = 8 with SCI [unless otherwise noted], median age = 44 years; n = 6 controls, median age = 33 years). CVR was calculated through fMRI signal changes.The results showed a longer CVR component (tau) in the grey matter of SCI participants (n = 7) compared to controls (median difference = 3.0 s; p < .05). Time since injury (TSI) correlated negatively with steady-state CVR in the grey matter and brainstem of SCI participants (RS = −0.81, p = .014; RS = −0.84, p …",
-                "author": "Alexander Mark Weber and Tom E Nightingale and Michael Jarrett and Amanda HX Lee and Olivia Lauren Campbell and Matthias Walter and Samuel JE Lucas and Aaron Phillips and Alexander Rauscher and Andrei V Krassioukov",
-                "author_pub_id": "nPuyG8gAAAAJ:-f6ydRqryjwC",
-                "citation": "Topics in spinal cord injury rehabilitation 30 (2), 78-95, 2024",
+                "abstract": "Current evidence suggests that iron deficiency (ID) plays a key role in the pathogenesis of conditions presenting with restlessness such as attention deficit hyperactivity disorder (ADHD) and restless legs syndrome (RLS). In clinical practice, ID and iron supplementation are not routinely considered in the diagnostic work-up and/or as a treatment option in such conditions. Therefore, we conducted a scoping literature review of ID guidelines. Of the 58 guidelines included, only 9 included RLS, and 3 included ADHD. Ferritin was the most frequently cited biomarker, though cutoff values varied between guidelines and depending on additional factors such as age, sex, and comorbidities. Recommendations surrounding measurable iron biomarkers and cutoff values varied between guidelines; moreover, despite capturing the role of inflammation as a concept, most guidelines often did not include recommendations for how to assess this. This lack of harmonization on the interpretation of iron and inflammation biomarkers raises questions about the applicability of current guidelines in clinical practice. Further, the majority of ID guidelines in this review did not include the ID-associated disorders, ADHD and RLS. As ID can be associated with altered movement patterns, a novel consensus is needed for investigating and interpreting iron status in the context of different clinical phenotypes.",
+                "author": "Scout McWilliams and Olivia Hill and Osman S Ipsiroglu and Stefan Clemens and Alexander Mark Weber and Michael Chen and James Connor and Barbara T Felt and Mauro Manconi and Andre Mattman and Rosalia Silvestri and Narong Simakajornboon and Susan M Smith and Sylvia Stockler",
+                "author_pub_id": "nPuyG8gAAAAJ:r0BpntZqJG4C",
+                "citation": "Nutrients 16 (15), 2559, 2024",
+                "cites_per_year": {
+                    "2024": 1,
+                    "2025": 4
+                },
+                "num_citations": 5,
+                "number": "15",
+                "pages": "2559",
+                "pub_url": "https://www.mdpi.com/2072-6643/16/15/2559",
+                "pub_year": 2024,
+                "publisher": "MDPI",
+                "title": "Iron Deficiency and Sleep/Wake Behaviors: A Scoping Review of Clinical Practice Guidelines—How to Overcome the Current Conundrum?",
+                "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:CobY2Fh-qFsJ:scholar.google.com/",
+                "volume": "16"
+            },
+            {
+                "abstract": "The cause of Developmental Coordination Disorder (DCD) is unknown, but neuroimaging evidence suggests that DCD may be related to altered brain development. Children with DCD show less structural and functional connectivity compared to typically developing (TD) children, but few studies have examined cortical volume in children with DCD. The purpose of this study was to investigate cortical grey matter volume using voxel-based morphometry (VBM) in children with DCD compared to TD children.This cross-sectional study was part of a larger randomized-controlled trial (ClinicalTrials.gov ID: NCT02597751) that involved various MRI scans of children with/without DCD. This paper focuses on the anatomical scans, performing VBM of cortical grey matter volume in 30 children with DCD and 12 TD children. Preprocessing and VBM data analysis were conducted using the Computational Anatomy Tool Box-12 and a study-specific brain template. Differences between DCD and TD groups were assessed using a one-way ANOVA, controlling for total intracranial volume. Regression analyses examined if motor and/or attentional difficulties predicted grey matter volume. We used threshold-free cluster enhancement (5,000 permutations) and set an alpha level of 0.05. Due to the small sample size, we did not correct for multiple comparisons.Compared to the TD group, children with DCD had significantly greater grey matter in the left superior frontal gyrus. Lower motor scores (meaning greater impairment) were related to greater grey matter volume in left superior frontal gyrus, frontal pole, and right middle frontal …",
+                "author": "Myrah Malik and Alexander Weber and Donna Lang and Tamara Vanderwal and Jill G Zwicker",
+                "author_pub_id": "nPuyG8gAAAAJ:_Qo2XoVZTnwC",
+                "citation": "Frontiers in Human Neuroscience 18, 1276057, 2024",
                 "cites_per_year": {
                     "2024": 2,
                     "2025": 3
                 },
+                "journal": "Frontiers in Human Neuroscience",
                 "num_citations": 5,
-                "number": "2",
-                "pages": "78-95",
-                "pub_url": "https://meridian.allenpress.com/tscir/article/30/2/78/500875",
+                "pages": "1276057",
+                "pub_url": "https://www.frontiersin.org/articles/10.3389/fnhum.2024.1276057/full",
                 "pub_year": 2024,
-                "publisher": "American Spinal Injury Association",
-                "title": "Cerebrovascular Reactivity Following Spinal Cord Injury",
-                "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:2A9ZL3ua4jkJ:scholar.google.com/",
-                "volume": "30"
+                "publisher": "Frontiers Media SA",
+                "title": "Cortical grey matter volume differences in children with developmental coordination disorder compared to typically developing children",
+                "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:_CCkiVRCtpkJ:scholar.google.com/",
+                "volume": "18"
             },
             {
                 "abstract": "Cerebral venous oxygen saturation can be used as an indirect measure of brain health, yet it often requires either an invasive procedure or a noninvasive technique with poor sensitivity. We aimed to test whether cerebral venous oxygen saturation could be measured using quantitative susceptibility mapping, an MR imaging technique, in 3 distinct groups: healthy term neonates, injured term neonates, and preterm neonates.We acquired multiecho gradient-echo MR imaging data in 16 neonates with perinatal asphyxia and moderate or severe hypoxic-ischemic encephalopathy (8 term age: average, 40.0 [SD, 0.8]  weeks’ gestational age; 8 preterm, 33.5 [SD, 2.0]  weeks’ gestational age) and in 8 healthy term-age controls (39.3 [SD, 0.6] weeks, for a total of n = 24. Data were postprocessed as quantitative susceptibility mapping images, and magnetic …",
@@ -494,44 +533,6 @@
                 "volume": "42"
             },
             {
-                "abstract": "Current evidence suggests that iron deficiency (ID) plays a key role in the pathogenesis of conditions presenting with restlessness such as attention deficit hyperactivity disorder (ADHD) and restless legs syndrome (RLS). In clinical practice, ID and iron supplementation are not routinely considered in the diagnostic work-up and/or as a treatment option in such conditions. Therefore, we conducted a scoping literature review of ID guidelines. Of the 58 guidelines included, only 9 included RLS, and 3 included ADHD. Ferritin was the most frequently cited biomarker, though cutoff values varied between guidelines and depending on additional factors such as age, sex, and comorbidities. Recommendations surrounding measurable iron biomarkers and cutoff values varied between guidelines; moreover, despite capturing the role of inflammation as a concept, most guidelines often did not include recommendations for how to assess this. This lack of harmonization on the interpretation of iron and inflammation biomarkers raises questions about the applicability of current guidelines in clinical practice. Further, the majority of ID guidelines in this review did not include the ID-associated disorders, ADHD and RLS. As ID can be associated with altered movement patterns, a novel consensus is needed for investigating and interpreting iron status in the context of different clinical phenotypes.",
-                "author": "Scout McWilliams and Olivia Hill and Osman S Ipsiroglu and Stefan Clemens and Alexander Mark Weber and Michael Chen and James Connor and Barbara T Felt and Mauro Manconi and Andre Mattman and Rosalia Silvestri and Narong Simakajornboon and Susan M Smith and Sylvia Stockler",
-                "author_pub_id": "nPuyG8gAAAAJ:r0BpntZqJG4C",
-                "citation": "Nutrients 16 (15), 2559, 2024",
-                "cites_per_year": {
-                    "2024": 1,
-                    "2025": 2
-                },
-                "num_citations": 3,
-                "number": "15",
-                "pages": "2559",
-                "pub_url": "https://www.mdpi.com/2072-6643/16/15/2559",
-                "pub_year": 2024,
-                "publisher": "MDPI",
-                "title": "Iron Deficiency and Sleep/Wake Behaviors: A Scoping Review of Clinical Practice Guidelines—How to Overcome the Current Conundrum?",
-                "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:CobY2Fh-qFsJ:scholar.google.com/",
-                "volume": "16"
-            },
-            {
-                "abstract": "The cause of Developmental Coordination Disorder (DCD) is unknown, but neuroimaging evidence suggests that DCD may be related to altered brain development. Children with DCD show less structural and functional connectivity compared to typically developing (TD) children, but few studies have examined cortical volume in children with DCD. The purpose of this study was to investigate cortical grey matter volume using voxel-based morphometry (VBM) in children with DCD compared to TD children.This cross-sectional study was part of a larger randomized-controlled trial (ClinicalTrials.gov ID: NCT02597751) that involved various MRI scans of children with/without DCD. This paper focuses on the anatomical scans, performing VBM of cortical grey matter volume in 30 children with DCD and 12 TD children. Preprocessing and VBM data analysis were conducted using the Computational Anatomy Tool Box-12 and a study-specific brain template. Differences between DCD and TD groups were assessed using a one-way ANOVA, controlling for total intracranial volume. Regression analyses examined if motor and/or attentional difficulties predicted grey matter volume. We used threshold-free cluster enhancement (5,000 permutations) and set an alpha level of 0.05. Due to the small sample size, we did not correct for multiple comparisons.Compared to the TD group, children with DCD had significantly greater grey matter in the left superior frontal gyrus. Lower motor scores (meaning greater impairment) were related to greater grey matter volume in left superior frontal gyrus, frontal pole, and right middle frontal …",
-                "author": "Myrah Malik and Alexander Weber and Donna Lang and Tamara Vanderwal and Jill G Zwicker",
-                "author_pub_id": "nPuyG8gAAAAJ:_Qo2XoVZTnwC",
-                "citation": "Frontiers in Human Neuroscience 18, 1276057, 2024",
-                "cites_per_year": {
-                    "2024": 2,
-                    "2025": 1
-                },
-                "journal": "Frontiers in Human Neuroscience",
-                "num_citations": 3,
-                "pages": "1276057",
-                "pub_url": "https://www.frontiersin.org/articles/10.3389/fnhum.2024.1276057/full",
-                "pub_year": 2024,
-                "publisher": "Frontiers Media SA",
-                "title": "Cortical grey matter volume differences in children with developmental coordination disorder compared to typically developing children",
-                "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:_CCkiVRCtpkJ:scholar.google.com/",
-                "volume": "18"
-            },
-            {
                 "abstract": "In this work we studied the orientation dependence of diffusivities measured in DTI of healthy human white matter in vivo. The observed orientation dependence of the mean diffusivity can be explained by the effects of diffusion-mediated dephasing in the presence of diamagnetic myelin. Orientation dependence was markedly different for the radial and axial components of the diffusivity and suggests the presence of residual dipole-dipole interaction between water molecules.",
                 "author": "Lara Bartels and Jonathan Doucette and Christoph Birkl and Alexander M Weber and Alexander Rauscher",
                 "author_pub_id": "nPuyG8gAAAAJ:k_IJM867U9cC",
@@ -553,10 +554,10 @@
                 "author_pub_id": "nPuyG8gAAAAJ:YFjsv_pBGBYC",
                 "citation": "Pediatric Research, 1-8, 2025",
                 "cites_per_year": {
-                    "2025": 1
+                    "2025": 2
                 },
                 "journal": "Pediatric Research",
-                "num_citations": 1,
+                "num_citations": 2,
                 "pages": "1-8",
                 "pub_url": "https://www.nature.com/articles/s41390-025-03966-6",
                 "pub_year": 2025,
@@ -634,17 +635,18 @@
                 "volume": "2254"
             },
             {
-                "abstract": "Methods:Subjects:45 ice hockey-players underwent a pre-season baseline scan and took part in follow-up scans (72hrs, 2wks, 2mnths) if they received a concussion during play (assessed using Sport Concussion Assessment Tool 2 by a physician). 11 players received a concussion during play. Their images were acquired with a 3T Philips Achieva scanner.Data Acquisition: Acquired MRI images were: 3D-sagittal T1-w image (TR= 8.1 ms, TE= 3.7 ms, flip angle= 6, voxel size= 1x1x1mm^ 3, acquisition matrix= 256x256x160, field of view= 256x256x160mm^ 3) and a multi-echo SWI with a 3D GE (TR= 36ms, TE= 6, 12, 18, 24, 30ms, flip angle= 17, acquisition matrix= 440x222x64, FOV= 220x166x128mm^ 3, voxel size= 0.5 x0. 5x1mm^ 3).",
-                "author": "Anna Pukropski and Alexander Weber and Christian Kames and Michael Jarrett and Shiroy Dadachanji and David Li and Jack Taunton and Alexander Rauscher",
+                "abstract": "We followed 45 varsity hockey players during one season of play, and scanned all players at the beginning of the season. 11 players received a concussion, and were scanned within 72hrs post-concussion, and then again after 2 weeks and 2 months. Quantitative Susceptibility Maps were created from the multi-echo 3D gradient-echo data, and susceptibility values were measured in deep grey matter (caudate, pallidum, putamen, and thalamus) and frontal and posterior WM in the corpus callosum (genu and splenium). A linear mixed-effect model analysis of the regions of interest revealed no significant changes over time compared to baseline.",
+                "author": "Anna Pukropski and Alexander Weber and Michael Jarrett and Christian Kames and Shiroy Dadachanji and David KB Li and Jack Taunton and Alexander Rauscher",
                 "author_pub_id": "nPuyG8gAAAAJ:UebtZRa9Y70C",
-                "citation": "",
+                "citation": "25th Annual Meeting and Exhibition of the International Society for Magnetic …, 2017",
                 "cites_per_year": {
                     "2018": 1
                 },
+                "journal": "25th Annual Meeting and Exhibition of the International Society for Magnetic Resonance in Medicine. Honolulu (HI)",
                 "num_citations": 1,
-                "pub_url": "https://archive.aievolution.com/2017/hbm1701/index.cfm?do=abs.viewAbs&abs=2334",
+                "pub_url": "https://archive.ismrm.org/2017/4529.html",
                 "pub_year": 2017,
-                "title": "Quantitative Susceptibility Mapping of Hockey Players Soon After Mild Traumatic Brain Injury",
+                "title": "Quantitative susceptibility mapping of hockey players after mild traumatic brain injury",
                 "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:nl_Kqxhi0PsJ:scholar.google.com/"
             },
             {
@@ -753,7 +755,7 @@
                 "journal": "Current Perspectives on Developmental Coordination Disorder (DCD), volume II",
                 "num_citations": 0,
                 "pages": "120",
-                "pub_url": "https://books.google.com/books?hl=en&lr=&id=LTQZEQAAQBAJ&oi=fnd&pg=PA120&dq=info:kz9QNeDKHcMJ:scholar.google.com&ots=XC3uIuyfOO&sig=WrfDBJDO3eMM6HoGOPyXiK9JjBY",
+                "pub_url": "https://books.google.com/books?hl=en&lr=&id=LTQZEQAAQBAJ&oi=fnd&pg=PA120&dq=info:kz9QNeDKHcMJ:scholar.google.com&ots=XC4uDvzfRT&sig=cPLHngRTp2lYuH7XeZjrWGhzSJY",
                 "pub_year": 2024,
                 "publisher": "Frontiers Media SA",
                 "title": "Orientation to daily Occupational",
@@ -768,7 +770,7 @@
                 "journal": "Current Perspectives on Developmental Coordination Disorder (DCD), volume II",
                 "num_citations": 0,
                 "pages": "107",
-                "pub_url": "https://books.google.com/books?hl=en&lr=&id=LTQZEQAAQBAJ&oi=fnd&pg=PA107&dq=info:IhgHcXdV4X8J:scholar.google.com&ots=XC3uIuyfOQ&sig=p57tuVfuGG5os6ZmHKyqZ8l9zcM",
+                "pub_url": "https://books.google.com/books?hl=en&lr=&id=LTQZEQAAQBAJ&oi=fnd&pg=PA107&dq=info:IhgHcXdV4X8J:scholar.google.com&ots=XC4uDvzfRV&sig=SGpWgDT_3nPBemB4H3hUPyAN8CY",
                 "pub_year": 2024,
                 "publisher": "Frontiers Media SA",
                 "title": "Cortical grey matter volume",
@@ -858,6 +860,17 @@
                 "pub_year": 2010,
                 "title": "Single Channel Conductance of the CaV2. 2 Calcium Channel",
                 "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:xcPpLslYPXgJ:scholar.google.com/"
+            },
+            {
+                "abstract": "BACKGROUND AND PURPOSE: Developing a non-invasive method for measuring oxygen consumption at both regional and whole-brain levels in preterm infants is crucial for assessing brain development and neuronal injury in this vulnerable population. This study presents a multi-modal MRI technique and analysis pipeline that produces whole-brain semiregional maps-with the potential to be fully regional-which we employ in a cohort study to investigate how the duration of various respiratory supports in very preterm infants affects CBF and the cerebral metabolic rate of oxygen (CMRO2).METHODS: Infants (n= 19) born< 32 weeks gestational age were recruited in the neonatal intensive care unit. Infants were scanned at term-equivalent age using a 3T MRI sequence comprising of T1-weighted, T2-weighted, arterial spin labeling (ASL), and SWI. Days on three different categories of respiratory support, based on levels of invasiveness, were recorded. Using multiple linear regression, CBF and CMRO2 were analyzed against days on: respiratory support, days in room air, and the proportion of days on respiratory support; GA and PMA were used as confounding factors.RESULTS: Average CBF and CMRO2 of cortical grey matter was 14.3±4.25 mL/100 g/min and 29.49±8.62 µmol/100 g/min, respectively. CMRO2 and CBF were positively correlated with days on non-invasive respiratory support, and negatively correlated with days in room air.CONCLUSION: Using our novel method, CBF and CMRO2 values aligned closely with literature values. Our exploratory findings suggest that the type of respiratory support may influence cerebral …",
+                "author": "Chen Shuang Zhu and Natalie Chan and Anil Chacko and Liisa Holsti and Ruth E Grunau and Alexander Mark Weber",
+                "author_pub_id": "nPuyG8gAAAAJ:RYcK_YlVTxYC",
+                "citation": "",
+                "cites_per_year": {},
+                "num_citations": 0,
+                "pub_url": "https://weberlab.github.io/CMRO2_Manuscript/index.pdf",
+                "title": "Assessing Semi-Regional Cerebral Oxygen Consumption (CMRO",
+                "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:DDBW8H2g2OwJ:scholar.google.com/"
             },
             {
                 "abstract": "The utilization of structural, functional, and biochemical data from the human brain has grown in addressing inquiries related to neurodegenerative and neuropsychiatric conditions. However, the normal variability within these measures has not been systematically reported. In this work, a database comprising these outcome measures in a healthy population (n= 51) was established to potentially serve as a comparative reference. Healthy individuals underwent standardized procedures to ensure consistent collection of magnetic resonance imaging (MRI) and spectroscopy data. The MR data was acquired using a 3T scanner with various sequences, including MPRAGE 3D T1w, pseudo-continuous arterial spin labelling (pCASL), and single voxel proton magnetic resonance spectroscopy (1H-MRS). Established and custom software tools were employed to analyze outcome measures such as tissue segmentation, cortical thickness, cerebral blood flow, metabolite levels, and temperature estimated using MRS. This study provides a comprehensive overview of the data analysis process, aiming to facilitate future utilization of the collected data through an interactive dashboard developed in R using the Shiny framework.",
