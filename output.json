@@ -1,7 +1,7 @@
 [
     {
         "affiliation": "Assistant Professor, University of British Columbia; Staff Imaging Scientist, BC Children's Hospital",
-        "citedby": 488,
+        "citedby": 492,
         "cites_per_year": {
             "2010": 4,
             "2011": 4,
@@ -18,7 +18,7 @@
             "2022": 39,
             "2023": 47,
             "2024": 54,
-            "2025": 81
+            "2025": 85
         },
         "coauthors": [
             {
@@ -169,9 +169,9 @@
                     "2022": 2,
                     "2023": 6,
                     "2024": 12,
-                    "2025": 16
+                    "2025": 17
                 },
-                "num_citations": 36,
+                "num_citations": 37,
                 "number": "8",
                 "pages": "2693-2706",
                 "pub_url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.25801",
@@ -315,10 +315,10 @@
                     "2022": 1,
                     "2023": 3,
                     "2024": 7,
-                    "2025": 7
+                    "2025": 8
                 },
                 "journal": "Frontiers in Physiology",
-                "num_citations": 18,
+                "num_citations": 19,
                 "pages": "809943",
                 "pub_url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2021.809943/full?field",
                 "pub_year": 2022,
@@ -566,6 +566,23 @@
                 "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:-1ygHLfoJRIJ:scholar.google.com/"
             },
             {
+                "abstract": "A 3T multimodal MRI study of healthy adults (n=19; 10 female; 21.3 - 53.4 years) was performed to investigate the relationship between fMRI long-range temporal correlations and excitatory/inhibitory balance. The study objective was to determine if the Hurst exponent (H) — an estimate of the self-correlation and signal complexity — of the blood-oxygen-level-dependent signal is correlated with the excitatory-inhibitory (E:I) ratio. E:I has been proposed to serve as a control parameter for brain criticality — the theory that the brain operates near a critical point between order and disorder, optimizing information processing and adaptability — which H is believed to be a measure of. Thus, understanding if H and E:I are correlated would clarify this relationship. Moreover, findings in this domain have implications for neurological and neuropsychiatric conditions with disrupted E:I balance, such as autism spectrum disorder, schizophrenia, and Alzheimer’s disease. From a practical perspective, H is easier to accurately measure than E:I ratio at 3T MRI. If H can serve as a proxy for E:I, it may serve as a more practical clinical biomarker for this imbalance and for neuroscience research in general. The study collected functional MRI and magnetic resonance spectroscopy data during rest and movie-watching. H was found to increase with movie-watching compared to rest, while E:I (glutamate/GABA) did not change between conditions. H and E:I were not correlated during either movie-watching or rest. This study represents the first attempt to investigate this connection in vivo in humans. We conclude that, at 3T and with our particular methodologies, no …",
+                "author": "Lydia Sochan and Jessica Archibald and Alexander Mark Weber",
+                "author_pub_id": "nPuyG8gAAAAJ:BqipwSGYUEgC",
+                "citation": "bioRxiv, 2025.03. 28.645973, 2025",
+                "cites_per_year": {
+                    "2025": 1
+                },
+                "journal": "bioRxiv",
+                "num_citations": 1,
+                "pages": "2025.03. 28.645973",
+                "pub_url": "https://www.biorxiv.org/content/10.1101/2025.03.28.645973.abstract",
+                "pub_year": 2025,
+                "publisher": "Cold Spring Harbor Laboratory",
+                "title": "Does the Brain’s E: I Balance Really Shape Long-Range Temporal Correlations? Lessons Learned from 3T MRI",
+                "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:HdYbXmHuxTUJ:scholar.google.com/"
+            },
+            {
                 "abstract": "While the newborn’s brain is functionally organised early on—with similar resting state networks as those of adults present at birth—these networks continue to develop at different rates and in complex ways over time. While most in vivo functional imaging studies examine the spatial characteristics of resting state networks (RSNs), such as their size or the degree of connectivity, the temporal characteristics of these networks are less well characterised. We set out to examine the long-range temporal correlation (LRTC) of the fMRI blood oxygen level-dependent (BOLD) signal using the Hurst exponent in various RSNs in infants born very preterm shortly after birth (< 32 weeks gestational age; n = 64) and again later at term equivalent age (TEA) (n = 69). The Hurst exponent in grey matter and white matter was 0.69 at preterm age and increased significantly to 0.80 at TEA, with a greater difference between the tissues at TEA. The Hurst exponent in RSNs similarly was found to be approximately 0.68 for most networks at preterm age but increased significantly at different rates by TEA: 0.77 and 0.76 in the cerebellum and frontal networks respectively, and 0.84 and 0.83 in the motor and visual networks respectively. This pattern is partly consistent with findings from previous functional connectivity fMRI studies that the general growth and maturation of RSNs occur first and develop more quickly in sensory and motor networks, but later in associative networks like frontal ones. Importantly, this is the first time that this pattern has been shown in the LRTC of the fMRI BOLD signal itself, an area of study that may provide greater insight into functional brain …",
                 "author": "Johann P Drayne and Allison E Mella and Mia M McLean and Steven Ufkes and Vann Chau and Ting Guo and Helen M Branson and Edmond Kelly and Steven P Miller and Ruth E Grunau and Alexander M Weber",
                 "author_pub_id": "nPuyG8gAAAAJ:blknAaTinKkC",
@@ -601,6 +618,22 @@
                 "title": "Changes in cortical grey matter volume with Cognitive Orientation to daily Occupational Performance intervention in children with developmental coordination disorder",
                 "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:db80Apq4CfkJ:scholar.google.com/",
                 "volume": "18"
+            },
+            {
+                "abstract": "The utilization of structural, functional, and biochemical data from the human brain has grown in addressing inquiries related to neurodegenerative and neuropsychiatric conditions. However, the normal variability within these measures has not been systematically reported. In this work, a database comprising these outcome measures in a healthy population (n= 51) was established to potentially serve as a comparative reference. Healthy individuals underwent standardized procedures to ensure consistent collection of magnetic resonance imaging (MRI) and spectroscopy data. The MR data was acquired using a 3T scanner with various sequences, including MPRAGE 3D T1w, pseudo-continuous arterial spin labelling (pCASL), and single voxel proton magnetic resonance spectroscopy (1H-MRS). Established and custom software tools were employed to analyze outcome measures such as tissue segmentation, cortical thickness, cerebral blood flow, metabolite levels, and temperature estimated using MRS. This study provides a comprehensive overview of the data analysis process, aiming to facilitate future utilization of the collected data through an interactive dashboard developed in R using the Shiny framework.",
+                "author": "Jessica Archibald and Alexander Mark Weber and Paulina S Scheuren and Oscar Ortiz and Cassandra Choles and Jaimie J Lee and Niklaus Zölch and Erin L MacMillan and John LK Kramer",
+                "author_pub_id": "nPuyG8gAAAAJ:hMod-77fHWUC",
+                "citation": "NeuroLibre Reproducible Preprints, 29, 2024",
+                "cites_per_year": {
+                    "2025": 1
+                },
+                "journal": "NeuroLibre Reproducible Preprints",
+                "num_citations": 1,
+                "pages": "29",
+                "pub_url": "https://neurolibre.org/papers/10.55458/neurolibre.00029.pdf",
+                "pub_year": 2024,
+                "title": "Integrating Structural, Functional, and Biochemical Brain Imaging Data with MRShiny Brain-An Interactive Web Application",
+                "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:DZqqYTyKyAoJ:scholar.google.com/"
             },
             {
                 "abstract": "It has been found that fractal analysis of the BOLD signal in fMRI can be used to measure brain functioning, development, and health. There has to our knowledge, however, not been any fractal analysis fMRI studies done in newborns. By computing the mean Hurst exponent in 9 resting state networks and in a grey matter mask. We found the largest increase in the Hurst exponent between pre-term and term equivalent aged subjects was in the motor and visual network. This motivates the need of further exploration of fractal analysis as a measure of brain dynamics in pre-term infants.",
@@ -732,21 +765,6 @@
                 "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:CwWcJvDQIp8J:scholar.google.com/"
             },
             {
-                "abstract": "A 3T multimodal MRI study of healthy adults (n=19; 10 female; 21.3 - 53.4 years) was performed to investigate the relationship between fMRI long-range temporal correlations and excitatory/inhibitory balance. The study objective was to determine if the Hurst exponent (H) — an estimate of the self-correlation and signal complexity — of the blood-oxygen-level-dependent signal is correlated with the excitatory-inhibitory (E:I) ratio. E:I has been proposed to serve as a control parameter for brain criticality — the theory that the brain operates near a critical point between order and disorder, optimizing information processing and adaptability — which H is believed to be a measure of. Thus, understanding if H and E:I are correlated would clarify this relationship. Moreover, findings in this domain have implications for neurological and neuropsychiatric conditions with disrupted E:I balance, such as autism spectrum disorder, schizophrenia, and Alzheimer’s disease. From a practical perspective, H is easier to accurately measure than E:I ratio at 3T MRI. If H can serve as a proxy for E:I, it may serve as a more practical clinical biomarker for this imbalance and for neuroscience research in general. The study collected functional MRI and magnetic resonance spectroscopy data during rest and movie-watching. H was found to increase with movie-watching compared to rest, while E:I (glutamate/GABA) did not change between conditions. H and E:I were not correlated during either movie-watching or rest. This study represents the first attempt to investigate this connection in vivo in humans. We conclude that, at 3T and with our particular methodologies, no …",
-                "author": "Lydia Sochan and Jessica Archibald and Alexander Mark Weber",
-                "author_pub_id": "nPuyG8gAAAAJ:BqipwSGYUEgC",
-                "citation": "bioRxiv, 2025.03. 28.645973, 2025",
-                "cites_per_year": {},
-                "journal": "bioRxiv",
-                "num_citations": 0,
-                "pages": "2025.03. 28.645973",
-                "pub_url": "https://www.biorxiv.org/content/10.1101/2025.03.28.645973.abstract",
-                "pub_year": 2025,
-                "publisher": "Cold Spring Harbor Laboratory",
-                "title": "Does the Brain’s E: I Balance Really Shape Long-Range Temporal Correlations? Lessons Learned from 3T MRI",
-                "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:HdYbXmHuxTUJ:scholar.google.com/"
-            },
-            {
                 "abstract": "Methods: This study is part of a randomized waitlist-control trial (ClinicalTrials. gov ID: NCT02597751). Children with DCD (N= 78) were randomized to either a treatment or waitlist group and underwent three MRIs over 6 months. The treatment group received intervention (once weekly for 10 weeks) between the first and second scan; the waitlist group received intervention between the second and third scan. Cortical grey matter volume was measured using voxel-based morphometry (VBM). Behavioral outcome measures included the Performance Quality Rating Scale (PQRS) and Bruininks-Oseretsky Test of Motor Proficiency-2 (BOT-2). Of the 78 children, 58 were excluded (mostly due to insufficient data quality), leaving a final N= 20 for analyses. Due to the small sample size, we combined both groups to examine treatment effects. Cortical grey matter volume differences were assessed using a repeated measures ANOVA, controlling for total intracranial volume. Regression analyses examined the relationship of grey matter volume changes to BOT-2 (motor performance) and PQRS (movement quality).Results: After CO-OP, children had significantly decreased grey matter in the right superior frontal gyrus and middle/posterior cingulate gyri. We found no significant associations of grey matter volume changes with PQRS or BOT-2 scores.Conclusion: Decreased cortical grey matter volume generally reflects greater brain maturity. Decreases in grey matter volume after CO-OP intervention were in regions associated with self-regulation and motor control, consistent with",
                 "author": "Myrah Anum Malik¹ and Alexander Mark Weber and Donna Lang",
                 "author_pub_id": "nPuyG8gAAAAJ:JV2RwH3_ST0C",
@@ -755,7 +773,7 @@
                 "journal": "Current Perspectives on Developmental Coordination Disorder (DCD), volume II",
                 "num_citations": 0,
                 "pages": "120",
-                "pub_url": "https://books.google.com/books?hl=en&lr=&id=LTQZEQAAQBAJ&oi=fnd&pg=PA120&dq=info:kz9QNeDKHcMJ:scholar.google.com&ots=XC4uDvzfRT&sig=cPLHngRTp2lYuH7XeZjrWGhzSJY",
+                "pub_url": "https://books.google.com/books?hl=en&lr=&id=LTQZEQAAQBAJ&oi=fnd&pg=PA120&dq=info:kz9QNeDKHcMJ:scholar.google.com&ots=XC4vExEiKU&sig=hHcOJmB54erdMQ4MMrEp31p_H_A",
                 "pub_year": 2024,
                 "publisher": "Frontiers Media SA",
                 "title": "Orientation to daily Occupational",
@@ -770,7 +788,7 @@
                 "journal": "Current Perspectives on Developmental Coordination Disorder (DCD), volume II",
                 "num_citations": 0,
                 "pages": "107",
-                "pub_url": "https://books.google.com/books?hl=en&lr=&id=LTQZEQAAQBAJ&oi=fnd&pg=PA107&dq=info:IhgHcXdV4X8J:scholar.google.com&ots=XC4uDvzfRV&sig=SGpWgDT_3nPBemB4H3hUPyAN8CY",
+                "pub_url": "https://books.google.com/books?hl=en&lr=&id=LTQZEQAAQBAJ&oi=fnd&pg=PA107&dq=info:IhgHcXdV4X8J:scholar.google.com&ots=XC4vExEiLM&sig=iUbb_OWvvqKhUdemen0HYevEFPw",
                 "pub_year": 2024,
                 "publisher": "Frontiers Media SA",
                 "title": "Cortical grey matter volume",
@@ -821,13 +839,13 @@
                 "volume": "2"
             },
             {
-                "abstract": "The human brain is possibly the most complicated structure in the known world. It contains 100 billion neurons, each making contact with 1,000 to 10,000 other neurons. The neurons themselves have hundreds of excitatory and inhibitory neurotransmitters / receptors with which to use to activate or de-activate other neighbouring neurons. Ultimately these neurons are organized into locally defined functional neural networks, which in turn connect with other neural networks to create non-localized highly-complex brain circuits. These brain circuits are responsible for the higher order functions such as perception, emotions, learning, language and conscious thought. In healthy brain states, these networks and circuits are communicating and signalling appropriately. With mental illness, or in an intoxicated brain state, however, this network and circuit functioning can become disrupted: either in a very specific manner, or in a generalized form. Alcohol (in the form of ethanol) is one of the oldest and most widely used psychoactive drugs in the world. In recreational doses, it can have drastic effects on how a person thinks and behaves. Small doses will lead to feelings of euphoria, increased sociability, and impaired judgement, while larger doses will lead to impaired memory and comprehension, and at extreme doses will lead from confusion and stupor to coma and death. The current understanding of alcohol’s effects on the brain is that it acts in a very specific way on a variety of brain enzymes and receptors. This in turn affects specific brain circuitries, making alcohol intoxication a promising model of pharmacological neural network and brain circuit …",
+                "abstract": "The human brain is possibly the most complicated structure in the known world. It contains 100 billion neurons, each making contact with 1,000 to 10,000 other neurons. The neurons themselves have hundreds of excitatory and inhibitory neurotransmitters/receptors with which to use to activate or de-activate other neighbouring neurons. Ultimately these neurons are organized into locally defined functional neural networks, which in turn connect with other neural networks to create non-localized highly-complex brain circuits. These brain circuits are responsible for the higher order functions such as perception, emotions, learning, language and conscious thought. In healthy brain states, these networks and circuits are communicating and signalling appropriately. With mental illness, or in an intoxicated brain state, however, this network and circuit functioning can become disrupted: either in a very specific manner, or in a generalized form. Alcohol (in the form of ethanol) is one of the oldest and most widely used psychoactive drugs in the world. In recreational doses, it can have drastic effects on how a person thinks and behaves. Small doses will lead to feelings of euphoria, increased sociability, and impaired judgement, while larger doses will lead to impaired memory and comprehension, and at extreme doses will lead from confusion and stupor to coma and death. The current understanding of alcohol’s effects on the brain is that it acts in a very specific way on a variety of brain enzymes and receptors. This in turn affects specific brain circuitries, making alcohol intoxication a promising model of pharmacological neural network and brain circuit …",
                 "author": "Alexander M Weber",
                 "author_pub_id": "nPuyG8gAAAAJ:9yKSN-GCB0IC",
                 "citation": "",
                 "cites_per_year": {},
                 "num_citations": 0,
-                "pub_url": "https://macsphere.mcmaster.ca/handle/11375/13417",
+                "pub_url": "https://macsphere.mcmaster.ca/items/d9e07366-ad21-4216-81aa-ef48d8622fdb",
                 "pub_year": 2013,
                 "title": "Magnetic Resonance Imaging Analysis of Neural Circuit Abnormalities in: Medication Naive Children with Obsessive-Compulsive Disorder, and Normal Healthy Adults During Acute Alcohol Intoxication",
                 "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:eW050isxUXIJ:scholar.google.com/"
@@ -871,17 +889,6 @@
                 "pub_url": "https://weberlab.github.io/CMRO2_Manuscript/index.pdf",
                 "title": "Assessing Semi-Regional Cerebral Oxygen Consumption (CMRO",
                 "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:DDBW8H2g2OwJ:scholar.google.com/"
-            },
-            {
-                "abstract": "The utilization of structural, functional, and biochemical data from the human brain has grown in addressing inquiries related to neurodegenerative and neuropsychiatric conditions. However, the normal variability within these measures has not been systematically reported. In this work, a database comprising these outcome measures in a healthy population (n= 51) was established to potentially serve as a comparative reference. Healthy individuals underwent standardized procedures to ensure consistent collection of magnetic resonance imaging (MRI) and spectroscopy data. The MR data was acquired using a 3T scanner with various sequences, including MPRAGE 3D T1w, pseudo-continuous arterial spin labelling (pCASL), and single voxel proton magnetic resonance spectroscopy (1H-MRS). Established and custom software tools were employed to analyze outcome measures such as tissue segmentation, cortical thickness, cerebral blood flow, metabolite levels, and temperature estimated using MRS. This study provides a comprehensive overview of the data analysis process, aiming to facilitate future utilization of the collected data through an interactive dashboard developed in R using the Shiny framework.",
-                "author": "Jessica Archibald and Alexander Mark Weber and Paulina S Scheuren and Oscar Ortiz and Cassandra Choles and Jaimie J Lee and Niklaus Zölch and Erin L MacMillan and John LK Kramer",
-                "author_pub_id": "nPuyG8gAAAAJ:hMod-77fHWUC",
-                "citation": "",
-                "cites_per_year": {},
-                "num_citations": 0,
-                "pub_url": "https://neurolibre.org/papers/10.55458/neurolibre.00029.pdf",
-                "title": "Integrating Structural, Functional, and Biochemical Brain Imaging Data with MRShiny Brain-An Interactive Web Application",
-                "url_related_articles": "/scholar?oi=bibs&hl=en&q=related:DZqqYTyKyAoJ:scholar.google.com/"
             },
             {
                 "abstract": "Given the increased use of facemasks in everyday life, the impacts of these masks on cerebral blood flow (CBF) and oxygenation needs to be investigated. This study used pseudo-continuous arterial spin labeling (pCASL) and quantitative susceptibility mapping (QSM) to determine changes to grey matter CBF and oxygenation respectively. This was done by comparing facemask and no facemask scans for both 3-ply and KN95 masks. The average percent change between the facemask and no facemask oxygenation/susceptibility were insignificant for both mask types, and only the 3-ply facemask showed a statistically significant increase of 5.5% in CBF when wearing the facemask.",

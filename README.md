@@ -28,6 +28,11 @@ The .bib file I have auto updated is `_Weber.bib`, however, you'll notice that t
 
 Using the python script `cite.py`, I have a google-scraper use my author ID number to create a json file of all of my papers. The main `.tex` file calls that number in my publications section. So you will need to edit the `cite.py` file to use your Google Scholar ID, and you will need to manually add the links to your papers. That part requires some work, but the amount of time it will save you in the future is pretty big.
 
+This script tends to take a while.
+
 ### Auto populated altmetric data
+
+> [!NOTE]
+> Since Nov 2025, I discovered that Altmetrics is now behind a paywall and requires a special API key to access. I requested access but was denied... so that sucks.
 
 Using the python script `altcite.py`, I use the altmetrics api to query a list of dois (you need to add these to the `altcite.py` file). When you run `altcite.py`, it creates the file `altcitationsvalues.tex` which is loaded in the latex file.

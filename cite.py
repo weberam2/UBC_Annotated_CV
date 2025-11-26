@@ -11,13 +11,15 @@ scholarIds = [
 ]
 
 # Start scraping and print the resulted JSON to the console
-with open("output.json", "w") as f:
-    # Write data to the JSON file
-    f.write(scholar_scraper.start_scraping(scholarIds))
+
+# with open("output.json", "w") as f:
+#     # Write data to the JSON file
+#     f.write(scholar_scraper.start_scraping(scholarIds))
+
 # open the json file
 with open("output.json", "r") as file:
     data_loaded = json.load(file)
-# get number of total ciations
+# get number of total citations
 totalcitations = data_loaded[0]["citedby"]
 
 # file to write to that latex will read from
@@ -55,7 +57,7 @@ urls_to_commands = {
     "https://www.frontiersin.org/articles/10.3389/fnhum.2024.1276057/full": "\\dcdcontrols",
     "https://www.mdpi.com/2072-6643/16/15/2559": "\\iron",
     "https://journals.plos.org/complexsystems/article?id=10.1371/journal.pcsy.0000024": "\\sickkids",
-    "https://journals.aai.org/cercor/article/34/10/bhae426/7906856": "\\dhcp",
+    "https://scholar.google.com/scholar?cluster=9723264270695748399&hl=en&oi=scholarr": "\\dhcp",
     "https://www.nature.com/articles/s41390-025-03966-6": "\\carmichael",
     "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/abs/10.1002/nbm.70065": "\\zhucmro",
     "https://www.neuroimaging.theclinics.com/article/S1052-5149(17)30113-2/abstract": "\\myelinchapter",
